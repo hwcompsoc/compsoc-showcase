@@ -1,0 +1,10 @@
+import coverage from '../public/reference/future-review.json';
+import {useState} from 'react';
+import {useReview} from './review-context';
+import {Button} from './components/ui/button';
+import {Badge} from './components/ui/badge';
+export function FutureReview({onClose}:{onClose:()=>void}){
+ const r=useReview();const [filter,setFilter]=useState('All');
+ function locate(){r.setEnhancements(true);onClose();r.navigate('resources');setTimeout(()=>document.getElementById('future-workshop')?.scrollIntoView({block:'start',behavior:'instant'}),180)}
+ return <section className="future-review" id="future-review"><span className="eyebrow">Future reassessment / {coverage.updated}</span><h3>What can move forward now?</h3><p>All {coverage.entries.length} original Later records have been reconsidered: {coverage.counts['Review demonstration']} map to four working review groups; {coverage.counts['Still deferred']} retain specific blockers. Original decisions remain in the assessment. Demonstrations use this included source project, not invented society activity.</p><div className="implemented-actions"><Button variant="outline" onClick={locate}>Try the project walkthrough</Button>{['All','Review demonstration','Still deferred'].map(value=><Button key={value} variant="outline" aria-pressed={filter===value} onClick={()=>setFilter(value)}>{value}</Button>)}</div>{coverage.entries.filter(e=>filter==='All'||e.outcome===filter).map(e=><article className="implemented-entry" key={e.assessmentId}><div><span className="eyebrow">{e.library} · original Later</span><Badge variant="secondary">{e.outcome}</Badge></div><h4>{e.name}</h4><p>{e.reason}</p><p><b>Production condition:</b> {e.productionCondition}</p><p className="micro">{e.assessmentId} · {e.designDecisions.join(' · ')}</p>{e.inspectId&&<div className="implemented-actions"><Button variant="outline" onClick={locate}>Try on Resources</Button><Button variant="outline" onClick={()=>r.select(e.inspectId)}>Inspect implementation</Button></div>}</article>)}</section>
+}

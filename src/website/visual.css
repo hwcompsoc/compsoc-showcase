@@ -1,0 +1,69 @@
+/* Visual layer (MOTION-PLAN §9): pixel accent type, the numbered value list, the compact auto-hiding header, crisp shadows.
+   Loaded after website.css and motion.css. Departure Mono (SIL OFL, see fonts/) is drawn on an 11px grid, so it is
+   only used at 11px and 22px, where it renders crisply. It has a single weight: never bold it. */
+@font-face{font-family:'Departure Mono';src:url('./fonts/DepartureMono-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+:root{--font-pixel:'Departure Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--pixel-sm:11px;--pixel-lg:22px;--shadow-hard:4px 4px 0 #004066}
+
+/* Pixel accents: labels, numbers and captions */
+.eyebrow,.art-caption,.art-bottom,.journey-strip>a>span,.step-number,.example-tag,.board-cat,.board-sample{font-family:var(--font-pixel);font-size:var(--pixel-sm);font-weight:400;letter-spacing:.04em}
+.board-date,.board-time{font-size:var(--pixel-lg);font-weight:400;letter-spacing:0}
+.board-time{color:#42667b}
+.board-row{grid-template-columns:6.5rem 5rem 7.5rem minmax(0,1fr) auto 1.25rem}
+.dialog-date b{font-size:var(--pixel-lg);font-weight:400}
+.dialog-date span{font-size:var(--pixel-sm);font-weight:400}
+
+/* Numbered value list (replaces the icon-card grid) */
+.value-list{list-style:none;margin:0;padding:0;border-top:1px solid #d4e2e9}
+.value-list>li{display:grid;grid-template-columns:4rem minmax(0,1fr) minmax(0,1.1fr);gap:24px;align-items:baseline;padding:28px 0;border-bottom:1px solid #d4e2e9}
+.value-num{font-family:var(--font-pixel);font-size:var(--pixel-lg);color:var(--select-strong)}
+.value-list h3{margin:0;font-size:clamp(26px,3vw,40px);line-height:1.1;letter-spacing:-1px}
+.value-list p{margin:0;max-width:460px;font-size:16px}
+@media(max-width:800px){.value-list>li{grid-template-columns:3rem minmax(0,1fr);row-gap:10px;padding:22px 0}.value-list p{grid-column:2}}
+
+/* Header: compact, borderless at the top of the page, slides away while scrolling down (kept while focused) */
+html{scroll-padding-top:88px}
+.header-inner{height:72px}
+.site-logo{width:88px;height:52px}
+.site-header{transition:transform var(--dur-ui) var(--ease-enter),border-color var(--dur-ui)}
+.site-header:not([data-scrolled]){border-bottom-color:transparent}
+.site-header[data-hidden]:not(:focus-within){transform:translateY(-100%)}
+@media(max-width:800px){.header-inner{height:64px}.site-logo{width:80px;height:46px}}
+
+/* Crisp, pixel-style depth instead of soft blur */
+.website-dialog,.website-popover{box-shadow:var(--shadow-hard)}
+.filter-indicator{box-shadow:0 0 0 1px #c3d9e4}
+
+/* The section divider below already closes the list */
+.value-list>li:last-child{border-bottom:0}
+/* Multi-line headings share their words evenly instead of stranding one word on the last line */
+h1,h2,h3{text-wrap:balance}
+
+/* Footer: the page's last screen (closing action → contact → quiet logo/links row → legal), on the page's own grid */
+.site-footer{padding-top:72px}
+.footer-cta{display:flex;align-items:end;justify-content:space-between;gap:24px 48px;flex-wrap:wrap;padding-bottom:40px}
+.footer-cta h2{margin:0 0 12px;color:#fff;font-size:clamp(34px,4.2vw,56px);line-height:1.05;letter-spacing:-1.5px}
+.footer-cta p{margin:0;font-size:17px;color:#bdd4df}
+.footer-actions{display:flex;flex-wrap:wrap;gap:12px}
+.footer-actions .site-button{background:#fff;border-color:#fff;color:#004066}
+.footer-actions .site-button:hover{background:#eaf5fa;color:#004066}
+.footer-actions .site-button.secondary{background:transparent;border-color:#ffffff59;color:#fff}
+.footer-actions .site-button.secondary:hover{background:#ffffff14;color:#fff}
+.footer-contact,.footer-meta{display:flex;align-items:center;flex-wrap:wrap;border-top:1px solid #ffffff25}
+.footer-contact{gap:4px 20px;padding-block:18px}
+.footer-contact .email-link{font-size:17px;color:#fff}
+.footer-copy{min-height:44px}
+.footer-status{flex-basis:100%;order:5;margin:0;font-size:13px}
+.footer-status:empty{display:none}
+.footer-partners{margin:0 0 0 auto;font-size:15px}
+.footer-partners .text-link{min-height:0;font-size:15px;color:#fff}
+.footer-meta{gap:16px 32px;padding-block:24px}
+.footer-meta .footer-logo{width:80px;height:47px}
+.footer-tagline{margin:0;font-size:14px;line-height:1.6}
+.footer-nav{display:flex;flex-wrap:wrap;gap:4px 24px;margin-left:auto}
+.footer-nav>a{display:flex;align-items:center;min-height:44px;font-size:15px}
+.footer-bottom>span{font-family:var(--font-pixel);font-size:var(--pixel-sm);letter-spacing:.04em;text-transform:uppercase}
+@media(max-width:800px){.site-footer{padding-top:52px}.footer-cta{flex-direction:column;align-items:start}.footer-partners{margin-left:0;flex-basis:100%}.footer-nav{margin-left:0;flex-basis:100%}}
+@media(max-width:540px){.footer-actions{width:100%}.footer-actions .site-button{flex:1 1 100%}.footer-nav{gap:0 20px}}
+/* Phones: tighter bands so the footer stays compact around its two full-width buttons; the legal line breaks at its separator
+   (the pixel font stays at 11px, the only size besides 22px where it is crisp) */
+@media(max-width:540px){.site-footer{padding-top:40px}.footer-cta{gap:20px;padding-bottom:28px}.footer-cta h2{margin-bottom:8px}.footer-cta p{font-size:16px}.footer-contact{padding-block:14px}.footer-partners{font-size:14px}.footer-meta{gap:8px 24px;padding-block:16px}.footer-bottom{gap:4px;padding-block:14px}.footer-legal>span{display:block}.footer-legal>.footer-sep{display:none}}
