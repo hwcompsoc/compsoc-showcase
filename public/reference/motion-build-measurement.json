@@ -16,6 +16,6 @@
       "bytes": 60383
     }
   ],
-  "portableBytes": 15200215,
+  "portableBytes": 15192381,
   "note": "The production module build separates the Motion feature bundle. The portable HTML intentionally inlines it; this comparison does not claim a portable payload saving or a measured page-speed improvement."
 }
