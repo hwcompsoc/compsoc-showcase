@@ -1,5 +1,0 @@
-import {MessageCircle,Camera} from 'lucide-react';
-import {links} from '../content';
-import {External,LinkButton,RevealHeading} from './shared';
-
-export function SocialPanel({compact=false}:{compact?:boolean}){return <section className={`social-panel ${compact?'compact':''}`} aria-labelledby={compact?'social-compact':'social-full'}><div><RevealHeading id={compact?'social-compact':'social-full'}>{compact?'Say hi on Discord':'Your next hello starts here.'}</RevealHeading><p>Announcements and chat happen on Discord. Instagram is where updates and photos go. Join either, whenever you’re ready.</p></div><div className="social-actions"><div className="discord-action"><div className="discord-shine"><LinkButton href={links.discord}><MessageCircle aria-hidden="true"/>Join the Discord<span className="online-dot" aria-hidden="true"/></LinkButton></div><span>Conversations, updates & a place to begin</span></div><LinkButton href={links.instagram} secondary><Camera aria-hidden="true"/>Follow @hwcompsoc</LinkButton><External href={links.membership} className="membership-link">Official Union membership</External></div></section>}

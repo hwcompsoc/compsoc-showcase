@@ -126,10 +126,6 @@
 .resource-stack>a::before{content:'';position:absolute;left:0;right:0;top:0;height:14px;border-bottom:1px solid #d1e1e9;background:linear-gradient(#a9c3d1,#a9c3d1) 10px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 18px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 26px 5px/4px 4px no-repeat}
 .resource-stack>a:is(:hover,:focus-visible){transform:translate(-2px,-2px);box-shadow:var(--shadow-hard)}
 
-/* Discord "online" pixel: blinks five times, then stays lit */
-.online-dot{position:absolute;top:7px;right:7px;width:6px;height:6px;background:var(--select);animation:online-blink 1.6s steps(1) 5}
-@keyframes online-blink{50%{opacity:0}}
-
 /* Join FAQ: the open question is highlighted; answers open and close smoothly (Radix sets the content height variable) */
 .faq-q{padding:2px 4px;margin:-2px -4px;background:linear-gradient(var(--select-strong),var(--select-strong)) no-repeat left/0% 100%;-webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-size var(--dur-ui) var(--ease-enter),color var(--dur-hover) ease .08s}
 [data-state=open]>.faq-q{background-size:100% 100%;color:#fff}
