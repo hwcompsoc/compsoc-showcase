@@ -27,6 +27,9 @@ html{scroll-padding-top:88px}
 .site-header{transition:transform var(--dur-ui) var(--ease-enter),border-color var(--dur-ui)}
 .site-header:not([data-scrolled]){border-bottom-color:transparent}
 .site-header[data-hidden]:not(:focus-within){transform:translateY(-100%)}
+/* Touch screens: no backdrop blur. Phones re-blur everything moving underneath on every frame (scrolling, the page wipe),
+   and at 94% white the blur is barely visible anyway. */
+@media(hover:none){.site-header{backdrop-filter:none;background:#fff}}
 @media(max-width:800px){.header-inner{height:64px}.site-logo{width:80px;height:46px}}
 
 /* Crisp, pixel-style depth instead of soft blur */

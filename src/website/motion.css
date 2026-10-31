@@ -21,14 +21,15 @@
 /* The wipe runs under the sticky header (z-index 30), so the nav highlight can be seen sliding the whole way. */
 .pixel-wipe{position:fixed;inset:0;z-index:25;display:grid;pointer-events:none}
 .pixel-wipe[data-phase=cover]{pointer-events:auto}
-.pixel-wipe>span,.pixel-build-cover>span{transform:scale(1.02)}
-.pixel-wipe[data-phase=cover]>span{animation:pixel-on var(--cell-dur) steps(1) var(--cell-delay) both}
-.pixel-wipe[data-phase=uncover]>span{animation:pixel-off var(--cell-dur) steps(1) var(--cell-delay) both}
+/* Each cell flips at the end of its slot (delay + dur) over one frame (--flip). This replaces steps(1): Safari will not
+   run a steps() animation on the GPU, so the cells stuttered whenever the page was busy. */
+.pixel-wipe>span,.pixel-build-cover>span{--flip:.016s;transform:scale(1.02)}
+.pixel-wipe[data-phase=cover]>span{animation:pixel-on var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
+.pixel-wipe[data-phase=uncover]>span{animation:pixel-off var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
 .pixel-build{position:relative}
 .pixel-build-cover{position:absolute;inset:0;z-index:1;display:grid;pointer-events:none}
-.pixel-build-cover[data-active]>span{animation:pixel-off var(--cell-dur) steps(1) var(--cell-delay) both}
-/* Opacity, not visibility: it runs on the compositor, so the steps stay even while the main thread is busy (a visibility
-   animation stutters on mobile). Builds remove their cover when done, so cells left unpainted by WebKit cannot linger. */
+.pixel-build-cover[data-active]>span{animation:pixel-off var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
+/* Opacity, not visibility, so the flips run on the compositor. Builds remove their cover when done, so cells left unpainted by WebKit cannot linger. */
 @keyframes pixel-on{from{opacity:0}to{opacity:1}}
 @keyframes pixel-off{from{opacity:1}to{opacity:0}}
 
