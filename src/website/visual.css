@@ -103,3 +103,20 @@ h1,h2,h3{text-wrap:balance}
 .site-footer .wrap>.footer-contact:first-child{border-top:0}
 @media(max-width:800px){.value-body{grid-column:2}}
 @media(max-width:540px){.join-or{display:block;line-height:1.6}.join-or .text-link{display:inline;min-height:0}.join-or .text-link svg{display:inline-block;vertical-align:-3px;margin-left:4px}}
+/* Committee with headshots. One card per person; the events organisers share one wide card so their role is described once. */
+.roles-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.role-card{display:flex;flex-direction:column;padding:24px;border:1px solid var(--border);background:#fff}
+.role-card.team{grid-column:span 2}
+.role-card>.role-people{display:flex;flex-direction:row;flex-wrap:wrap;gap:16px 20px;padding:0;height:auto}
+.role-person{display:flex;flex-direction:column;gap:8px;width:96px}
+.headshot-build{width:96px;height:96px}
+.headshot{display:block;width:96px;height:96px;object-fit:cover;background:#eaf5fa}
+.headshot-initials{display:flex;align-items:center;justify-content:center;background:#004066;color:#fff;font-family:var(--font-pixel);font-size:var(--pixel-lg)}
+.role-person-name{font-size:14px;line-height:1.35;font-weight:600}
+.role-label{margin-top:20px;font-family:var(--font-pixel);font-size:var(--pixel-sm);color:var(--select-strong)}
+.role-card h3{margin:6px 0 10px;font-size:20px;min-height:0}
+.role-card.team h3{margin-top:20px}
+.role-card p{margin:0;font-size:15px}
+@media(max-width:800px){.roles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.role-card.team{grid-column:1/-1}}
+@media(max-width:540px){.roles-grid{grid-template-columns:1fr;gap:12px}.role-card{display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:16px;align-content:start;padding:16px}.role-card>.role-people{grid-row:1/4}.headshot-build,.headshot{width:72px;height:72px}.headshot-initials{font-size:var(--pixel-sm)}.role-label{margin-top:0}.role-card h3{font-size:18px;margin:2px 0 6px}.role-card p{font-size:14px;line-height:1.6}
+.role-card.team{display:flex}.role-card.team>.role-people{gap:12px;flex-wrap:nowrap}.role-card.team .role-person{width:auto;flex:1;min-width:0}.role-card.team .headshot-build,.role-card.team .headshot{width:100%;height:auto;aspect-ratio:1}.role-person-name{font-size:12px}.role-card.team h3{margin-top:16px}}

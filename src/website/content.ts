@@ -11,6 +11,19 @@ export const events:Event[]=[
  {id:'industry',title:'A conversation with industry',category:'Industry',day:'26',month:'NOV',date:'Thursday 26 November 2026',time:'17:30–18:30 GMT',venue:'Speaker and venue · placeholders',description:'A proposed informal conversation about working in tech, with time for questions and connections.',level:'Open discussion',start:'20261126T173000Z',end:'20261126T183000Z'},
  {id:'git',title:'Getting started with Git',category:'Workshop',day:'22',month:'OCT',date:'Thursday 22 October 2026',time:'17:30–19:00 BST',venue:'Example campus space',description:'An archive example showing how past activities and their learning material could be presented.',level:'Past example',start:'20261022T163000Z',end:'20261022T180000Z',past:true},
 ];
+// Committee (About). `photo` is the file id in src/website/committee/; people without one get their initials.
+export type Member={name:string;role:string;photo?:string};
+export const committee:{role:string;text:string;members:Member[]}[]=[
+ {role:'President',text:'Helps coordinate the society and its direction.',members:[{name:'Ryan Dawson',role:'President',photo:'rd'}]},
+ {role:'Vice President',text:'Supports the president and keeps projects moving.',members:[{name:'Thomas Prowse',role:'Vice President',photo:'tp'}]},
+ {role:'Secretary',text:'Helps maintain records and continuity.',members:[{name:'Ella Koleola',role:'Secretary'}]},
+ {role:'Treasurer',text:'Helps keep the society’s finances organised.',members:[{name:'Nathan Walker',role:'Treasurer'}]},
+ {role:'Industry Liaison',text:'Helps build conversations with organisations and supporters.',members:[{name:'Lewis Robertson',role:'Industry Liaison',photo:'lmr'}]},
+ {role:'Community Manager',text:'Helps people find their place in the community.',members:[{name:'Kevin Paul Job',role:'Community Manager',photo:'kp'}]},
+ {role:'Social Media Manager',text:'Shares what’s happening on Instagram and Discord.',members:[{name:'Amanda Zhang',role:'Social Media Manager',photo:'az'}]},
+ {role:'Events team',text:'Helps turn activity ideas into welcoming experiences.',members:[{name:'Divine Halim',role:'Events Organiser',photo:'dh'},{name:'Alex Munoz Rueda',role:'Events Organiser',photo:'ar'},{name:'Raymond Shell',role:'Events Organiser',photo:'rs'},{name:'Pierrie Touaro',role:'Events Organiser'}]},
+];
+export const initials=(name:string)=>name.split(' ').filter(Boolean).map(w=>w[0]).filter((_,i,a)=>i===0||i===a.length-1).join('').toUpperCase();
 export const resources=[
  {id:'git',title:'Git, without the guesswork.',category:'Learning',description:'A short introduction to repositories, commits and a useful first workflow.',type:'Starter guide',minutes:'5 min',icon:'code'},
  {id:'web',title:'Make your first web page.',category:'Learning',description:'Meet HTML, CSS and the small steps that turn an idea into something you can open.',type:'Workshop notes',minutes:'6 min',icon:'web'},
