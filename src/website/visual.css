@@ -94,3 +94,12 @@ h1,h2,h3{text-wrap:balance}
 .stack-body{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;font-size:15px}
 .stack-body>svg{width:17px}
 @media(max-width:540px){.resource-card .window-body{padding:24px 20px}.stack-body{padding:18px 20px}}
+/* Join: the steps are the joining panel (MOTION-PLAN §11.2, R3). Each step has one action under its text. */
+.value-body{display:flex;flex-direction:column;gap:16px}
+.value-action{display:flex;align-items:center;flex-wrap:wrap;gap:8px 20px}
+.join-or{display:inline-flex;align-items:center;gap:6px;font-size:15px;color:#52788a}
+.join-or .text-link{color:#004066}
+.join-steps .value-num .step-number{font-size:inherit}
+.site-footer .wrap>.footer-contact:first-child{border-top:0}
+@media(max-width:800px){.value-body{grid-column:2}}
+@media(max-width:540px){.join-or{display:block;line-height:1.6}.join-or .text-link{display:inline;min-height:0}.join-or .text-link svg{display:inline-block;vertical-align:-3px;margin-left:4px}}
