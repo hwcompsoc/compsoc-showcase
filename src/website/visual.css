@@ -54,7 +54,9 @@ h1,h2,h3{text-wrap:balance}
 .footer-contact,.footer-meta{display:flex;align-items:center;flex-wrap:wrap;border-top:1px solid #ffffff25}
 .footer-contact{gap:4px 20px;padding-block:18px}
 .footer-contact .email-link{font-size:17px;color:#fff}
-.footer-copy{min-height:44px}
+/* Icon-only until used: a full 44px target, icon at the left so the tick replaces it in place and "Email copied" types out after it */
+.footer-copy{min-height:44px;min-width:44px;justify-content:flex-start}
+.footer-copy svg{width:16px;height:16px}
 .footer-status{flex-basis:100%;order:5;margin:0;font-size:13px}
 .footer-status:empty{display:none}
 .footer-partners{margin:0 0 0 auto;font-size:15px}
