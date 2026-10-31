@@ -27,8 +27,9 @@
 .pixel-build{position:relative}
 .pixel-build-cover{position:absolute;inset:0;z-index:1;display:grid;pointer-events:none}
 .pixel-build-cover[data-active]>span{animation:pixel-off var(--cell-dur) steps(1) var(--cell-delay) both}
-@keyframes pixel-on{from{opacity:0}to{opacity:1}}
-@keyframes pixel-off{from{opacity:1}to{opacity:0}}
+/* Cells step between visible and hidden; visibility (not opacity) keeps WebKit from giving every cell its own compositing layer */
+@keyframes pixel-on{from{visibility:hidden}to{visibility:visible}}
+@keyframes pixel-off{from{visibility:visible}to{visibility:hidden}}
 
 /* Click burst: square pixels thrown out from the pointer in three frames */
 .burst-layer{position:fixed;inset:0;z-index:95;pointer-events:none}
