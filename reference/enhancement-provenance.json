@@ -1,0 +1,271 @@
+{
+  "retrieved": "2026-10-30",
+  "components": [
+    {
+      "name": "alert",
+      "path": "src/components/ui/alert.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-alert.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/alert.json",
+      "filePath": "ui/alert.tsx",
+      "sha256": "5950ac01377e7eedc94b00eb3fee678745e4cc1a72b5343867f0733d07db6660",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "aspect-ratio",
+      "path": "src/components/ui/aspect-ratio.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-aspect-ratio.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/aspect-ratio.json",
+      "filePath": "ui/aspect-ratio.tsx",
+      "sha256": "589c299c27e2ad99c2e96c9a90e6ad49051cf99fc88f0c42a13465177379186f",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "avatar",
+      "path": "src/components/ui/avatar.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-avatar.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/avatar.json",
+      "filePath": "ui/avatar.tsx",
+      "sha256": "e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "item",
+      "path": "src/components/ui/item.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-item.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/item.json",
+      "filePath": "ui/item.tsx",
+      "sha256": "90983640aa7cfef8217422347d8e14825cf55137c76369decacf440767f03188",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "empty",
+      "path": "src/components/ui/empty.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-empty.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/empty.json",
+      "filePath": "ui/empty.tsx",
+      "sha256": "9f975582a0290dbc7ce6efa3b36b376a4c3f07863026c3b74c1e73cb0023acb8",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "spinner",
+      "path": "src/components/ui/spinner.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-spinner.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/spinner.json",
+      "filePath": "ui/spinner.tsx",
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "button-group",
+      "path": "src/components/ui/button-group.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-button-group.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/button-group.json",
+      "filePath": "ui/button-group.tsx",
+      "sha256": "e3716d270e9ef6457b5cd29464ae00194abc8093c08ebf726c9204d7a69231d9",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "field",
+      "path": "src/components/ui/field.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-field.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/field.json",
+      "filePath": "ui/field.tsx",
+      "sha256": "e463611ab049c5e9b1c61691d239e05970ead7b577a191b3f80aa6f8ffccada9",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "input-group",
+      "path": "src/components/ui/input-group.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-input-group.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/input-group.json",
+      "filePath": "ui/input-group.tsx",
+      "sha256": "dcb76b7c1f6c3ed36437c1bed6c46dd735b1091ba162bcb5fca0a7d2167f3307",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "native-select",
+      "path": "src/components/ui/native-select.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-native-select.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york-v4/native-select.json",
+      "filePath": "registry/new-york-v4/ui/native-select.tsx",
+      "sha256": "5977b78b71c1871a09c5daa263597fd7f1eb90576bf49a5fbf0a3e86279848ae",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "radio-group",
+      "path": "src/components/ui/radio-group.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-radio-group.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/radio-group.json",
+      "filePath": "ui/radio-group.tsx",
+      "sha256": "30c8d8ea431d9480180d47689b5863fc89e649329aa102766db30a2af5fe4ae8",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "scroll-area",
+      "path": "src/components/ui/scroll-area.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-scroll-area.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/scroll-area.json",
+      "filePath": "ui/scroll-area.tsx",
+      "sha256": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "separator",
+      "path": "src/components/ui/separator.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-separator.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/separator.json",
+      "filePath": "ui/separator.tsx",
+      "sha256": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "collapsible",
+      "path": "src/components/ui/collapsible.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-collapsible.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/collapsible.json",
+      "filePath": "ui/collapsible.tsx",
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "dropdown-menu",
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-dropdown-menu.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/dropdown-menu.json",
+      "filePath": "ui/dropdown-menu.tsx",
+      "sha256": "dc109123ecd59af01d07aa9f3a8e8a7085bd3f337388c5369799ab1ce6c2d45f",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "popover",
+      "path": "src/components/ui/popover.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-popover.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/popover.json",
+      "filePath": "ui/popover.tsx",
+      "sha256": "69f74cdd76588a1249522ff8009e044eee6080ad8cf26cb08d7a5fc3281f0255",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "tooltip",
+      "path": "src/components/ui/tooltip.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-tooltip.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/tooltip.json",
+      "filePath": "ui/tooltip.tsx",
+      "sha256": "ce6afa34fb9dae51053a863b4c3f7c6e55f3da23b00149f31a8e4402bc963be0",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "toast",
+      "path": "src/components/ui/toast.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-toast.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/toast.json",
+      "filePath": "ui/toast.tsx",
+      "sha256": "723d1642dc0505f598126581b27cf8a9f2a1ee383af5b3af06d3b908d9728e4a",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "toast",
+      "path": "src/hooks/use-toast.ts",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-toast.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/toast.json",
+      "filePath": "hooks/use-toast.ts",
+      "sha256": "03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "toast",
+      "path": "src/components/ui/toaster.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-toast.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york/toast.json",
+      "filePath": "ui/toaster.tsx",
+      "sha256": "05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "marker",
+      "path": "src/components/ui/marker.tsx",
+      "library": "shadcn/ui",
+      "upstream": "reference/upstream/shadcn-marker.json",
+      "source": "https://ui.shadcn.com/r/styles/new-york-v4/marker.json",
+      "filePath": "registry/new-york-v4/ui/marker.tsx",
+      "sha256": "53744a96d9fca403d98287f56fa65204ecfbc86daf0f07645121ae90cef5b9b4",
+      "adaptations": "Import aliases map to existing project utilities/components; Marker maps the aggregate Slot namespace to the already approved Radix Slot primitive. Behaviour unchanged."
+    },
+    {
+      "name": "avatar-circles",
+      "path": "src/components/magicui/avatar-circles.tsx",
+      "library": "Magic UI",
+      "upstream": "reference/upstream/magicui-avatar-circles.tsx",
+      "source": "https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/avatar-circles.tsx",
+      "sha256": "94def331ecd49563cf6130dfa5883fdf1c64db405e11a417ead34cf9b425bb73",
+      "adaptations": "Adds optional descriptive placeholder labels and same-page link behaviour; no real officer portraits or counts."
+    },
+    {
+      "name": "bento-grid",
+      "path": "src/components/magicui/bento-grid.tsx",
+      "library": "Magic UI",
+      "upstream": "reference/upstream/magicui-bento-grid.tsx",
+      "source": "https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/bento-grid.tsx",
+      "sha256": "43c3943ef5e411c6b7e708e618475e9a88249ccbe50387c3d9bd5563489a1847",
+      "adaptations": "ArrowRight uses Lucide React instead of the upstream Radix icon, preserving the approved icon system."
+    },
+    {
+      "name": "dot-pattern",
+      "path": "src/components/magicui/dot-pattern.tsx",
+      "library": "Magic UI",
+      "upstream": "reference/upstream/magicui-dot-pattern.tsx",
+      "source": "https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/dot-pattern.tsx",
+      "sha256": "bc203315ea1e9b75543c0feeebb98585bb9c23cb3f66b5f51bdc7b6d60eb0083",
+      "adaptations": "Uses the lightweight Motion m proxy under the shared LazyMotion provider; glow remains disabled."
+    },
+    {
+      "name": "grid-pattern",
+      "path": "src/components/magicui/grid-pattern.tsx",
+      "library": "Magic UI",
+      "upstream": "reference/upstream/magicui-grid-pattern.tsx",
+      "source": "https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/grid-pattern.tsx",
+      "sha256": "1d1caaf01de0a1ebfdffea1163535f8fbfdfbee33cd0a640e09388815d1823df",
+      "adaptations": "Unchanged source."
+    },
+    {
+      "name": "Folder",
+      "path": "src/components/react-bits/Folder.css",
+      "library": "React Bits",
+      "upstream": "reference/upstream/reactbits-folder.json",
+      "filePath": "Folder.css",
+      "source": "https://reactbits.dev/r/Folder-TS-CSS.json",
+      "sha256": "74a8f213ad51cb946ffa66c48b9c157ad96f9e6e8a8ae78dc9b0056576fc44d6",
+      "adaptations": "Unchanged source. Consumer selects light/matte, disables drag/zoom/intro; Static/reduced motion uses a Custom static folder alternative."
+    },
+    {
+      "name": "Folder",
+      "path": "src/components/react-bits/Folder.tsx",
+      "library": "React Bits",
+      "upstream": "reference/upstream/reactbits-folder.json",
+      "filePath": "Folder.tsx",
+      "source": "https://reactbits.dev/r/Folder-TS-CSS.json",
+      "sha256": "6a70c34634ba8be2fa4a5c6abdda10072a4f67ed05d5d13733c07614eec19fa0",
+      "adaptations": "Unchanged source. Consumer selects light/matte, disables drag/zoom/intro; Static/reduced motion uses a Custom static folder alternative."
+    }
+  ]
+}

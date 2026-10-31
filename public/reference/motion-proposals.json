@@ -1,0 +1,274 @@
+{
+  "created": "2026-10-30",
+  "motions": [
+    {
+      "id": "M01",
+      "name": "Page entrance",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "Page content / hero",
+      "effect": "Opacity 0→1 and an 8px rise.",
+      "purpose": "Provide continuity when navigating without changing layout.",
+      "library": "Motion",
+      "trigger": "Page change or Replay",
+      "timing": "280ms; ease [0.22,1,0.36,1]; no exit wait.",
+      "reduced": "Instant visible content; transform/fade disabled.",
+      "target": "page-top"
+    },
+    {
+      "id": "M02",
+      "name": "Section reveal",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "Cards and lower content sections",
+      "effect": "12px rise and fade, once as the section enters view.",
+      "purpose": "Guide scanning through long pages, without hiding content permanently.",
+      "library": "Motion",
+      "trigger": "Scroll to section; Replay remounts reveals.",
+      "timing": "350ms; ease [0.22,1,0.36,1]; maximum 100ms stagger.",
+      "reduced": "Fully visible immediately; no scroll-triggered animation.",
+      "target": "reveal-demo"
+    },
+    {
+      "id": "M03",
+      "name": "Card / action response",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "Event, role, format and resource cards; action wrappers",
+      "effect": "Card rises 3px; buttons press to 0.98 scale.",
+      "purpose": "Confirm a deliberate hover, keyboard focus or press.",
+      "library": "Motion",
+      "trigger": "Hover/focus within a card; pointer press on action.",
+      "timing": "160ms ease-out; return on pointer/focus leave.",
+      "reduced": "No movement; native focus outline retained.",
+      "target": "card-demo"
+    },
+    {
+      "id": "M04",
+      "name": "Active navigation marker",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "Desktop primary navigation",
+      "effect": "Cyan underline slides between active routes using shared layoutId.",
+      "purpose": "Keep route orientation perceptible.",
+      "library": "Motion",
+      "trigger": "Choose a different site navigation route.",
+      "timing": "Spring stiffness 420, damping 34; settle approximately 200ms.",
+      "reduced": "Marker switches instantly; aria-current still identifies route.",
+      "target": "site-header"
+    },
+    {
+      "id": "M05",
+      "name": "Mobile menu content entrance",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "shadcn/ui Sheet navigation contents",
+      "effect": "Inner navigation fades and moves in 12px from the right.",
+      "purpose": "Explain the menu opening while preserving focus management.",
+      "library": "Motion",
+      "trigger": "Menu button; Open menu demo in review controls.",
+      "timing": "220ms ease-out. Sheet itself uses no additional CSS motion.",
+      "reduced": "Instant menu content; focus containment and Escape unchanged.",
+      "target": "site-header",
+      "action": "menu"
+    },
+    {
+      "id": "M06",
+      "name": "Dialog content entrance",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources"
+      ],
+      "location": "Attendance, membership, resource and enquiry dialogs",
+      "effect": "Contents fade and scale 0.985→1; overlay and dialog position remain stable.",
+      "purpose": "A small response when a deliberate detail action opens.",
+      "library": "Motion",
+      "trigger": "Open detail/handoff or Play demo.",
+      "timing": "180ms ease-out, no exit animation delaying dismissal.",
+      "reduced": "Instant content; dialog remains operable.",
+      "target": "card-demo",
+      "action": "dialog"
+    },
+    {
+      "id": "M07",
+      "name": "Action feedback transition",
+      "pages": [
+        "home",
+        "events",
+        "join",
+        "about",
+        "resources",
+        "partners"
+      ],
+      "location": "Local-interest, calendar and enquiry feedback",
+      "effect": "Status crossfade with a 4px rise; optional busy icon rotates only while busy.",
+      "purpose": "Make changed state legible without implying an external transaction.",
+      "library": "Motion",
+      "trigger": "Demo confirmation / draft / copy action.",
+      "timing": "200ms ease-out; simulated busy state 600ms; icon 800ms linear during that interval.",
+      "reduced": "Immediate state text; no spinner rotation or crossfade.",
+      "target": "card-demo",
+      "action": "feedback"
+    },
+    {
+      "id": "M08",
+      "name": "Disclosure height transition",
+      "pages": [
+        "join",
+        "about"
+      ],
+      "location": "Membership FAQ / governance shelf",
+      "effect": "Answer expands to natural height and opacity; collapses to zero.",
+      "purpose": "Maintain context while opening a concise answer/document summary.",
+      "library": "Motion",
+      "trigger": "Accordion trigger / Play demo.",
+      "timing": "220ms; ease [0.22,1,0.36,1].",
+      "reduced": "Instant open/closed state; content remains semantically hidden when closed.",
+      "target": "accordion-demo",
+      "action": "accordion"
+    },
+    {
+      "id": "M09",
+      "name": "One-pass border shine",
+      "pages": [
+        "join",
+        "partners"
+      ],
+      "location": "Membership next-step / partnership enquiry panel",
+      "effect": "Blue/cyan radial border highlight moves once around the panel.",
+      "purpose": "A restrained optional emphasis for a single important next step.",
+      "library": "Magic UI",
+      "trigger": "Page entry or Replay / Play demo.",
+      "timing": "6s linear; one iteration; 1.5px masked border; no repeating background.",
+      "reduced": "ShineBorder is not mounted. The static panel border remains.",
+      "target": "shine-demo"
+    },
+    {
+      "id": "M10",
+      "name": "Resource spotlight",
+      "pages": [
+        "resources"
+      ],
+      "location": "Resource cards",
+      "effect": "A soft cyan spotlight follows pointer position or focused descendant.",
+      "purpose": "An optional exploratory response; assess it against the plain card.",
+      "library": "React Bits",
+      "trigger": "Pointer movement or Tab into card; locate with Play demo.",
+      "timing": "Upstream requestAnimationFrame smoothing 0.3; no ambient, flare or grain. Focus tracking included upstream.",
+      "reduced": "SpotlightCard unmounted; identical plain card wrapper. Pointer-only effects also skipped for coarse pointers.",
+      "target": "spotlight-demo",
+      "action": "spotlight"
+    },
+    {
+      "id": "M11",
+      "name": "Filtered-card layout transition",
+      "pages": [
+        "events",
+        "resources"
+      ],
+      "location": "Event views and resource categories/search",
+      "effect": "Cards fade out/in and remaining results shift into their new layout.",
+      "purpose": "Help track a changed result set.",
+      "library": "Motion",
+      "trigger": "Tabs, search or example event-state controls.",
+      "timing": "180ms opacity and 240ms layout ease-out; keyed records, no artificial loading delay.",
+      "reduced": "Immediate filtered results; count is announced.",
+      "target": "filter-demo",
+      "action": "filter"
+    },
+    {
+      "id": "M12",
+      "name": "Bounded scoped sequence",
+      "pages": [
+        "resources"
+      ],
+      "location": "Illustrative resource/project component study",
+      "effect": "Three ordered nodes reveal briefly; a user-triggered signal follows explicit keyframes with one reverse repeat.",
+      "purpose": "Demonstrate accepted Motion capabilities in a bounded, cancellable example.",
+      "library": "Motion",
+      "trigger": "Run bounded sequence; visibility and document state gate work; unmount cancels it.",
+      "timing": "40ms child stagger; signal 650ms with one reverse repeat, then stops.",
+      "reduced": "Nodes and explanation are static; the optional Run action is unavailable when motion is suppressed.",
+      "target": "optional-motion-demo"
+    },
+    {
+      "id": "M13",
+      "name": "Supplementary folder opening",
+      "pages": [
+        "resources"
+      ],
+      "location": "Illustrative resource collection",
+      "effect": "Genuine matte React Bits folder opens/closes through the external labelled button.",
+      "purpose": "Compare a supplementary collection illustration with its static alternative while keeping every document visible.",
+      "library": "React Bits",
+      "trigger": "Open/Close folder illustration; no drag or autoplay intro.",
+      "timing": "Upstream spring settles after each deliberate open/close; no ambient loop or glass renderer.",
+      "reduced": "The Folder component is unmounted; a static Lucide icon and always-visible controls/list remain.",
+      "target": "optional-upgrades"
+    },
+    {
+      "id": "M14",
+      "name": "Scoped reading position",
+      "pages": [
+        "resources"
+      ],
+      "location": "Project walkthrough reader",
+      "effect": "Reader-scoped Magic UI bar follows scroll with a settling spring and derived width.",
+      "purpose": "Indicate location in a bounded reader without implying comprehension.",
+      "library": "Magic UI",
+      "trigger": "Scroll inside the walkthrough reader in Animated mode.",
+      "timing": "Spring stiffness 300, damping 40; settles after input stops.",
+      "reduced": "Animated component unmounted. Native progress and immediate text percentage remain.",
+      "target": "future-workshop"
+    },
+    {
+      "id": "M15",
+      "name": "Source-to-export explanation",
+      "pages": [
+        "resources"
+      ],
+      "location": "Project walkthrough build diagram",
+      "effect": "Draw a line then move one signal through three labelled stages.",
+      "purpose": "Explain this source project workflow; no command executes.",
+      "library": "Motion",
+      "trigger": "Play build explanation, when visible in Animated mode.",
+      "timing": "700ms path drawing, then 800ms signal; one pass. Stop, visibility, reduced motion and unmount cancel work.",
+      "reduced": "Static SVG and numbered text sequence remain; Play unavailable.",
+      "target": "future-workshop"
+    }
+  ],
+  "policy": "Static mode and system/review reduced motion disable all optional effects. React Bits is also skipped for coarse pointers. All proposed effects have an implemented preview."
+}

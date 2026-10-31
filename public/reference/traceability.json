@@ -1,0 +1,3992 @@
+{
+  "created": "2026-10-30",
+  "finding_mappings": [
+    {
+      "id": "trace-edinburgh-purpose",
+      "research_anchor": "finding-edinburgh-purpose",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Welcomes beginners and experienced students; directs newcomers towards community participation and specialist interests.",
+      "evidence": [
+        "edinburgh-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-architecture",
+      "research_anchor": "finding-edinburgh-architecture",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Four main routes: News, Team, Events and Sponsors. The browser resolves Events to a separate platform; the text retriever misrepresented that URL.",
+      "evidence": [
+        "edinburgh-0",
+        "edinburgh-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-content",
+      "research_anchor": "finding-edinburgh-content",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Homepage combines membership FAQs and external academic/community resources. Team history and partner descriptions occupy dedicated pages.",
+      "evidence": [
+        "edinburgh-0",
+        "edinburgh-1",
+        "edinburgh-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D10"
+      ],
+      "design_targets": [
+        "events-detail",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-functionality",
+      "research_anchor": "finding-edinburgh-functionality",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "The events platform exposes search, SIG filters, a calendar and sign-in. Controls were observed; filtering, authentication and event booking were not completed.",
+      "evidence": [
+        "edinburgh-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D13",
+        "D17"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "future-groups",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-ux",
+      "research_anchor": "finding-edinburgh-ux",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Desktop uses a dark canvas and pixel-style identity. The initial screen emphasises Discord; finding the next event requires navigation. Zero-valued counters in retrieved content should not be treated as real metrics.",
+      "evidence": [
+        "edinburgh-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-engagement",
+      "research_anchor": "finding-edinburgh-engagement",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Specialist groups, academic links and chat offer repeat value even when the public event queue is empty.",
+      "evidence": [
+        "edinburgh-0",
+        "edinburgh-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D13",
+        "D10"
+      ],
+      "design_targets": [
+        "future-groups",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-committee",
+      "research_anchor": "finding-edinburgh-committee",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Team page explains weekly meetings and AGM elections, presents a year archive and links meeting minutes and a constitution. Linked documents were not individually audited.",
+      "evidence": [
+        "edinburgh-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D07",
+        "D06"
+      ],
+      "design_targets": [
+        "about-governance",
+        "about-team"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-sponsorship",
+      "research_anchor": "finding-edinburgh-sponsorship",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Sponsors page groups organisations by tier and describes them. This establishes recognition; package deliverables and pricing were not observed in inspected material.",
+      "evidence": [
+        "edinburgh-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-quality",
+      "research_anchor": "finding-edinburgh-quality",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong combination of newcomer reassurance and institutional memory. The captured events queue is empty; that does not establish inactivity across the society.",
+      "evidence": [
+        "edinburgh-0",
+        "edinburgh-1",
+        "edinburgh-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D17",
+        "D14"
+      ],
+      "design_targets": [
+        "events-empty",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-edinburgh-maintenance",
+      "research_anchor": "finding-edinburgh-maintenance",
+      "society": "edinburgh",
+      "society_name": "University of Edinburgh CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High: coordinate events across SIGs and systems; medium for annual people/partner updates. Assign one calendar owner and preserve the committee archive.",
+      "evidence": [
+        "edinburgh-1",
+        "edinburgh-2",
+        "edinburgh-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-sheffield-purpose",
+      "research_anchor": "finding-sheffield-purpose",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "The homepage helps prospective members join and existing members find activities; partners receive a separate enquiry route.",
+      "evidence": [
+        "sheffield-0",
+        "sheffield-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-sheffield-architecture",
+      "research_anchor": "finding-sheffield-architecture",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Events, Photos, Projects, Contact and Calendar sit in the primary navigation, with About grouped separately. Footer repeats joining and committee routes.",
+      "evidence": [
+        "sheffield-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-sheffield-content",
+      "research_anchor": "finding-sheffield-content",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "The inspected event detail adds time zone, price, expected experience and workshop content. Calendar instructions and a navigable constitution support separate tasks.",
+      "evidence": [
+        "sheffield-1",
+        "sheffield-2",
+        "sheffield-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D07"
+      ],
+      "design_targets": [
+        "events-detail",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-sheffield-functionality",
+      "research_anchor": "finding-sheffield-functionality",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Calendar page offers webcal, Google Calendar and a copyable feed address. Event detail exposes an add-to-calendar control. Subscription/import success was not tested.",
+      "evidence": [
+        "sheffield-1",
+        "sheffield-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04"
+      ],
+      "design_targets": [
+        "events-calendar"
+      ]
+    },
+    {
+      "id": "trace-sheffield-ux",
+      "research_anchor": "finding-sheffield-ux",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Green mascot, generous spacing, large sans-serif headings and a prominent next-event card create a coherent desktop hierarchy. A skip link is exposed; overall accessibility remains unaudited.",
+      "evidence": [
+        "sheffield-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-sheffield-engagement",
+      "research_anchor": "finding-sheffield-engagement",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Upcoming workshops, photos and a subscription route support attendance and return visits. Joining redirects to the Students’ Union for membership terms.",
+      "evidence": [
+        "sheffield-0",
+        "sheffield-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D02"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "home-hero"
+      ]
+    },
+    {
+      "id": "trace-sheffield-committee",
+      "research_anchor": "finding-sheffield-committee",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Named officers are public. The constitution explains elections, role responsibilities and finances with section anchors, making governance discoverable without relying on portraits alone.",
+      "evidence": [
+        "sheffield-3",
+        "sheffield-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-sheffield-sponsorship",
+      "research_anchor": "finding-sheffield-sponsorship",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Partners page provides recognition and committee contact, but no detailed public package comparison was observed.",
+      "evidence": [
+        "sheffield-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-sheffield-quality",
+      "research_anchor": "finding-sheffield-quality",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong public event journey and explicit local time. Venue TBC remains a planning gap. Initial text retrieval failed on three details, but browser inspection recovered them.",
+      "evidence": [
+        "sheffield-1",
+        "sheffield-2",
+        "sheffield-4",
+        "sheffield-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D17"
+      ],
+      "design_targets": [
+        "events-detail",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-sheffield-maintenance",
+      "research_anchor": "finding-sheffield-maintenance",
+      "society": "sheffield",
+      "society_name": "University of Sheffield CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Medium–high: events need weekly edits and confirmed venues; committee changes annually. A single feed can reduce duplication if used as the authoritative event source.",
+      "evidence": [
+        "sheffield-1",
+        "sheffield-2",
+        "sheffield-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-imperial-purpose",
+      "research_anchor": "finding-imperial-purpose",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Serves computing students through community and industry opportunities; its services page also addresses organisers in other Imperial societies.",
+      "evidence": [
+        "imperial-0",
+        "imperial-1",
+        "imperial-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-imperial-architecture",
+      "research_anchor": "finding-imperial-architecture",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Primary Sponsors, About, Portal and Blog routes; Documents, Education, Software Foundation and Services are grouped under More.",
+      "evidence": [
+        "imperial-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-imperial-content",
+      "research_anchor": "finding-imperial-content",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "About gives people, location and activities. Sponsorship explains reach and channels. Services enumerates equipment and supplies with an enquiry checklist.",
+      "evidence": [
+        "imperial-1",
+        "imperial-2",
+        "imperial-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D18"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-imperial-functionality",
+      "research_anchor": "finding-imperial-functionality",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Public routes lead to a member portal and IC Hack. Services use email to request equipment, dates and event details. Portal features and availability of equipment were not tested.",
+      "evidence": [
+        "imperial-0",
+        "imperial-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D18"
+      ],
+      "design_targets": [
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-imperial-ux",
+      "research_anchor": "finding-imperial-ux",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Blue header and compact white content area make the desktop presentation restrained. Sponsors appear early; a newcomer looking for a current routine event must follow another route.",
+      "evidence": [
+        "imperial-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-imperial-engagement",
+      "research_anchor": "finding-imperial-engagement",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Hackathon, industry activities and practical services offer several participation routes. The visible blog is weaker as a current return trigger.",
+      "evidence": [
+        "imperial-0",
+        "imperial-1",
+        "imperial-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D18",
+        "D14"
+      ],
+      "design_targets": [
+        "deferred-systems",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-imperial-committee",
+      "research_anchor": "finding-imperial-committee",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Named officers include academic, event, communications, sponsor liaison and web responsibilities. Documents is linked, but its content was not inspected.",
+      "evidence": [
+        "imperial-1",
+        "imperial-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-imperial-sponsorship",
+      "research_anchor": "finding-imperial-sponsorship",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Explains sponsor access through events, emails and job advertisements; lists Gold, Silver and Bronze supporters. Its audience figure is self-reported, not independently verified.",
+      "evidence": [
+        "imperial-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-imperial-quality",
+      "research_anchor": "finding-imperial-quality",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Good example of a commercial proposition beyond a logo wall. Homepage’s latest visible post is April 2024, with several April-first posts; those are poor evidence of recent operations.",
+      "evidence": [
+        "imperial-0",
+        "imperial-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D14"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-imperial-maintenance",
+      "research_anchor": "finding-imperial-maintenance",
+      "society": "imperial",
+      "society_name": "Imperial College London DoCSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High if services are active: inventory, bookings and accountable owners are needed. Medium for partner and officer edits; blog freshness requires an explicit editorial commitment.",
+      "evidence": [
+        "imperial-1",
+        "imperial-2",
+        "imperial-3"
+      ],
+      "disposition": "Defer service scope",
+      "decisions": [
+        "D18",
+        "D14"
+      ],
+      "design_targets": [
+        "deferred-systems",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-oxford-purpose",
+      "research_anchor": "finding-oxford-purpose",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Welcomes different skill levels and offers technical learning, competitions and social participation. Joining is priced explicitly on the homepage.",
+      "evidence": [
+        "oxford-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-oxford-architecture",
+      "research_anchor": "finding-oxford-architecture",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Browser reveals About, Events, Follow Us, Mailing List and Become a Member. Nested routes include committee, constitution, sponsors and Learn to Code.",
+      "evidence": [
+        "oxford-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-oxford-content",
+      "research_anchor": "finding-oxford-content",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Dedicated beginner page explains who can attend, what to bring and when to arrive. Events appear through a calendar and a separate termcard image.",
+      "evidence": [
+        "oxford-1",
+        "oxford-2",
+        "oxford-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D10"
+      ],
+      "design_targets": [
+        "events-detail",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-oxford-functionality",
+      "research_anchor": "finding-oxford-functionality",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Google Calendar embed, external Stripe joining route, role email links and GitHub course materials are visible. Checkout and calendar subscription were not tested.",
+      "evidence": [
+        "oxford-0",
+        "oxford-1",
+        "oxford-3",
+        "oxford-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D05",
+        "D10"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "join-path",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-oxford-ux",
+      "research_anchor": "finding-oxford-ux",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Dark blue background, monospaced display text and neon accents establish a computing identity. The termcard image needs an equivalent text listing for dependable access; no claim is made about its full alt text.",
+      "evidence": [
+        "oxford-0",
+        "oxford-2"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-oxford-engagement",
+      "research_anchor": "finding-oxford-engagement",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "A recurring course and reusable notes provide reasons to revisit. Multiple social channels carry updates when event plans change.",
+      "evidence": [
+        "oxford-2",
+        "oxford-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D04"
+      ],
+      "design_targets": [
+        "resources-library",
+        "events-calendar"
+      ]
+    },
+    {
+      "id": "trace-oxford-committee",
+      "research_anchor": "finding-oxford-committee",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Committee page exposes specialist roles, selected role contacts and past office holders. Constitution is a visible route but was not read in this investigation.",
+      "evidence": [
+        "oxford-3",
+        "oxford-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-oxford-sponsorship",
+      "research_anchor": "finding-oxford-sponsorship",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Tiered recognition is substantial. Public package terms and a dedicated prospective-sponsor proposition were not observed in the inspected sponsor content.",
+      "evidence": [
+        "oxford-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-oxford-quality",
+      "research_anchor": "finding-oxford-quality",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Excellent practical first-session guidance. Separating an image termcard, calendar and social updates creates a potential reconciliation burden; actual synchronisation was not assessed.",
+      "evidence": [
+        "oxford-1",
+        "oxford-2",
+        "oxford-5"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D15"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "accessible-components"
+      ]
+    },
+    {
+      "id": "trace-oxford-maintenance",
+      "research_anchor": "finding-oxford-maintenance",
+      "society": "oxford",
+      "society_name": "University of Oxford CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Medium: refresh course details each term and people annually. Maintaining both a graphic termcard and calendar risks duplicate date edits; linked teaching materials also need review.",
+      "evidence": [
+        "oxford-1",
+        "oxford-2",
+        "oxford-3",
+        "oxford-5"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-bristol-purpose",
+      "research_anchor": "finding-bristol-purpose",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Combines student community, practical support and career opportunities with a clear offer for prospective partners.",
+      "evidence": [
+        "bristol-0",
+        "bristol-1",
+        "bristol-2",
+        "bristol-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-bristol-architecture",
+      "research_anchor": "finding-bristol-architecture",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Task-oriented navigation exposes About, Contact, Events, Jobs, Sponsor us, Tutorials and Wellbeing. Resource content is a first-class destination.",
+      "evidence": [
+        "bristol-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-bristol-content",
+      "research_anchor": "finding-bristol-content",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Tutorial catalogue supports study and practical skills. Wellbeing directory provides support routes. Sponsorship lists activities and information needed to start a conversation.",
+      "evidence": [
+        "bristol-1",
+        "bristol-2",
+        "bristol-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D10",
+        "D11"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "resources-library",
+        "join-inclusion"
+      ]
+    },
+    {
+      "id": "trace-bristol-functionality",
+      "research_anchor": "finding-bristol-functionality",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Tutorials include calendar-sync and site-contribution guidance. Sponsorship offers an email fallback when the contact form requires JavaScript; form delivery was not tested.",
+      "evidence": [
+        "bristol-1",
+        "bristol-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D08"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-bristol-ux",
+      "research_anchor": "finding-bristol-ux",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Desktop combines a photographic header with compact navigation and event cards. Short labels help scan tasks, although the top navigation is visually small in the capture.",
+      "evidence": [
+        "bristol-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-bristol-engagement",
+      "research_anchor": "finding-bristol-engagement",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Learning resources, jobs navigation and practical support add utility between events. Contributor guidance creates a route for members to improve the site.",
+      "evidence": [
+        "bristol-0",
+        "bristol-2",
+        "bristol-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D10"
+      ],
+      "design_targets": [
+        "events-detail",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-bristol-committee",
+      "research_anchor": "finding-bristol-committee",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Sponsor content explains ongoing committee dialogue and supplies role-based contact. About provides committee/course-rep email, constitution and Union society links; a named officer roster was not observed.",
+      "evidence": [
+        "bristol-1",
+        "bristol-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-bristol-sponsorship",
+      "research_anchor": "finding-bristol-sponsorship",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Describes year-long packages, talks, custom events and outreach; asks for organisation, budget and interest. Standard and Premium lists appear identical in retrieved text; differences need clarification.",
+      "evidence": [
+        "bristol-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-bristol-quality",
+      "research_anchor": "finding-bristol-quality",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong sponsor decision support. Homepage “Coming up” includes 26–27 October 2026 dates already past on investigation day. Sponsor copy cites a 2020 ranking, so reach/context claims need dating.",
+      "evidence": [
+        "bristol-0",
+        "bristol-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D14",
+        "D08"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-bristol-maintenance",
+      "research_anchor": "finding-bristol-maintenance",
+      "society": "bristol",
+      "society_name": "University of Bristol CSS",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High editorial breadth: event expiry, jobs, tutorials and support contacts all need owners. Medium for annual sponsor review. Link to authoritative support services rather than duplicating changing advice.",
+      "evidence": [
+        "bristol-0",
+        "bristol-1",
+        "bristol-2",
+        "bristol-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D10"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-purpose",
+      "research_anchor": "finding-royal-holloway-purpose",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Addresses students seeking technical, social and academic activities, including learners outside computer science.",
+      "evidence": [
+        "royal-holloway-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-architecture",
+      "research_anchor": "finding-royal-holloway-architecture",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Single-page sections cover membership, events, activities, team and supporters; committee history has its own page.",
+      "evidence": [
+        "royal-holloway-0",
+        "royal-holloway-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-content",
+      "research_anchor": "finding-royal-holloway-content",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Activity descriptions explain workshops, competitions, industry talks, trips and support. Past Royal Hackaway editions provide continuity.",
+      "evidence": [
+        "royal-holloway-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D07"
+      ],
+      "design_targets": [
+        "events-detail",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-functionality",
+      "research_anchor": "finding-royal-holloway-functionality",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Membership is delegated to the Students’ Union; Discord, email and hackathon sites are linked. No membership completion or event registration was attempted.",
+      "evidence": [
+        "royal-holloway-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D17",
+        "D18"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "events-empty",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-ux",
+      "research_anchor": "finding-royal-holloway-ux",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Large black headings on white, red membership/email actions and a contrasting Discord action make the desktop introduction straightforward. Long single-page structure may need anchor navigation.",
+      "evidence": [
+        "royal-holloway-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-engagement",
+      "research_anchor": "finding-royal-holloway-engagement",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Flagship hackathon and community chat provide clear participation routes. Other activity descriptions are less useful for planning without a dated routine schedule.",
+      "evidence": [
+        "royal-holloway-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D03"
+      ],
+      "design_targets": [
+        "home-hero",
+        "events-detail"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-committee",
+      "research_anchor": "finding-royal-holloway-committee",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Named officers and year-labelled past committees are public. The homepage still labels its team 2025–2026; whether it remains the valid committee is unverified.",
+      "evidence": [
+        "royal-holloway-0",
+        "royal-holloway-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-sponsorship",
+      "research_anchor": "finding-royal-holloway-sponsorship",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Supporter section invites sponsorship, but its linked destination could not resolve in the browser. Package detail and named sponsors were not established.",
+      "evidence": [
+        "royal-holloway-0",
+        "royal-holloway-2"
+      ],
+      "disposition": "Avoid fragile enquiry routes",
+      "decisions": [
+        "D08",
+        "D17"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-quality",
+      "research_anchor": "finding-royal-holloway-quality",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Clear membership/chat choices and historical continuity. January 2026 hero promotion and older committee label deserve review; v10 is mentioned separately as forthcoming.",
+      "evidence": [
+        "royal-holloway-0",
+        "royal-holloway-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D14",
+        "D17"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-royal-holloway-maintenance",
+      "research_anchor": "finding-royal-holloway-maintenance",
+      "society": "royal-holloway",
+      "society_name": "Royal Holloway Computing Society",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Low–medium for the brochure structure, rising around the annual hackathon. Refresh hero promotions, committee year and sponsor destination during handover.",
+      "evidence": [
+        "royal-holloway-0",
+        "royal-holloway-1",
+        "royal-holloway-2"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-durham-purpose",
+      "research_anchor": "finding-durham-purpose",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Welcomes novice and experienced Durham students through programming, workshops, talks and hackathons.",
+      "evidence": [
+        "durham-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-durham-architecture",
+      "research_anchor": "finding-durham-architecture",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Events, Sponsors, Team, DurHack and Contact make a small primary navigation. Footer links Students’ Union policies and public source code.",
+      "evidence": [
+        "durham-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-durham-content",
+      "research_anchor": "finding-durham-content",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Team descriptions explain who manages finances, publicity, technical work and sponsorship. Partner profiles link onward to careers information.",
+      "evidence": [
+        "durham-1",
+        "durham-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D08"
+      ],
+      "design_targets": [
+        "about-team",
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-durham-functionality",
+      "research_anchor": "finding-durham-functionality",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Contact form includes society/event routing and reCAPTCHA. Submission and validation were not tested; the dedicated Events route failed text retrieval.",
+      "evidence": [
+        "durham-3",
+        "durham-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D17"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-durham-ux",
+      "research_anchor": "finding-durham-ux",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Desktop uses a photographic community hero with a white text panel and black navigation. The high-level action is joining; current event availability is less clear from the captured homepage.",
+      "evidence": [
+        "durham-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-durham-engagement",
+      "research_anchor": "finding-durham-engagement",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Weekly activity promise and DurHack give participation hooks. Visible homepage ball promotion says 15 June without an exposed year, limiting freshness assessment.",
+      "evidence": [
+        "durham-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D10"
+      ],
+      "design_targets": [
+        "events-detail",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-durham-committee",
+      "research_anchor": "finding-durham-committee",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Every inspected executive role has a concise responsibility summary. Previous-executive link offers continuity; the archive itself was not audited.",
+      "evidence": [
+        "durham-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-durham-sponsorship",
+      "research_anchor": "finding-durham-sponsorship",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Named sponsor profiles and careers links benefit members; a sponsorship invitation is visible. Public tiers, deliverables and pricing were not observed.",
+      "evidence": [
+        "durham-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-durham-quality",
+      "research_anchor": "finding-durham-quality",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Best compact example of explaining committee jobs. An undated-year event promotion makes it difficult to decide whether the homepage offers a future activity.",
+      "evidence": [
+        "durham-0",
+        "durham-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D14"
+      ],
+      "design_targets": [
+        "about-team",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-durham-maintenance",
+      "research_anchor": "finding-durham-maintenance",
+      "society": "durham",
+      "society_name": "Durham University CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Medium: maintain current event details, officer responsibilities and recruitment links. Contact form adds integration upkeep beyond static email.",
+      "evidence": [
+        "durham-0",
+        "durham-1",
+        "durham-2",
+        "durham-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-kent-purpose",
+      "research_anchor": "finding-kent-purpose",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Aims to connect students through events, practical learning and collaborative projects. The public navigation gives participation several forms.",
+      "evidence": [
+        "kent-0",
+        "kent-1",
+        "kent-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D10"
+      ],
+      "design_targets": [
+        "future-projects",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-kent-architecture",
+      "research_anchor": "finding-kent-architecture",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Home, Events, Bootcamps, Project Proposals, Committee, Projects and Login/Register structure the site. Homepage chat links resolve; some deep-page footer links were placeholders in captured states.",
+      "evidence": [
+        "kent-0",
+        "kent-2",
+        "kent-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-kent-content",
+      "research_anchor": "finding-kent-content",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Bootcamps provide dates, facilitators, topics and prerequisite guidance. Committee timeline has year-labelled roles and usernames. Project records were not established.",
+      "evidence": [
+        "kent-1",
+        "kent-4",
+        "kent-2",
+        "kent-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D06",
+        "D12"
+      ],
+      "design_targets": [
+        "resources-library",
+        "about-team",
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-kent-functionality",
+      "research_anchor": "finding-kent-functionality",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "A dynamic bootcamp list and committee timeline rendered in browser; an account entry is linked. Proposal submission, authentication and populated project overlays remain unverified.",
+      "evidence": [
+        "kent-1",
+        "kent-4",
+        "kent-5",
+        "kent-2",
+        "kent-3"
+      ],
+      "disposition": "Conditional / do not infer a working workflow",
+      "decisions": [
+        "D17",
+        "D18",
+        "D12"
+      ],
+      "design_targets": [
+        "events-empty",
+        "deferred-systems",
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-kent-ux",
+      "research_anchor": "finding-kent-ux",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Dark red/black desktop identity with a large logo; navigation is tucked into a menu even at captured desktop width. A horizontally explored committee history may be less discoverable than a plain list.",
+      "evidence": [
+        "kent-0",
+        "kent-4"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-kent-engagement",
+      "research_anchor": "finding-kent-engagement",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Bootcamps are concrete return value; a showcase and project recruitment could deepen participation if populated. Captured home state reports no events this week.",
+      "evidence": [
+        "kent-0",
+        "kent-1",
+        "kent-2",
+        "kent-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D12"
+      ],
+      "design_targets": [
+        "resources-library",
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-kent-committee",
+      "research_anchor": "finding-kent-committee",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Timeline shows a current 2026–2027 marker and officer usernames. Human-readable names, detailed duties and governance documents were not established in inspected content.",
+      "evidence": [
+        "kent-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-kent-sponsorship",
+      "research_anchor": "finding-kent-sponsorship",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "No partner recognition or dedicated sponsor proposition was observed in the inspected pages. Project showcase potential is an analyst inference, not evidence of sponsor functionality.",
+      "evidence": [
+        "kent-0",
+        "kent-3"
+      ],
+      "disposition": "Research gap; HW-specific recommendation",
+      "decisions": [
+        "D08"
+      ],
+      "design_targets": [
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-kent-quality",
+      "research_anchor": "finding-kent-quality",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Important retrieval lesson: the browser recovered bootcamp and committee content. Projects/proposals remained in loading states during capture, so they cannot be counted as populated features.",
+      "evidence": [
+        "kent-1",
+        "kent-2",
+        "kent-3",
+        "kent-4"
+      ],
+      "disposition": "Avoid indefinite loading; verify before adopting",
+      "decisions": [
+        "D17",
+        "D12"
+      ],
+      "design_targets": [
+        "events-empty",
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-kent-maintenance",
+      "research_anchor": "finding-kent-maintenance",
+      "society": "kent",
+      "society_name": "University of Kent CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High relative to a brochure: dynamic data, account routes, multiple content types and loading/error states need sustained ownership. Bootcamp archives also require careful past/future labelling.",
+      "evidence": [
+        "kent-1",
+        "kent-2",
+        "kent-3",
+        "kent-4",
+        "kent-5"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D17",
+        "D18"
+      ],
+      "design_targets": [
+        "events-empty",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-leeds-purpose",
+      "research_anchor": "finding-leeds-purpose",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Serves students through academic and social activity with School of Computer Science and industry relationships.",
+      "evidence": [
+        "leeds-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-leeds-architecture",
+      "research_anchor": "finding-leeds-architecture",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Small navigation separates Events, Committee, Sponsors, Contact and LeedsHack. Footer contains community and Students’ Union routes.",
+      "evidence": [
+        "leeds-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-leeds-content",
+      "research_anchor": "finding-leeds-content",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Events archive records venues and descriptions across technical, social and inclusive activities. Committee roles and sponsor careers information add practical context.",
+      "evidence": [
+        "leeds-1",
+        "leeds-2",
+        "leeds-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D06"
+      ],
+      "design_targets": [
+        "events-detail",
+        "about-team"
+      ]
+    },
+    {
+      "id": "trace-leeds-functionality",
+      "research_anchor": "finding-leeds-functionality",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "External LUU Engage route supports membership/tickets; event copy points to Discord or Engage where relevant. No checkout or registration was completed.",
+      "evidence": [
+        "leeds-0",
+        "leeds-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D03"
+      ],
+      "design_targets": [
+        "join-path",
+        "events-detail"
+      ]
+    },
+    {
+      "id": "trace-leeds-ux",
+      "research_anchor": "finding-leeds-ux",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Dark blue desktop design and monospaced introduction establish a computing theme. The homepage’s animated title was partially rendered in capture; archives provide more concrete planning detail.",
+      "evidence": [
+        "leeds-0",
+        "leeds-1"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-leeds-engagement",
+      "research_anchor": "finding-leeds-engagement",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Event history demonstrates breadth, including non-alcoholic and targeted inclusion activities. Empty upcoming section gives existing visitors limited immediate planning value.",
+      "evidence": [
+        "leeds-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D11",
+        "D17"
+      ],
+      "design_targets": [
+        "events-detail",
+        "join-inclusion",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-leeds-committee",
+      "research_anchor": "finding-leeds-committee",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Named officers explain their responsibilities rather than listing titles alone. A past AGM entry describes questions and elections, though a governance document was not observed.",
+      "evidence": [
+        "leeds-2",
+        "leeds-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-leeds-sponsorship",
+      "research_anchor": "finding-leeds-sponsorship",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "TPP and Jane Street profiles connect recognition to recruitment; a committee email invites sponsorship. Public packages or tiers were not observed.",
+      "evidence": [
+        "leeds-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-leeds-quality",
+      "research_anchor": "finding-leeds-quality",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Good event descriptions and responsibility clarity. No future events were listed at inspection; a recurring event described in an archive should not be assumed to remain scheduled.",
+      "evidence": [
+        "leeds-1",
+        "leeds-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D14",
+        "D17"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-leeds-maintenance",
+      "research_anchor": "finding-leeds-maintenance",
+      "society": "leeds",
+      "society_name": "University of Leeds Computing Society",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Medium–high: maintain event archives without presenting recurrence as a current promise. Refresh people annually and partner recruitment text when opportunities change.",
+      "evidence": [
+        "leeds-1",
+        "leeds-2",
+        "leeds-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-surrey-purpose",
+      "research_anchor": "finding-surrey-purpose",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Welcomes students interested in programming and technology through hackathons, workshops and career development. The requested reference is a Students’ Union listing.",
+      "evidence": [
+        "surrey-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-surrey-architecture",
+      "research_anchor": "finding-surrey-architecture",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Global Union navigation surrounds society-specific Committee, Products, Key Information and Donate anchors. The listing links a separate society website.",
+      "evidence": [
+        "surrey-0",
+        "surrey-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-surrey-content",
+      "research_anchor": "finding-surrey-content",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Main listing presents officers and short constitutional aims. Membership is a separate product; a related Union event page supplies detailed attendance information.",
+      "evidence": [
+        "surrey-0",
+        "surrey-1",
+        "surrey-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "join-path",
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-surrey-functionality",
+      "research_anchor": "finding-surrey-functionality",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Membership product is published as free for 2026/2027. The inspected event routes registration to MLH. Purchasing, account eligibility and registration completion were not tested.",
+      "evidence": [
+        "surrey-1",
+        "surrey-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D03"
+      ],
+      "design_targets": [
+        "join-path",
+        "events-detail"
+      ]
+    },
+    {
+      "id": "trace-surrey-ux",
+      "research_anchor": "finding-surrey-ux",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Institutional red navigation and the society banner share the desktop page. Society-specific anchor buttons help within a long page, but global Union routes add competing choices.",
+      "evidence": [
+        "surrey-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-surrey-engagement",
+      "research_anchor": "finding-surrey-engagement",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Beginner reassurance and a concrete external event-registration route support participation. Membership supplies a clear ongoing affiliation route.",
+      "evidence": [
+        "surrey-0",
+        "surrey-1",
+        "surrey-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D11"
+      ],
+      "design_targets": [
+        "join-path",
+        "join-inclusion"
+      ]
+    },
+    {
+      "id": "trace-surrey-committee",
+      "research_anchor": "finding-surrey-committee",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Committee is separated into signatories and non-signatories. Short constitution aims explain purpose; detailed elections and operating rules were not verified.",
+      "evidence": [
+        "surrey-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-surrey-sponsorship",
+      "research_anchor": "finding-surrey-sponsorship",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "No dedicated commercial sponsorship offer or current partner list was observed in inspected society content. A donation section label does not establish a sponsor programme.",
+      "evidence": [
+        "surrey-0"
+      ],
+      "disposition": "Research gap; HW-specific recommendation",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-surrey-quality",
+      "research_anchor": "finding-surrey-quality",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "The event detail’s venue and accessibility labels are a useful attendance pattern. Main URL timed out in text retrieval but loaded in browser; search-cached sections differed from live browser content.",
+      "evidence": [
+        "surrey-0",
+        "surrey-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D03",
+        "D17"
+      ],
+      "design_targets": [
+        "events-detail",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-surrey-maintenance",
+      "research_anchor": "finding-surrey-maintenance",
+      "society": "surrey",
+      "society_name": "University of Surrey CompSoc",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Low–medium when using Union membership/event infrastructure. Maintain consistency with any separate website; event access labels need confirmation for each venue.",
+      "evidence": [
+        "surrey-0",
+        "surrey-1",
+        "surrey-2",
+        "surrey-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-ucla-purpose",
+      "research_anchor": "finding-ucla-purpose",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Welcomes students across majors and experience levels, with separate topic communities under one computing organisation.",
+      "evidence": [
+        "ucla-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D13",
+        "D02"
+      ],
+      "design_targets": [
+        "future-groups",
+        "home-hero"
+      ]
+    },
+    {
+      "id": "trace-ucla-architecture",
+      "research_anchor": "finding-ucla-architecture",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Committees, Initiatives, Events and About group a broad ecosystem. Footer supplies explicit team, internship, sponsor and portal routes.",
+      "evidence": [
+        "ucla-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-ucla-content",
+      "research_anchor": "finding-ucla-content",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Main site introduces committees; officers directory exposes organisational depth. Event page hands off to the portal and points to recorded past material.",
+      "evidence": [
+        "ucla-0",
+        "ucla-1",
+        "ucla-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D13",
+        "D06"
+      ],
+      "design_targets": [
+        "future-groups",
+        "about-team"
+      ]
+    },
+    {
+      "id": "trace-ucla-functionality",
+      "research_anchor": "finding-ucla-functionality",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Membership login, mailing list and calendar destination are visible. Portal calendar functionality was described by the public page, not authenticated or exercised.",
+      "evidence": [
+        "ucla-0",
+        "ucla-1"
+      ],
+      "disposition": "Prefer public tasks; defer a bespoke portal",
+      "decisions": [
+        "D18",
+        "D04"
+      ],
+      "design_targets": [
+        "deferred-systems",
+        "events-calendar"
+      ]
+    },
+    {
+      "id": "trace-ucla-ux",
+      "research_anchor": "finding-ucla-ux",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Blue geometric hero and clear white layout create a coherent desktop identity. Broad dropdown categories and a very long officer directory may need careful wayfinding as the organisation grows.",
+      "evidence": [
+        "ucla-0",
+        "ucla-2"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-ucla-engagement",
+      "research_anchor": "finding-ucla-engagement",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Topic committees, recorded content, initiatives and mailing list offer multiple entry points. Events require another system, increasing the number of destinations to understand.",
+      "evidence": [
+        "ucla-0",
+        "ucla-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D13",
+        "D10"
+      ],
+      "design_targets": [
+        "future-groups",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-ucla-committee",
+      "research_anchor": "finding-ucla-committee",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Directory groups leadership and officers, including development, operations and sponsorship roles. Names/classes are public; operational responsibilities and constitutional rules were not audited.",
+      "evidence": [
+        "ucla-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D07"
+      ],
+      "design_targets": [
+        "about-team",
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-ucla-sponsorship",
+      "research_anchor": "finding-ucla-sponsorship",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Sponsor page distinguishes direct sponsorship from departmental/venue support, explains homepage/marketing visibility and gives an email contact. Package tiers were not observed.",
+      "evidence": [
+        "ucla-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-ucla-quality",
+      "research_anchor": "finding-ucla-quality",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong ecosystem orientation and explicit partner attribution. A portal handoff can fragment first-visit event discovery; its actual login requirement for browsing remains unverified.",
+      "evidence": [
+        "ucla-0",
+        "ucla-1",
+        "ucla-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01",
+        "D18"
+      ],
+      "design_targets": [
+        "home-shell",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-ucla-maintenance",
+      "research_anchor": "finding-ucla-maintenance",
+      "society": "ucla",
+      "society_name": "ACM at UCLA",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High: coordinate many committee destinations and a large people roster. Shared event data and documented ownership would reduce cross-site inconsistency; current backend was not audited.",
+      "evidence": [
+        "ucla-0",
+        "ucla-1",
+        "ucla-2"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-illinois-purpose",
+      "research_anchor": "finding-illinois-purpose",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Serves students building, learning and socialising through interest groups; separates open participation from paid member benefits.",
+      "evidence": [
+        "illinois-0",
+        "illinois-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D13"
+      ],
+      "design_targets": [
+        "join-path",
+        "future-groups"
+      ]
+    },
+    {
+      "id": "trace-illinois-architecture",
+      "research_anchor": "finding-illinois-architecture",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Browser navigation exposes About, Calendar, Store, Resources and Wiki. Group categories and search organise a much larger internal community.",
+      "evidence": [
+        "illinois-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-illinois-content",
+      "research_anchor": "finding-illinois-content",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Group cards provide topic summaries and contacts. Resources explains membership benefits and feedback; About clarifies leadership and corporate enquiries.",
+      "evidence": [
+        "illinois-0",
+        "illinois-2",
+        "illinois-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D13",
+        "D10"
+      ],
+      "design_targets": [
+        "future-groups",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-illinois-functionality",
+      "research_anchor": "finding-illinois-functionality",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Browser showed dated event cards and RSVP links absent from text retrieval. Directory search and calendar controls are present; filtering, RSVP and calendar import were not completed.",
+      "evidence": [
+        "illinois-0",
+        "illinois-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D04",
+        "D13"
+      ],
+      "design_targets": [
+        "events-calendar",
+        "future-groups"
+      ]
+    },
+    {
+      "id": "trace-illinois-ux",
+      "research_anchor": "finding-illinois-ux",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Blue field, orange join action, community photo and white activity cards give the desktop page a clear hierarchy. Directory search supports scale; the long roster can overwhelm without filtering.",
+      "evidence": [
+        "illinois-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-illinois-engagement",
+      "research_anchor": "finding-illinois-engagement",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Interest groups, regular activities and member resources support repeat visits. Resources explicitly says most group/social participation does not require payment.",
+      "evidence": [
+        "illinois-0",
+        "illinois-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D13"
+      ],
+      "design_targets": [
+        "join-path",
+        "future-groups"
+      ]
+    },
+    {
+      "id": "trace-illinois-committee",
+      "research_anchor": "finding-illinois-committee",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "About names central officers; home directory names group leaders. Infrastructure, academic, mentorship and corporate committees make distributed ownership visible.",
+      "evidence": [
+        "illinois-0",
+        "illinois-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D06",
+        "D14"
+      ],
+      "design_targets": [
+        "about-team",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-illinois-sponsorship",
+      "research_anchor": "finding-illinois-sponsorship",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Corporate enquiry emails are explicit. Resources describes a résumé book shared with sponsors; access, consent and security were not assessed. No public tier/package comparison was verified.",
+      "evidence": [
+        "illinois-2",
+        "illinois-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D18"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-illinois-quality",
+      "research_anchor": "finding-illinois-quality",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong relationship between community discovery and practical benefits. Text-only calendar showed September while browser home showed October/November items: rendering differences prevent a confident staleness claim.",
+      "evidence": [
+        "illinois-0",
+        "illinois-1",
+        "illinois-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D14",
+        "D17"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-illinois-maintenance",
+      "research_anchor": "finding-illinois-maintenance",
+      "society": "illinois",
+      "society_name": "ACM at University of Illinois Urbana-Champaign",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High: events, many group leaders, benefits and account-related services need distributed owners. Résumé and room-access workflows add operational work beyond editing pages.",
+      "evidence": [
+        "illinois-0",
+        "illinois-2",
+        "illinois-3"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-unsw-purpose",
+      "research_anchor": "finding-unsw-purpose",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Represents computing students across several degrees, addressing social, educational and professional needs. Published scale figures are self-reported.",
+      "evidence": [
+        "unsw-0",
+        "unsw-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D02",
+        "D05"
+      ],
+      "design_targets": [
+        "home-hero",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-unsw-architecture",
+      "research_anchor": "finding-unsw-architecture",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "About, Events, Resources, Sponsors and Contact form the browser navigation. About pins governance/FAQ routes; Resources groups links by the organisation responsible.",
+      "evidence": [
+        "unsw-0",
+        "unsw-1",
+        "unsw-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-unsw-content",
+      "research_anchor": "finding-unsw-content",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "About describes mentoring and media. Resources links learning, enrolment guidance and student tools; attribution distinguishes CSESoc material from DevSoc projects.",
+      "evidence": [
+        "unsw-1",
+        "unsw-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D11"
+      ],
+      "design_targets": [
+        "resources-library",
+        "join-inclusion"
+      ]
+    },
+    {
+      "id": "trace-unsw-functionality",
+      "research_anchor": "finding-unsw-functionality",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Terminal-like input is visible but command behaviour was not tested. Resources links degree planning, room finding, timetabling and course reviews; those external tools were not audited.",
+      "evidence": [
+        "unsw-0",
+        "unsw-4"
+      ],
+      "disposition": "Curate external tools; do not claim to operate them",
+      "decisions": [
+        "D10",
+        "D18"
+      ],
+      "design_targets": [
+        "resources-library",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-unsw-ux",
+      "research_anchor": "finding-unsw-ux",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Dark terminal/editorial theme, code-like headings and repository-style About content provide a distinctive desktop identity. The large sparse hero delays concrete actions in the captured view.",
+      "evidence": [
+        "unsw-0",
+        "unsw-1"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-unsw-engagement",
+      "research_anchor": "finding-unsw-engagement",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Learning, media and student tools provide value between events. Full event listings are delegated to Facebook, so a visitor may need an external platform for current planning.",
+      "evidence": [
+        "unsw-2",
+        "unsw-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D03"
+      ],
+      "design_targets": [
+        "resources-library",
+        "events-detail"
+      ]
+    },
+    {
+      "id": "trace-unsw-committee",
+      "research_anchor": "finding-unsw-committee",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "About links current/past constitutions and an election nomination guide. These are discoverable governance routes; the linked documents and a current officer roster were not verified.",
+      "evidence": [
+        "unsw-1"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D07"
+      ],
+      "design_targets": [
+        "about-governance"
+      ]
+    },
+    {
+      "id": "trace-unsw-sponsorship",
+      "research_anchor": "finding-unsw-sponsorship",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Tiered partner logos give recognition, including Diamond/Gold/Silver groups. A public benefits comparison and dedicated sponsor enquiry were not observed in inspected sponsor content.",
+      "evidence": [
+        "unsw-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D08",
+        "D09"
+      ],
+      "design_targets": [
+        "partners-offer",
+        "partners-recognition"
+      ]
+    },
+    {
+      "id": "trace-unsw-quality",
+      "research_anchor": "finding-unsw-quality",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Useful ecosystem curation with explicit ownership attribution. Retrieved Events lists 2025 activities and points to Facebook; the website alone did not establish the current event programme.",
+      "evidence": [
+        "unsw-2",
+        "unsw-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D14"
+      ],
+      "design_targets": [
+        "resources-library",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-unsw-maintenance",
+      "research_anchor": "finding-unsw-maintenance",
+      "society": "unsw",
+      "society_name": "CSESoc UNSW",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High for a media/tool ecosystem; medium if the main site only curates maintained links. Guides need year review, partner tiers annual review, and events a clear authoritative source.",
+      "evidence": [
+        "unsw-1",
+        "unsw-2",
+        "unsw-3",
+        "unsw-4"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D14",
+        "D18"
+      ],
+      "design_targets": [
+        "content-ownership",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-waterloo-purpose",
+      "research_anchor": "finding-waterloo-purpose",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "A student computing community offering events and practical computing infrastructure; membership grants access to documented services.",
+      "evidence": [
+        "waterloo-0",
+        "waterloo-1",
+        "waterloo-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D18"
+      ],
+      "design_targets": [
+        "resources-library",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-waterloo-architecture",
+      "research_anchor": "finding-waterloo-architecture",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "About groups team, members, constitution and supporters; Resources groups services, usage, talks, wiki, advice and internships. Get Involved is a separate entry point.",
+      "evidence": [
+        "waterloo-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D01"
+      ],
+      "design_targets": [
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-waterloo-content",
+      "research_anchor": "finding-waterloo-content",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Services explains access and support; Get Involved distinguishes first signup and renewal. Constitution provides detailed rules; supporters page names funded outcomes.",
+      "evidence": [
+        "waterloo-1",
+        "waterloo-2",
+        "waterloo-3",
+        "waterloo-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D07",
+        "D10"
+      ],
+      "design_targets": [
+        "join-path",
+        "about-governance",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-waterloo-functionality",
+      "research_anchor": "finding-waterloo-functionality",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Public instructions document account/hosting services, payment routes and manual activation. Actual service availability, provisioning and payments were not tested.",
+      "evidence": [
+        "waterloo-1",
+        "waterloo-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D18",
+        "D05"
+      ],
+      "design_targets": [
+        "deferred-systems",
+        "join-path"
+      ]
+    },
+    {
+      "id": "trace-waterloo-ux",
+      "research_anchor": "finding-waterloo-ux",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Light desktop palette, mascot and clear headings make the landing page approachable. Long service/rule pages use internal contents links; a theme toggle is exposed but not audited.",
+      "evidence": [
+        "waterloo-0",
+        "waterloo-2",
+        "waterloo-3"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D15",
+        "D16"
+      ],
+      "design_targets": [
+        "accessible-components",
+        "brand-palette"
+      ]
+    },
+    {
+      "id": "trace-waterloo-engagement",
+      "research_anchor": "finding-waterloo-engagement",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Computing services, technical resources and mailing lists create utility beyond events. Homepage reported no upcoming events at capture.",
+      "evidence": [
+        "waterloo-0",
+        "waterloo-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D10",
+        "D18"
+      ],
+      "design_targets": [
+        "resources-library",
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-waterloo-committee",
+      "research_anchor": "finding-waterloo-committee",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Constitution sets duties, elections, finances and membership rights. Get Involved explains organising teams and systems recruitment; public governance is unusually actionable.",
+      "evidence": [
+        "waterloo-1",
+        "waterloo-3"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D07",
+        "D06"
+      ],
+      "design_targets": [
+        "about-governance",
+        "about-team"
+      ]
+    },
+    {
+      "id": "trace-waterloo-sponsorship",
+      "research_anchor": "finding-waterloo-sponsorship",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "Supporters are credited against specific equipment and projects. Services documents an opt-in industry mailing list. A standard commercial tier programme was not observed.",
+      "evidence": [
+        "waterloo-4",
+        "waterloo-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D09",
+        "D08"
+      ],
+      "design_targets": [
+        "partners-recognition",
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-waterloo-quality",
+      "research_anchor": "finding-waterloo-quality",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong task instructions and funding accountability. Membership requires follow-up after payment, creating a manual completion dependency that newcomers must understand.",
+      "evidence": [
+        "waterloo-1",
+        "waterloo-3",
+        "waterloo-4"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D05",
+        "D14"
+      ],
+      "design_targets": [
+        "join-path",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-waterloo-maintenance",
+      "research_anchor": "finding-waterloo-maintenance",
+      "society": "waterloo",
+      "society_name": "University of Waterloo Computer Science Club",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "High operations: infrastructure, account support, security and succession require a systems team. Medium editorial work for instructions; copying this service scope would exceed an ordinary website project.",
+      "evidence": [
+        "waterloo-1",
+        "waterloo-2",
+        "waterloo-3"
+      ],
+      "disposition": "Defer infrastructure scope",
+      "decisions": [
+        "D18"
+      ],
+      "design_targets": [
+        "deferred-systems"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-purpose",
+      "research_anchor": "finding-ucla-open-source-purpose",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "purpose",
+      "criterion_label": "Purpose & audience",
+      "finding": "Supplied supplementary reference, not a fifteenth independent society. Helps students discover projects and start contributing.",
+      "evidence": [
+        "ucla-open-source-0",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12"
+      ],
+      "design_targets": [
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-architecture",
+      "research_anchor": "finding-ucla-open-source-architecture",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "architecture",
+      "criterion_label": "Information architecture",
+      "finding": "Small Projects, Contribute and GitHub navigation; homepage also routes to learning and ACM events.",
+      "evidence": [
+        "ucla-open-source-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D01"
+      ],
+      "design_targets": [
+        "future-projects",
+        "home-shell"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-content",
+      "research_anchor": "finding-ucla-open-source-content",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "content",
+      "criterion_label": "Content inventory",
+      "finding": "Project directory gives descriptions, languages/topics and code links. Contribution page explains Git workflow and first-task discovery.",
+      "evidence": [
+        "ucla-open-source-1",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D10"
+      ],
+      "design_targets": [
+        "future-projects",
+        "resources-library"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-functionality",
+      "research_anchor": "finding-ucla-open-source-functionality",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "functionality",
+      "criterion_label": "Functionality",
+      "finding": "Search field, repository links and activity feed are visible. Good-first-issue section showed one project/issue at retrieval; search and pull-request submission were not tested.",
+      "evidence": [
+        "ucla-open-source-0",
+        "ucla-open-source-1",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D17"
+      ],
+      "design_targets": [
+        "future-projects",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-ux",
+      "research_anchor": "finding-ucla-open-source-ux",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "ux",
+      "criterion_label": "UI / UX",
+      "finding": "Minimal white desktop layout and short action cards keep entry choices legible. Raw repository activity may be less meaningful to beginners than a short curated task list.",
+      "evidence": [
+        "ucla-open-source-0"
+      ],
+      "disposition": "Design interpretation; no peer accessibility certification",
+      "decisions": [
+        "D12",
+        "D15"
+      ],
+      "design_targets": [
+        "future-projects",
+        "accessible-components"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-engagement",
+      "research_anchor": "finding-ucla-open-source-engagement",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "engagement",
+      "criterion_label": "Engagement",
+      "finding": "Concrete starter issues reduce the gap between interest and participation; recent activity offers a reason to return when data stays reliable.",
+      "evidence": [
+        "ucla-open-source-0",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12"
+      ],
+      "design_targets": [
+        "future-projects"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-committee",
+      "research_anchor": "finding-ucla-open-source-committee",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "committee",
+      "criterion_label": "Committee & governance",
+      "finding": "Credits ACM at UCLA as maintainer and links back to the umbrella organisation. No independent governance or officer directory was observed.",
+      "evidence": [
+        "ucla-open-source-0"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D14"
+      ],
+      "design_targets": [
+        "future-projects",
+        "content-ownership"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-sponsorship",
+      "research_anchor": "finding-ucla-open-source-sponsorship",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "sponsorship",
+      "criterion_label": "Sponsorship",
+      "finding": "No separate sponsor proposition observed; this reference demonstrates contribution design, not a sponsorship programme.",
+      "evidence": [
+        "ucla-open-source-0",
+        "ucla-open-source-1"
+      ],
+      "disposition": "Outside this reference’s remit; no sponsor inference",
+      "decisions": [
+        "D08"
+      ],
+      "design_targets": [
+        "partners-offer"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-quality",
+      "research_anchor": "finding-ucla-open-source-quality",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "quality",
+      "criterion_label": "Quality & gaps",
+      "finding": "Strong beginner-to-task pathway. Directory includes projects beyond ACM management, so affiliation must not be confused with maintainer responsibility.",
+      "evidence": [
+        "ucla-open-source-1",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Adapt pattern / retain evidence limits",
+      "decisions": [
+        "D12",
+        "D17"
+      ],
+      "design_targets": [
+        "future-projects",
+        "events-empty"
+      ]
+    },
+    {
+      "id": "trace-ucla-open-source-maintenance",
+      "research_anchor": "finding-ucla-open-source-maintenance",
+      "society": "ucla-open-source",
+      "society_name": "UCLA ACM Open Source",
+      "criterion": "maintenance",
+      "criterion_label": "Maintainability",
+      "finding": "Medium–high: project metadata, API/feed failures, issue availability and review capacity need ownership. Start with a curated few projects before attempting a live ecosystem feed.",
+      "evidence": [
+        "ucla-open-source-0",
+        "ucla-open-source-1",
+        "ucla-open-source-2"
+      ],
+      "disposition": "Analyst estimate → owner and review rule",
+      "decisions": [
+        "D12",
+        "D14"
+      ],
+      "design_targets": [
+        "future-projects",
+        "content-ownership"
+      ]
+    }
+  ],
+  "source_mapping": {
+    "edinburgh-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D10",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17"
+    ],
+    "edinburgh-1": [
+      "D03",
+      "D06",
+      "D07",
+      "D10",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "edinburgh-2": [
+      "D03",
+      "D08",
+      "D09",
+      "D10",
+      "D14",
+      "D18"
+    ],
+    "edinburgh-3": [
+      "D01",
+      "D04",
+      "D10",
+      "D13",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "edinburgh-4": [
+      "D14",
+      "D17"
+    ],
+    "sheffield-0": [
+      "D01",
+      "D02",
+      "D04",
+      "D05",
+      "D15",
+      "D16"
+    ],
+    "sheffield-1": [
+      "D03",
+      "D04",
+      "D07",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "sheffield-2": [
+      "D02",
+      "D03",
+      "D04",
+      "D07",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "sheffield-3": [
+      "D06",
+      "D07",
+      "D14",
+      "D18"
+    ],
+    "sheffield-4": [
+      "D03",
+      "D06",
+      "D07",
+      "D17"
+    ],
+    "sheffield-5": [
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09",
+      "D17"
+    ],
+    "imperial-0": [
+      "D01",
+      "D02",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "imperial-1": [
+      "D02",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D14",
+      "D18"
+    ],
+    "imperial-2": [
+      "D08",
+      "D09",
+      "D14",
+      "D18"
+    ],
+    "imperial-3": [
+      "D02",
+      "D05",
+      "D08",
+      "D14",
+      "D18"
+    ],
+    "oxford-0": [
+      "D01",
+      "D02",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "oxford-1": [
+      "D03",
+      "D04",
+      "D05",
+      "D10",
+      "D14",
+      "D15",
+      "D18"
+    ],
+    "oxford-2": [
+      "D03",
+      "D04",
+      "D10",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "oxford-3": [
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D10",
+      "D14",
+      "D18"
+    ],
+    "oxford-4": [
+      "D08",
+      "D09"
+    ],
+    "oxford-5": [
+      "D03",
+      "D04",
+      "D05",
+      "D10",
+      "D14",
+      "D15",
+      "D18"
+    ],
+    "bristol-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D10",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "bristol-1": [
+      "D02",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D11",
+      "D14"
+    ],
+    "bristol-2": [
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D08",
+      "D10",
+      "D11",
+      "D14"
+    ],
+    "bristol-3": [
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D10",
+      "D11",
+      "D14"
+    ],
+    "bristol-4": [
+      "D06",
+      "D07"
+    ],
+    "royal-holloway-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "royal-holloway-1": [
+      "D01",
+      "D06",
+      "D07",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "royal-holloway-2": [
+      "D08",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "durham-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D06",
+      "D10",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "durham-1": [
+      "D06",
+      "D07",
+      "D08",
+      "D14",
+      "D18"
+    ],
+    "durham-2": [
+      "D06",
+      "D08",
+      "D09",
+      "D14",
+      "D18"
+    ],
+    "durham-3": [
+      "D08",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "durham-4": [
+      "D08",
+      "D17"
+    ],
+    "kent-0": [
+      "D01",
+      "D08",
+      "D10",
+      "D12",
+      "D15",
+      "D16"
+    ],
+    "kent-1": [
+      "D06",
+      "D10",
+      "D12",
+      "D17",
+      "D18"
+    ],
+    "kent-2": [
+      "D01",
+      "D06",
+      "D10",
+      "D12",
+      "D17",
+      "D18"
+    ],
+    "kent-3": [
+      "D01",
+      "D06",
+      "D08",
+      "D10",
+      "D12",
+      "D17",
+      "D18"
+    ],
+    "kent-4": [
+      "D06",
+      "D07",
+      "D10",
+      "D12",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "kent-5": [
+      "D12",
+      "D17",
+      "D18"
+    ],
+    "leeds-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D15",
+      "D16"
+    ],
+    "leeds-1": [
+      "D03",
+      "D05",
+      "D06",
+      "D07",
+      "D11",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "leeds-2": [
+      "D03",
+      "D06",
+      "D07",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "leeds-3": [
+      "D03",
+      "D06",
+      "D08",
+      "D09",
+      "D14",
+      "D18"
+    ],
+    "surrey-0": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D11",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "surrey-1": [
+      "D03",
+      "D05",
+      "D06",
+      "D07",
+      "D11",
+      "D14",
+      "D18"
+    ],
+    "surrey-2": [
+      "D03",
+      "D05",
+      "D06",
+      "D07",
+      "D11",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "surrey-3": [
+      "D01",
+      "D14",
+      "D18"
+    ],
+    "ucla-0": [
+      "D01",
+      "D02",
+      "D04",
+      "D06",
+      "D10",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "ucla-1": [
+      "D01",
+      "D04",
+      "D06",
+      "D10",
+      "D13",
+      "D14",
+      "D18"
+    ],
+    "ucla-2": [
+      "D06",
+      "D07",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "ucla-3": [
+      "D01",
+      "D08",
+      "D09",
+      "D18"
+    ],
+    "illinois-0": [
+      "D01",
+      "D04",
+      "D05",
+      "D06",
+      "D10",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "illinois-1": [
+      "D04",
+      "D13",
+      "D14",
+      "D17"
+    ],
+    "illinois-2": [
+      "D05",
+      "D08",
+      "D10",
+      "D13",
+      "D14",
+      "D17",
+      "D18"
+    ],
+    "illinois-3": [
+      "D06",
+      "D08",
+      "D10",
+      "D13",
+      "D14",
+      "D18"
+    ],
+    "unsw-0": [
+      "D01",
+      "D02",
+      "D05",
+      "D10",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "unsw-1": [
+      "D01",
+      "D02",
+      "D05",
+      "D07",
+      "D10",
+      "D11",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "unsw-2": [
+      "D03",
+      "D10",
+      "D14",
+      "D18"
+    ],
+    "unsw-3": [
+      "D08",
+      "D09",
+      "D14",
+      "D18"
+    ],
+    "unsw-4": [
+      "D01",
+      "D03",
+      "D10",
+      "D11",
+      "D14",
+      "D18"
+    ],
+    "waterloo-0": [
+      "D01",
+      "D10",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "waterloo-1": [
+      "D05",
+      "D06",
+      "D07",
+      "D10",
+      "D14",
+      "D18"
+    ],
+    "waterloo-2": [
+      "D05",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "waterloo-3": [
+      "D05",
+      "D06",
+      "D07",
+      "D10",
+      "D14",
+      "D15",
+      "D16",
+      "D18"
+    ],
+    "waterloo-4": [
+      "D05",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D14"
+    ],
+    "ucla-open-source-0": [
+      "D01",
+      "D08",
+      "D12",
+      "D14",
+      "D15",
+      "D17"
+    ],
+    "ucla-open-source-1": [
+      "D08",
+      "D10",
+      "D12",
+      "D14",
+      "D17"
+    ],
+    "ucla-open-source-2": [
+      "D10",
+      "D12",
+      "D14",
+      "D17"
+    ]
+  },
+  "recommendation_mapping": {
+    "R1": [
+      "D02",
+      "D03",
+      "D17"
+    ],
+    "R2": [
+      "D05",
+      "D11"
+    ],
+    "R3": [
+      "D06",
+      "D07",
+      "D14"
+    ],
+    "R4": [
+      "D08",
+      "D09"
+    ],
+    "R5": [
+      "D04",
+      "D14"
+    ],
+    "R6": [
+      "D10",
+      "D11"
+    ],
+    "R7": [
+      "D14",
+      "D15",
+      "D17"
+    ],
+    "R8": [
+      "D12"
+    ],
+    "R9": [
+      "D13"
+    ],
+    "R10": [
+      "D18"
+    ]
+  },
+  "section_mapping": {
+    "summary": [
+      "direction",
+      "home-hero"
+    ],
+    "methodology": [
+      "traceability",
+      "validation"
+    ],
+    "comparison": [
+      "traceability",
+      "decisions"
+    ],
+    "patterns": [
+      "decisions",
+      "deferred-systems"
+    ],
+    "audiences": [
+      "architecture",
+      "pages"
+    ],
+    "recommendations": [
+      "delivery",
+      "decisions"
+    ],
+    "profiles": [
+      "traceability"
+    ],
+    "visuals": [
+      "brand",
+      "pages"
+    ],
+    "limitations": [
+      "validation",
+      "deferred-systems"
+    ]
+  },
+  "feature_mapping": {
+    "dated_events": [
+      "D03",
+      "D14"
+    ],
+    "join": [
+      "D05"
+    ],
+    "people": [
+      "D06"
+    ],
+    "governance": [
+      "D07"
+    ],
+    "partners": [
+      "D09"
+    ],
+    "enquiry": [
+      "D08"
+    ],
+    "learning": [
+      "D10",
+      "D11"
+    ],
+    "groups": [
+      "D13"
+    ],
+    "calendar": [
+      "D04"
+    ],
+    "archive": [
+      "D07",
+      "D14"
+    ]
+  }
+}

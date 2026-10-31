@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-30",
+  "modularChunks": [
+    {
+      "name": "motion-features-C-Ryh8dn.js",
+      "bytes": 60383
+    },
+    {
+      "name": "showcase.js",
+      "bytes": 7313676
+    }
+  ],
+  "featureChunks": [
+    {
+      "name": "motion-features-C-Ryh8dn.js",
+      "bytes": 60383
+    }
+  ],
+  "portableBytes": 15200215,
+  "note": "The production module build separates the Motion feature bundle. The portable HTML intentionally inlines it; this comparison does not claim a portable payload saving or a measured page-speed improvement."
+}

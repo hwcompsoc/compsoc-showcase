@@ -1,0 +1,483 @@
+{
+  "created": "2026-10-30",
+  "research_date": "2026-10-29",
+  "scope": "Local design proposal and illustrative compositions; not a live HW website.",
+  "decisions": [
+    {
+      "id": "D01",
+      "title": "A task-led public navigation",
+      "target": "home-shell",
+      "phase": "Initial release",
+      "evidence": [
+        "sheffield-0",
+        "durham-0",
+        "ucla-0",
+        "illinois-0"
+      ],
+      "proposal": "Use Events, Join, About, Resources and Partners as the five primary routes. Put the logo at the start, a community/join action at the end, and Committee, Governance and Contact in About and the footer.",
+      "rationale": "Compact society sites make the public tasks legible. Larger umbrella structures demonstrate why HW should avoid exposing a large organisational tree before it has enough active content.",
+      "visual": "White header, original blue logo, blue text links, a blue primary action and a thin cyan active-route rule. Maximum content width 1200px; 24–48px page gutters.",
+      "behaviour": "A page title and current-route marker make location clear. Footer repeats core tasks and provides role contacts. The proposal preview navigates between example page compositions; it does not connect to live systems.",
+      "mobile": "At a proposed 720px breakpoint, replace desktop links with an expandable menu. Keep logo and menu label visible; do not use a hamburger icon without an accessible name.",
+      "accessibility": "Semantic navigation, one page-level heading, skip link, visible focus and aria-current on the selected route. Keyboard menu opening must not trap focus.",
+      "content": "Five route labels; approved official joining/community URLs; contact roles; optional policy links. No account menu in the initial public shell.",
+      "owner": "Technical owner maintains routes; secretary checks contact destinations each term.",
+      "acceptance": "A newcomer can reach events, joining and the committee in one navigation choice; core information remains public without authentication."
+    },
+    {
+      "id": "D02",
+      "title": "A community-led hero with an immediate next step",
+      "target": "home-hero",
+      "phase": "Initial release",
+      "evidence": [
+        "sheffield-0",
+        "royal-holloway-0",
+        "edinburgh-0"
+      ],
+      "proposal": "Pair an inviting statement with two actions: See upcoming events and How to join. Place the next event immediately below the hero rather than behind a carousel or a social feed.",
+      "rationale": "Sheffield ties its introduction to an event; Royal Holloway makes membership/chat easy to locate. Edinburgh shows community identity, but finding dates requires a separate route. HW can combine identity with immediate planning.",
+      "visual": "A primary-blue hero, large white heading and a cyan underline/eyebrow sit beside a collaborative illustration. Proposed copy: “Find your people. Build what’s next.” Use the outlined logo, not a retyped substitute.",
+      "behaviour": "The first action leads to public event information; the second opens membership guidance. If no event is confirmed, the next-event area becomes an honest invitation to follow the approved community channel.",
+      "mobile": "Text and actions precede the image; next event appears directly afterwards. Avoid a fixed-height full-screen hero that buries activities on a phone.",
+      "accessibility": "Keep text in HTML outside the illustration. If artwork repeats the community message, use empty alt text; if editorially meaningful, provide a short descriptive alternative. No autoplay motion.",
+      "content": "Approved introduction; real joining and event routes. The generated image is explicitly concept art and must not be presented as a photo of an HW event.",
+      "owner": "Communications role owns copy and imagery; events officer owns the next-event record.",
+      "acceptance": "At 390px wide, the primary action is visible without horizontal scrolling and event information follows the introduction, not a tall animation."
+    },
+    {
+      "id": "D03",
+      "title": "Event cards that answer an attendance decision",
+      "target": "events-detail",
+      "phase": "Initial release",
+      "evidence": [
+        "sheffield-1",
+        "leeds-1",
+        "oxford-5",
+        "surrey-2"
+      ],
+      "proposal": "Use a compact public event list and a detailed attendance page. Cards include category, full date, time, venue, price and suitability. Detail adds end time/time zone, what to bring, access information, eligibility and the booking route.",
+      "rationale": "Sheffield supplies practical logistics; Leeds preserves contextual descriptions; Oxford explains beginner preparation; Surrey names venue access features. These address participation barriers better than poster-only listings.",
+      "visual": "White cards with a blue title/date hierarchy and cyan category marker. Detail uses a broad narrative column and a bordered attendance panel. An image supports the subject but never carries the only logistics.",
+      "behaviour": "Upcoming and Past are separate views. Optional filters appear only when there are enough events to use them. Cancellation, rescheduling, full capacity and venue-pending states are explicit text labels.",
+      "mobile": "Cards stack; the attendance panel moves above the long description after the title. Primary booking action is large enough to tap and remains in normal flow, avoiding overlays over content.",
+      "accessibility": "Use time elements with machine-readable dates; do not encode categories/status by colour alone. Confirm access descriptions with the venue. Never claim a venue is accessible from an image.",
+      "content": "Event title, ID, summary, type, start/end, time zone, venue/map, access note, price, eligibility, preparation, booking URL, status and owner. No published example date is a real HW commitment.",
+      "owner": "Events officer owns correctness and weekly review; technical owner handles automatic date grouping.",
+      "acceptance": "A visitor can answer when, where, cost, suitability, access and what to bring before leaving for registration; cancelled events cannot appear as normal upcoming cards."
+    },
+    {
+      "id": "D04",
+      "title": "One calendar, several ways to subscribe",
+      "target": "events-calendar",
+      "phase": "Initial release",
+      "evidence": [
+        "sheffield-2",
+        "oxford-1",
+        "oxford-2",
+        "edinburgh-3"
+      ],
+      "proposal": "Create a small calendar utility panel with a self-updating feed URL, platform instructions and a copy action. Generate the public list and feed from the same records.",
+      "rationale": "Sheffield demonstrates discoverable subscription choices. Oxford shows the risk of maintaining a calendar and image termcard alongside social changes. Edinburgh makes a specialised event platform useful but separate from the main site.",
+      "visual": "Pale-blue utility strip under the event list, with a blue “Subscribe” action, plain feed address and a short explanation of changes/cancellations. Do not make an embedded month grid the only event view.",
+      "behaviour": "Keep stable event identifiers and update existing entries when dates change. Show a plain HTTPS feed URL if a calendar application fails to open. Preview buttons explain the proposed action instead of adding a subscription.",
+      "mobile": "Stack actions and allow the feed address to wrap. Use the list as the default mobile event view rather than requiring panning around a month grid.",
+      "accessibility": "Copy feedback uses an accessible status region. Provide instructions that do not assume a specific operating system or calendar app.",
+      "content": "Authoritative event source, feed URL, supported instructions and change policy. Confirm the actual calendar platform during implementation.",
+      "owner": "Events officer edits records; technical owner checks feed generation and failures.",
+      "acceptance": "Editing a date updates the list and the same calendar item; importing and cancellation behaviour are tested in supported calendars before launch."
+    },
+    {
+      "id": "D05",
+      "title": "A membership page that explains the handoff",
+      "target": "join-path",
+      "phase": "Initial release",
+      "evidence": [
+        "surrey-1",
+        "illinois-2",
+        "waterloo-1",
+        "sheffield-2"
+      ],
+      "proposal": "Present membership in three steps: understand benefits and eligibility, open the official Union membership page, then follow any confirmed activation/community instructions. State the actual fee, validity and voting rights only once approved.",
+      "rationale": "Surrey delegates membership to an institutional product; Illinois distinguishes open participation from paid benefits; Waterloo warns that payment alone does not finish activation. HW should explain its own process rather than copy their fees or rules.",
+      "visual": "A clear blue heading, three numbered steps and a high-contrast official-membership action. Place eligibility and fee information adjacent to the action, followed by a short FAQ.",
+      "behaviour": "External destination is named before handoff. Community participation and formal membership are described separately. Do not build a society login unless an unmet need is established.",
+      "mobile": "Steps become a vertical list; fee/eligibility remain near the action. The official destination is written in the label rather than represented only by an icon.",
+      "accessibility": "Link purpose and external destination must be understandable in isolation. No mandatory animation or personal-data collection on the public explanation page.",
+      "content": "Verified HW membership rules, benefits, price/validity, approved Union URL, voting rights and any manual activation step. Unknown values remain unpublished until confirmed.",
+      "owner": "Membership lead/secretary reviews each year and whenever the Union changes the process.",
+      "acceptance": "A student can explain what joining costs, who can join and what happens after clicking the official link without asking the committee."
+    },
+    {
+      "id": "D06",
+      "title": "Committee cards with a remit, not just a portrait",
+      "target": "about-team",
+      "phase": "Initial release",
+      "evidence": [
+        "durham-1",
+        "leeds-2",
+        "kent-4",
+        "ucla-2"
+      ],
+      "proposal": "Give every current role a name, academic year, short responsibility and role-based contact. Start with the remit; portraits are optional and used only with permission.",
+      "rationale": "Durham and Leeds make jobs understandable. Kent’s year timeline shows continuity but usernames can obscure contact identity. UCLA illustrates why a large roster needs grouping. HW should be clear before becoming elaborate.",
+      "visual": "White role cards, strong blue role/name hierarchy, optional square portrait or neutral role placeholder. Group core committee and specialist roles; show the year in the section heading.",
+      "behaviour": "A role contact routes enquiries to the appropriate public address. Previous committees move to a separate archive so current people are easy to distinguish.",
+      "mobile": "One card per row with responsibility visible. Do not require horizontal dragging to discover the current committee.",
+      "accessibility": "Names and duties remain text. Decorative placeholders have empty alt text. Avoid publishing personal contact details when a role address will work.",
+      "content": "Approved name, role, year, 1–2 sentence remit, role contact, optional consented portrait and archive status. Example cards in this proposal contain roles, not fictional current officers.",
+      "owner": "Secretary updates at elections and checks contacts each term.",
+      "acceptance": "A member can identify who handles an event, finance, technical issue or partnership, and can tell which committee year is current."
+    },
+    {
+      "id": "D07",
+      "title": "A readable governance and history shelf",
+      "target": "about-governance",
+      "phase": "Initial release",
+      "evidence": [
+        "edinburgh-1",
+        "sheffield-4",
+        "waterloo-3",
+        "surrey-0"
+      ],
+      "proposal": "Place constitution, election/AGM guidance, approved public minutes and previous committees in an About subpage. Label document status, adoption date and academic year.",
+      "rationale": "Edinburgh links its organisational memory; Sheffield and Waterloo publish navigable rules. Surrey’s short aims are useful but should not be confused with a complete operating constitution.",
+      "visual": "A simple document list with year/status labels and an on-page contents list for long HTML text. Keep current documents above historical material.",
+      "behaviour": "HTML summary explains what each document is for; retain an official download if required. Publish only approved public records; sensitive handover credentials stay outside the public website.",
+      "mobile": "Contents list collapses to a normal stacked list; long document titles wrap. Avoid a PDF-only governance journey where an accessible HTML equivalent is feasible.",
+      "accessibility": "Heading hierarchy, descriptive document links and file type/size indicators. Published minutes need appropriate redaction and approval; this is an editorial responsibility.",
+      "content": "Document title, category, version/date, approved status, public URL, owner and superseded relation. Current roles link to D06; historical records are labelled.",
+      "owner": "Secretary owns approved publication and annual archival review.",
+      "acceptance": "A member can find the current constitution and election process without guessing a repository path, and cannot mistake an old committee for the current one."
+    },
+    {
+      "id": "D08",
+      "title": "A sponsor offer built around achievable outcomes",
+      "target": "partners-offer",
+      "phase": "Initial release",
+      "evidence": [
+        "bristol-1",
+        "imperial-2",
+        "ucla-3",
+        "illinois-3"
+      ],
+      "proposal": "Separate “Partner with us” from current recognition. Explain the audience HW can evidence, formats it can deliver, sample outcomes and an enquiry checklist. Introduce priced tiers only after benefits and capacity are agreed.",
+      "rationale": "Bristol’s formats and enquiry requirements support a decision; Imperial explains channels; UCLA distinguishes support types; Illinois identifies corporate contacts. None establishes HW’s own audience size or commercial terms.",
+      "visual": "A blue introductory band, three format cards—technical session, supported activity, student project—and a concise enquiry block. Use approved HW evidence and dated case studies when available.",
+      "behaviour": "A clear role-based email is sufficient initially. Ask enquirers for organisation, objectives, preferred format and timing; budget is optional unless HW decides otherwise. No live form is connected in the proposal.",
+      "mobile": "Format cards stack; enquiry context and contact stay together. Avoid a wide pricing table with unapproved tiers.",
+      "accessibility": "Explain the contact action and provide text contact details. A future form needs labels, validation and email fallback, not just a captcha-dependent route.",
+      "content": "Approved offer, dated audience evidence, deliverable inventory, response owner, contact and real case studies. This proposal invents no reach, sponsor names, prices or signed commitments.",
+      "owner": "Sponsorship lead reviews the offer annually and before promising benefits; delivery tracking stays in an internal system.",
+      "acceptance": "A prospective partner can judge fit and make a specific enquiry; every numerical claim has a source/date and every promised format has an owner."
+    },
+    {
+      "id": "D09",
+      "title": "Partner recognition that explains the contribution",
+      "target": "partners-recognition",
+      "phase": "Initial release",
+      "evidence": [
+        "waterloo-4",
+        "ucla-3",
+        "edinburgh-2",
+        "unsw-3"
+      ],
+      "proposal": "Name approved partners, distinguish commercial, departmental, venue and in-kind support, and explain what each contribution enables. Show tiers only where they reflect actual agreements.",
+      "rationale": "Waterloo connects funding to outcomes; UCLA distinguishes institutional support; Edinburgh/CSESoc demonstrate tiered visibility. HW benefits from meaningful attribution without implying every supporter purchased the same package.",
+      "visual": "A quiet logo grid on white with equal clear-space treatment, followed by short contribution notes. Home shows a restrained partner strip; the Partners page carries detail.",
+      "behaviour": "Clicking a real approved partner leads to the relevant destination. Retired agreements move to a year-labelled archive. The concept uses labelled placeholder slots, never third-party logos.",
+      "mobile": "Two slots per row where readable, then one if names are long; no continuously moving sponsor carousel.",
+      "accessibility": "Use organisation names as link text/alt text and maintain original logo colours unless an approved monochrome asset exists. Recognition must not depend on hover.",
+      "content": "Partner name, relationship type, approved logo, destination, contribution summary, agreement year and permission to publish. Do not repurpose research-site sponsor assets as HW partners.",
+      "owner": "Sponsorship lead checks agreements; communications role verifies assets and clear space.",
+      "acceptance": "A visitor understands what support enables and which relationship is current; all logos and claims have approval."
+    },
+    {
+      "id": "D10",
+      "title": "A small resource library with useful metadata",
+      "target": "resources-library",
+      "phase": "Initial release",
+      "evidence": [
+        "bristol-2",
+        "oxford-5",
+        "unsw-4",
+        "waterloo-2"
+      ],
+      "proposal": "Start with curated beginner setup, workshop materials, official academic/support links and contribution guidance. Cards explain who the resource helps, what it is and who reviews it.",
+      "rationale": "Bristol and Oxford provide reusable learning content; CSESoc curates tools with ownership attribution; Waterloo documents resources deeply. HW can earn return visits without operating every tool itself.",
+      "visual": "Filterable only when the catalogue warrants it; initially use three clear categories. A featured getting-started resource uses the maker illustration; ordinary links use compact text cards.",
+      "behaviour": "External tools are explicitly attributed. Resources have last-reviewed dates and active/archive status. Search is optional later; do not introduce an empty search experience.",
+      "mobile": "Single-column list prioritises title, audience and action. Images are supplementary and can be omitted on dense lists without losing meaning.",
+      "accessibility": "Descriptive link titles and file types, text alternatives for teaching material, and external support links that do not assume a social account.",
+      "content": "Title, description, audience/level, category, format, URL, author/organisation, review date, owner and active status. Demonstration resource cards are proposed examples, not current HW services.",
+      "owner": "Education lead curates technical resources; welfare role checks support destinations each term.",
+      "acceptance": "Every live resource has an owner and a working destination; an abandoned external project is labelled or removed rather than advertised as an HW service."
+    },
+    {
+      "id": "D11",
+      "title": "Inclusion as practical information",
+      "target": "join-inclusion",
+      "phase": "Initial release",
+      "evidence": [
+        "bristol-3",
+        "oxford-5",
+        "surrey-2",
+        "leeds-1"
+      ],
+      "proposal": "Explain beginner suitability, preparation, non-alcoholic participation and routes to official support. Put venue access details in event records rather than relying on a general inclusion statement.",
+      "rationale": "Bristol makes support discoverable, Oxford answers first-visit questions, Surrey supplies venue labels and Leeds describes inclusive activities. The transferable idea is useful detail, not copied institutional advice.",
+      "visual": "Small reassuring copy near event and joining decisions, plus a support/resource shelf. Use the same readable typography as the rest of the site rather than a visually secondary disclaimer.",
+      "behaviour": "A “Need to ask about access?” contact routes to the responsible organiser. Link official HW/Union support after confirming destinations; avoid duplicating changing medical or emergency guidance.",
+      "mobile": "Place access/preparation information before registration. Keep support destinations easy to tap and readable at normal zoom.",
+      "accessibility": "No colour-only suitability labels, no unverified accessibility claims, and no assumption that a beginner has a configured laptop. State equipment needs and alternatives when actually available.",
+      "content": "Approved inclusion statement, real suitability/access notes, support contacts and official destinations. Do not imply proposed event categories are already delivered.",
+      "owner": "Welfare/EDI role and events officer share responsibility; review per event and term.",
+      "acceptance": "A prospective attendee can decide whether an activity suits them and find a human route for an unanswered access question."
+    },
+    {
+      "id": "D12",
+      "title": "A curated first-contribution project shelf",
+      "target": "future-projects",
+      "phase": "Future phase",
+      "evidence": [
+        "ucla-open-source-1",
+        "ucla-open-source-2",
+        "kent-2",
+        "kent-3"
+      ],
+      "proposal": "Pilot a small project shelf with an active maintainer, repository, skill level and a concrete first task. Add proposals or submissions only when someone can review and respond.",
+      "rationale": "UCLA Open Source links discovery to beginner tasks. Kent’s project/proposal destinations demonstrate intent but captured loading states do not verify a functioning workflow. Adopt the contribution pattern, not an assumed backend.",
+      "visual": "Project cards show purpose, technology, maintainer and one starter task, with a clearly labelled “Future phase” boundary. Place this after core resources, not ahead of current events.",
+      "behaviour": "Start with manual curation; add repository API aggregation only when freshness, rate limits and error states have owners. A failed feed falls back to the project’s curated repository/contact.",
+      "mobile": "One project and its first task form a readable unit; do not hide the task in hover overlays.",
+      "accessibility": "Use descriptive task links and keep task difficulty in words. People can inspect opportunities without logging into the society site.",
+      "content": "Project title, purpose, maintainer, repository, license/contribution guide, skill level, starter task URL, status and review date.",
+      "owner": "Project leads review monthly; education lead removes inactive entries.",
+      "acceptance": "Every featured project has a reachable maintainer and an achievable starter task; an empty feed never renders as a permanent loading state."
+    },
+    {
+      "id": "D13",
+      "title": "Interest groups only when there is a real group",
+      "target": "future-groups",
+      "phase": "Future phase",
+      "evidence": [
+        "edinburgh-0",
+        "ucla-0",
+        "illinois-0",
+        "oxford-0"
+      ],
+      "proposal": "Introduce an interest-group directory when HW has active groups with leads and meeting routes. Use purpose, experience level, contact and next meeting before adding group subsites.",
+      "rationale": "Edinburgh, UCLA and Illinois organise large communities through groups. Oxford advertises focused project groups. Their breadth does not prove HW needs the same structure at launch.",
+      "visual": "Small topic cards below core activity content, with active/inactive labels. Add search only once scanning is genuinely difficult.",
+      "behaviour": "Group events reuse the main event source; inactive groups are archived. Avoid a separate calendar and login for every specialism.",
+      "mobile": "Stack cards and show contacts without a flip-card interaction. Keep group counts factual and derived from active records.",
+      "accessibility": "Group purpose, lead and participation link remain text. Do not rely on an unfamiliar acronym or icon alone.",
+      "content": "Group name, plain-language purpose, lead/contact, level, participation route, next activity and status.",
+      "owner": "Each group lead maintains its record; committee checks all groups each term.",
+      "acceptance": "No public group is an empty promise: every active card has a current lead and a participation route."
+    },
+    {
+      "id": "D14",
+      "title": "Content ownership and expiry built into the design",
+      "target": "content-ownership",
+      "phase": "Initial release",
+      "evidence": [
+        "bristol-0",
+        "royal-holloway-0",
+        "leeds-1",
+        "edinburgh-1"
+      ],
+      "proposal": "Use structured event dates, academic-year people records, dated partner agreements and reviewable resources. Assign a named role to each content type and define expiry/archive rules before launch.",
+      "rationale": "Past dates under upcoming headings and older committee/promotion labels show how quickly visual credibility can erode. The design should make freshness a routine publishing property rather than a yearly redesign.",
+      "visual": "Show relevant year/date metadata in context: committee year, document version, event status and resource review. Keep publishing controls out of public page mockups.",
+      "behaviour": "Past events automatically move to the archive; expired partner agreements require review; unknown venues cannot silently become confirmed. Annual handover transfers accounts through an appropriate private process.",
+      "mobile": "Metadata wraps rather than truncating; status remains attached to its item. Staleness messages use plain language.",
+      "accessibility": "Dates are unambiguous; changes are textually labelled. A last-reviewed date is not a guarantee of correctness and must reflect a real review.",
+      "content": "Owner role, review cadence, status, review date and archive rule for each record type. No synthetic “updated today” indicators.",
+      "owner": "Secretary coordinates handover; events, sponsorship, education and technical owners maintain their own records.",
+      "acceptance": "A routine committee handover can identify every active page owner, upcoming commitment and integration without rediscovering how the website works."
+    },
+    {
+      "id": "D15",
+      "title": "Readable, responsive components from the start",
+      "target": "accessible-components",
+      "phase": "Initial release",
+      "evidence": [
+        "oxford-2",
+        "sheffield-0",
+        "kent-4",
+        "ucla-2"
+      ],
+      "proposal": "Design a responsive content system with real headings, readable text, visible focus, non-image logistics, clear status labels and support for reduced motion. Treat accessibility as an acceptance requirement, not a claim inferred from peer screenshots.",
+      "rationale": "Oxford’s image termcard suggests the need for equivalent text; Sheffield exposes a skip link; horizontally explored histories and very long rosters suggest navigation risks. The research did not conduct a full accessibility audit.",
+      "visual": "Body 16–18px, line height 1.6, readable text measure around 65 characters, restrained borders and generous spacing. Use blue/white for small text; use cyan for non-text accents and blue on pale tint for badges.",
+      "behaviour": "Native disclosures work with keyboard; menus state their expanded state; actions have meaningful labels. No compulsory carousels, hover-only reveals or typewriter text.",
+      "mobile": "At 390px and 200% zoom, content reflows without page-wide horizontal scrolling. Only genuine comparison tables may scroll within labelled regions.",
+      "accessibility": "Target WCAG 2.2 AA at implementation. Palette pair calculations in this report guide colour use but do not constitute full conformance testing. Test keyboard, zoom, screen reader and focus before launch.",
+      "content": "Semantic templates, colour usage rules, motion preferences, image alternatives and review checklist.",
+      "owner": "Technical owner implements; committee tests real attendance/joining tasks with varied users.",
+      "acceptance": "Core tasks work using keyboard alone; essential content remains available without JavaScript and is never embedded only in a poster."
+    },
+    {
+      "id": "D16",
+      "title": "An original HW identity with controlled illustrative imagery",
+      "target": "brand-palette",
+      "phase": "Initial release",
+      "evidence": [
+        "sheffield-0",
+        "oxford-0",
+        "unsw-0"
+      ],
+      "proposal": "Retain the supplied HW CompSoc lockups and cursor geometry. Use primary blue #004066, accent cyan #00A1CC, white and their restrained tints for the website. Use collaborative editorial imagery while authentic society photographs are unavailable.",
+      "rationale": "Peer sites demonstrate the value of a coherent identity but do not determine HW’s colours or logo. The asset library, not competitor styling, is the authority for this visual direction.",
+      "visual": "Blue hero/header bands, white content surfaces, cyan wayfinding accents and clean sans-serif UI. Monospaced labels add computing character sparingly; the logo remains the outlined original artwork.",
+      "behaviour": "Illustrations are static and decorative/supportive. Real consented event photographs may replace them later with consistent crops and no text baked into the image.",
+      "mobile": "Art crops adapt without cutting off essential content; text stays outside. The logo retains clear space and its proportions at every size.",
+      "accessibility": "Generated images are tonal interpretations; exact HEX values govern interface tokens. White-on-cyan is not approved for small text. Logo text is not recreated in a substitute font.",
+      "content": "Original SVG assets, palette JSON, imagery provenance, focal point/crop guidance and alt-text decision. Generated scenes are not evidence of a real event or venue.",
+      "owner": "Communications role controls approved assets; technical owner uses shared tokens.",
+      "acceptance": "Interface colours match the library tokens, logo geometry is unmodified and every example image is labelled with provenance in the proposal."
+    },
+    {
+      "id": "D17",
+      "title": "Honest empty, loading and failure states",
+      "target": "events-empty",
+      "phase": "Initial release",
+      "evidence": [
+        "kent-2",
+        "kent-3",
+        "edinburgh-3",
+        "leeds-1",
+        "royal-holloway-2"
+      ],
+      "proposal": "Design useful alternatives for no upcoming events, unconfirmed venues, unavailable feeds and failed external routes. Preserve contact and curated links when dynamic data is unavailable.",
+      "rationale": "Empty event queues do not mean a society is inactive; persistent loading does not prove a functioning feature. A failed sponsor destination illustrates why public email or another approved fallback matters.",
+      "visual": "A compact bordered panel states what is known and offers the next useful action. Use text labels rather than error-colour reliance. Do not fill empty space with invented events or partners.",
+      "behaviour": "Loading ends in content, a genuine empty state or a failure message. A cached record includes its freshness context. Booking/form failures preserve a public contact route.",
+      "mobile": "One short message and one or two actions fit the content column. Avoid toast-only failures that disappear before someone can act.",
+      "accessibility": "Changes use appropriate live status messaging; errors explain recovery. Unavailable data cannot be replaced by fabricated numbers or misleading skeletons.",
+      "content": "Empty-state text, fallback URL/contact, retry policy, data source and status. Differentiate no records from unable to load records.",
+      "owner": "Technical owner handles states and monitoring; editorial owner confirms fallbacks.",
+      "acceptance": "Every dynamic region has separate empty and failed states; an unavailable API never hides all routes to participation."
+    },
+    {
+      "id": "D18",
+      "title": "A deliberate boundary around accounts and services",
+      "target": "deferred-systems",
+      "phase": "Defer unless justified",
+      "evidence": [
+        "waterloo-2",
+        "imperial-3",
+        "illinois-2",
+        "ucla-1"
+      ],
+      "proposal": "Launch public information and handoffs first. Treat hosting, equipment booking, résumé books, custom accounts and authenticated dashboards as separate service proposals with owners and support capacity.",
+      "rationale": "The research documents useful services at peers but does not establish HW demand, permissions, infrastructure or capacity. Copying the visible entry point would hide substantial operational work.",
+      "visual": "The initial navigation has no invented portal. A future-scope panel in this report records service ideas and the evidence required to reconsider them; it is not a public promise.",
+      "behaviour": "Prefer a verified Union membership route, an established calendar and approved community channel. Only commission a bespoke workflow after identifying an unmet task and fallback.",
+      "mobile": "Public tasks remain complete without signing in; any future service requires its own mobile and support design.",
+      "accessibility": "Separate public explanations from personal-data collection. Future identity/services need appropriate access, privacy, support and accessibility decisions before release.",
+      "content": "Demand evidence, service owner/successor, budget, support hours, data responsibilities, permissions, hosting plan and retirement policy.",
+      "owner": "Committee approves the case; a named systems/service owner takes operational responsibility.",
+      "acceptance": "No account or infrastructure feature enters initial scope solely because a competitor has one; future approval depends on a documented service case."
+    }
+  ],
+  "recommendation_mapping": {
+    "R1": [
+      "D02",
+      "D03",
+      "D17"
+    ],
+    "R2": [
+      "D05",
+      "D11"
+    ],
+    "R3": [
+      "D06",
+      "D07",
+      "D14"
+    ],
+    "R4": [
+      "D08",
+      "D09"
+    ],
+    "R5": [
+      "D04",
+      "D14"
+    ],
+    "R6": [
+      "D10",
+      "D11"
+    ],
+    "R7": [
+      "D14",
+      "D15",
+      "D17"
+    ],
+    "R8": [
+      "D12"
+    ],
+    "R9": [
+      "D13"
+    ],
+    "R10": [
+      "D18"
+    ]
+  },
+  "section_mapping": {
+    "summary": [
+      "direction",
+      "home-hero"
+    ],
+    "methodology": [
+      "traceability",
+      "validation"
+    ],
+    "comparison": [
+      "traceability",
+      "decisions"
+    ],
+    "patterns": [
+      "decisions",
+      "deferred-systems"
+    ],
+    "audiences": [
+      "architecture",
+      "pages"
+    ],
+    "recommendations": [
+      "delivery",
+      "decisions"
+    ],
+    "profiles": [
+      "traceability"
+    ],
+    "visuals": [
+      "brand",
+      "pages"
+    ],
+    "limitations": [
+      "validation",
+      "deferred-systems"
+    ]
+  },
+  "contrast_pairs": [
+    {
+      "foreground": "#004066",
+      "background": "#FFFFFF",
+      "ratio": 10.908,
+      "usage": "Body text, navigation and primary buttons"
+    },
+    {
+      "foreground": "#00A1CC",
+      "background": "#FFFFFF",
+      "ratio": 3.013,
+      "usage": "Accent borders and decorative areas; avoid small white-on-cyan or cyan-on-white text"
+    },
+    {
+      "foreground": "#004066",
+      "background": "#00A1CC",
+      "ratio": 3.62,
+      "usage": "Large bold text only; not normal-size labels or buttons. Use blue/white or blue/pale tint for interface text."
+    }
+  ]
+}

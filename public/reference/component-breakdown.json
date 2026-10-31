@@ -1,0 +1,1065 @@
+{
+  "created": "2026-10-30",
+  "components": {
+    "upgrade-marker": {
+      "name": "Guide section / group marker",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui Marker, MarkerIcon, MarkerContent + Lucide CodeXml",
+      "purpose": "Marker / code-xml. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Read the genuine section/group marker above the illustrative guide. Source inspection corrected its earlier inline-highlight description. CodeXml labels the illustrative starter guide; original Code2 review imports resolve to the same canonical icon.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/base/marker",
+      "snippet": "// Actual API: shadcn/ui Marker, MarkerIcon, MarkerContent + Lucide CodeXml\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D10",
+        "D15",
+        "D12"
+      ]
+    },
+    "upgrade-media": {
+      "name": "Reserved editorial media ratio",
+      "sources": [
+        "shadcn/ui"
+      ],
+      "api": "shadcn/ui AspectRatio",
+      "purpose": "Aspect Ratio. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Inspect the event/detail media; resize the viewport to inspect its reserved ratio.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/aspect-ratio",
+      "snippet": "<AspectRatio ratio={3 / 2}>\n  <img src={image} alt={description} />\n</AspectRatio>",
+      "decisions": [
+        "D02",
+        "D03",
+        "D06",
+        "D16"
+      ]
+    },
+    "upgrade-avatar": {
+      "name": "Neutral committee-role avatar",
+      "sources": [
+        "shadcn/ui"
+      ],
+      "api": "shadcn/ui Avatar, AvatarFallback",
+      "purpose": "Avatar. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Inspect the neutral role-initial fallbacks. No real portrait or officer is invented.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/avatar",
+      "snippet": "// Actual API: shadcn/ui Avatar, AvatarFallback\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D06"
+      ]
+    },
+    "upgrade-item": {
+      "name": "Document / resource metadata rows",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui ItemGroup, Item, ItemMedia, ItemTitle, ItemDescription, ItemActions",
+      "purpose": "Item. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Read the labelled document metadata rows and open their local previews.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/item",
+      "snippet": "// Actual API: shadcn/ui ItemGroup, Item, ItemMedia, ItemTitle, ItemDescription, ItemActions\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D07",
+        "D10",
+        "D14"
+      ]
+    },
+    "upgrade-alert": {
+      "name": "Persistent warning / failure alert",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui Alert, AlertTitle, AlertDescription + Lucide TriangleAlert",
+      "purpose": "Alert / triangle-alert. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Choose Feed unavailable in Demo data state, then use Retry. Feed failure/validation warnings pair the icon with the exact message and next step.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/alert",
+      "snippet": "// Actual API: shadcn/ui Alert, AlertTitle, AlertDescription + Lucide TriangleAlert\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D03",
+        "D17"
+      ]
+    },
+    "upgrade-empty": {
+      "name": "Honest empty and no-match state",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription, EmptyContent",
+      "purpose": "Empty. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Choose No confirmed events; Resources also has a no-matches state.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/empty",
+      "snippet": "// Actual API: shadcn/ui Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription, EmptyContent\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D17"
+      ]
+    },
+    "upgrade-field": {
+      "name": "Labelled and validated local enquiry fields",
+      "sources": [
+        "shadcn/ui",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui Field, FieldLabel, FieldError, FieldSet, Spinner + Lucide Handshake + Motion busy rotation",
+      "purpose": "Spinner / Field / handshake. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Preview a valid local draft. The spinner appears only during the 600ms local busy state. Submit an empty local draft, then fill the fields and preview it. A Handshake accompanies the enquiry heading without implying an existing partner.",
+      "animation": [
+        "M07"
+      ],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/spinner",
+      "snippet": "// Actual API: shadcn/ui Field, FieldLabel, FieldError, FieldSet, Spinner + Lucide Handshake + Motion busy rotation\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D17",
+        "D08",
+        "D15",
+        "D18",
+        "D09"
+      ]
+    },
+    "upgrade-calendar": {
+      "name": "Calendar utility group, menus and copy feedback",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui ButtonGroup, InputGroup, Popover, DropdownMenu, Toast; Lucide Link, Copy",
+      "purpose": "Toast / Button Group / Dropdown Menu / Popover / link. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Copy the example summary. The supplementary toast can be dismissed; persistent text remains. Use the grouped Calendar options, Guidance and More controls. Open More calendar actions and choose one of three local/example actions. Open Guidance beside Calendar options; dismiss with Escape. Link labels the read-only reserved-domain example feed address; it is explicitly not a live feed.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/toast",
+      "snippet": "// Actual API: shadcn/ui ButtonGroup, InputGroup, Popover, DropdownMenu, Toast; Lucide Link, Copy\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D04",
+        "D17",
+        "D15",
+        "D03",
+        "D10"
+      ]
+    },
+    "upgrade-input-group": {
+      "name": "Search field group and clear tooltip",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui InputGroup, InputGroupInput, InputGroupAddon, InputGroupButton, Tooltip",
+      "purpose": "Input Group / Tooltip. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Search and clear resources; the calendar utility also offers copyable text. Type a query, then focus or hover the labelled clear-search control.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/input-group",
+      "snippet": "// Actual API: shadcn/ui InputGroup, InputGroupInput, InputGroupAddon, InputGroupButton, Tooltip\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D04",
+        "D10",
+        "D15"
+      ]
+    },
+    "upgrade-native": {
+      "name": "Native select alternative",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui NativeSelect, NativeSelectOption",
+      "purpose": "Native Select. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Choose Native select alternative and change the partnership format; one choice control is visible.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/native-select",
+      "snippet": "// Actual API: shadcn/ui NativeSelect, NativeSelectOption\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D15"
+      ]
+    },
+    "upgrade-radio": {
+      "name": "Visible single-choice form options",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui RadioGroup, RadioGroupItem, FieldLabel",
+      "purpose": "Radio Group. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Select Visible radio choices in the local form’s review selector.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/radio-group",
+      "snippet": "// Actual API: shadcn/ui RadioGroup, RadioGroupItem, FieldLabel\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D08",
+        "D15",
+        "D18"
+      ]
+    },
+    "upgrade-scroll": {
+      "name": "Bounded illustrative guide reader",
+      "sources": [
+        "shadcn/ui"
+      ],
+      "api": "shadcn/ui ScrollArea",
+      "purpose": "Scroll Area. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Focus and scroll the explicitly bounded illustrative guide; normal page information remains outside it.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/scroll-area",
+      "snippet": "// Actual API: shadcn/ui ScrollArea\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D15"
+      ]
+    },
+    "upgrade-separator": {
+      "name": "Resource group separator",
+      "sources": [
+        "shadcn/ui"
+      ],
+      "api": "shadcn/ui Separator",
+      "purpose": "Separator. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Inspect the division between the illustrative guide and its resource collection.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/separator",
+      "snippet": "// Actual API: shadcn/ui Separator\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D07",
+        "D10",
+        "D15"
+      ]
+    },
+    "upgrade-collapsible": {
+      "name": "Supplementary review metadata disclosure",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "shadcn/ui Collapsible, CollapsibleTrigger, CollapsibleContent",
+      "purpose": "Collapsible. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Open and close supplementary review metadata without hiding the title or list.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/collapsible",
+      "snippet": "// Actual API: shadcn/ui Collapsible, CollapsibleTrigger, CollapsibleContent\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D07",
+        "D10"
+      ]
+    },
+    "upgrade-avatar-circles": {
+      "name": "Neutral role summary circles",
+      "sources": [
+        "Magic UI",
+        "Custom"
+      ],
+      "api": "Magic UI AvatarCircles with neutral role-initial data SVGs",
+      "purpose": "Avatar Circles. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Use a labelled neutral role-initial link to reach the full role card. No portraits or member counts are implied.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://magicui.design/docs/components/avatar-circles",
+      "snippet": "// Actual API: Magic UI AvatarCircles with neutral role-initial data SVGs\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D06"
+      ]
+    },
+    "upgrade-bento": {
+      "name": "Responsive resource bento layout",
+      "sources": [
+        "Magic UI",
+        "shadcn/ui"
+      ],
+      "api": "Magic UI BentoGrid + shadcn/ui Card content",
+      "purpose": "Bento Grid. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Compare the genuine responsive BentoGrid with the plain grid using Optional upgrades.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://magicui.design/docs/components/bento-grid",
+      "snippet": "// Actual API: Magic UI BentoGrid + shadcn/ui Card content\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D08",
+        "D10",
+        "D15"
+      ]
+    },
+    "upgrade-pattern": {
+      "name": "Mutually exclusive static background comparison",
+      "sources": [
+        "Magic UI",
+        "shadcn/ui"
+      ],
+      "api": "Magic UI DotPattern({glow:false}) / GridPattern; shadcn NativeSelect comparison",
+      "purpose": "Dot Pattern / Grid Pattern. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Choose Magic UI · static dots in the background comparison. Glow is disabled. Choose Magic UI · static grid. It replaces dots rather than stacking a second texture.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://magicui.design/docs/components/dot-pattern",
+      "snippet": "// Actual API: Magic UI DotPattern({glow:false}) / GridPattern; shadcn NativeSelect comparison\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D10",
+        "D15",
+        "D16",
+        "D12"
+      ]
+    },
+    "upgrade-highlight": {
+      "name": "Static text emphasis (Custom alternative)",
+      "sources": [
+        "Custom"
+      ],
+      "api": "Custom native HTML mark; static alternative, not Magic UI Highlighter",
+      "purpose": "Highlighter. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Read the native mark emphasis. The fetched Magic UI source requires rough-notation, so that additional animation engine is not installed.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark",
+      "snippet": "<mark>owner and reviewed date</mark>",
+      "decisions": [
+        "D10",
+        "D15"
+      ]
+    },
+    "upgrade-motion-scope": {
+      "name": "Bounded, visibility-aware project sequence study",
+      "sources": [
+        "Motion",
+        "shadcn/ui",
+        "Custom"
+      ],
+      "api": "Motion m.create(Card), named variants, LayoutGroup, useInView, usePageInView, useScopeMotion, scoped animate keyframes and one reverse repeat",
+      "purpose": "Custom component animation / Keyframe sequences / Parent/child orchestration / Repeat and reverse / LayoutGroup / useInView / usePageInView / useScopeMotion. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "The bounded study uses m.create(Card), the lightweight custom-component equivalent, with the Card ref forwarded. Run the signal sequence: its explicit x/opacity keyframes complete and stop. The three study steps use a bounded 40ms child stagger; Static/reduced mode shows all immediately. The user-triggered study has one reverse repeat, then stops. The form busy loop stops on completion. The study nodes share a local LayoutGroup, rather than introducing a page-wide group without need. The section’s visible/out-of-view status gates the demonstration. Switch browser tabs: nonessential study work is cancelled/paused when the document is hidden. Run the bounded sequence, then unmount it or change mode; the scope cancels work and restores styles.",
+      "animation": [
+        "M12"
+      ],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://motion.dev/docs/react-motion-component",
+      "snippet": "const scope = useScopeMotion(ref, setup, { deps: [enabled] });\nscope.current?.run(() => animate(\".study-signal\",\n  {x: [0, 24, 48]}, {duration: 0.65, repeat: 1, repeatType: \"reverse\"}));",
+      "decisions": [
+        "D15",
+        "D17",
+        "D12"
+      ]
+    },
+    "upgrade-lazy": {
+      "name": "Shared lightweight Motion feature loading",
+      "sources": [
+        "Motion"
+      ],
+      "api": "Motion LazyMotion + m; asynchronous domMax feature loader",
+      "purpose": "Lazy feature loading / LazyMotion. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Same shared implementation as LazyMotion; this API/topic row is not another component. The root uses m + LazyMotion with an asynchronous domMax loader. The modular build emits a separate feature chunk; portable HTML inlines it for offline use.",
+      "animation": [],
+      "file": "src/App.tsx · src/motion-features.ts",
+      "docs": "https://motion.dev/docs/react-lazy-motion",
+      "snippet": "<LazyMotion features={loadMotionFeatures} strict>\n  <m.main variants={pageVariants} />\n</LazyMotion>",
+      "decisions": [
+        "D15"
+      ]
+    },
+    "upgrade-variants": {
+      "name": "Shared named animation states",
+      "sources": [
+        "Motion"
+      ],
+      "api": "Motion Variants for page, reveal and pressed states",
+      "purpose": "Named variants. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Page, reveal and pressed states now share named variants in motion-policy.ts.",
+      "animation": [],
+      "file": "src/motion-policy.ts",
+      "docs": "https://motion.dev/docs/react-animation",
+      "snippet": "// Actual API: Motion Variants for page, reveal and pressed states\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D15"
+      ]
+    },
+    "upgrade-folder": {
+      "name": "Supplementary folder illustration with visible external controls",
+      "sources": [
+        "React Bits",
+        "Custom",
+        "Lucide React",
+        "shadcn/ui"
+      ],
+      "api": "React Bits Folder({variant:\"matte\",draggable:false,intro:false}) + Custom static Lucide Folder fallback",
+      "purpose": "Folder. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Use Open/Close folder illustration. Genuine React Bits matte Folder is mounted only in Animated mode; a Custom static Lucide folder and the always-visible document list remain in Static/reduced mode.",
+      "animation": [
+        "M13"
+      ],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://www.reactbits.dev/components/folder",
+      "snippet": "// Actual API: React Bits Folder({variant:\"matte\",draggable:false,intro:false}) + Custom static Lucide Folder fallback\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D10",
+        "D15"
+      ]
+    },
+    "upgrade-icons": {
+      "name": "Additional meaningful interface icons",
+      "sources": [
+        "Lucide React"
+      ],
+      "api": "Lucide Clock, Folder, CodeXml, Link, Handshake, TriangleAlert",
+      "purpose": "folder / clock. Implements the accepted Add/Optional assessment with the stated content boundaries.",
+      "customisation": "Document collections use a labelled Folder cue; no files are hidden behind it. Event cards now separate the date and the Clock-labelled time span.",
+      "animation": [],
+      "file": "src/Enhancements.tsx · reference/enhancement-provenance.json",
+      "docs": "https://lucide.dev/icons/folder",
+      "snippet": "// Actual API: Lucide Clock, Folder, CodeXml, Link, Handshake, TriangleAlert\n// See src/Enhancements.tsx and the installed sources in Code & setup.",
+      "decisions": [
+        "D07",
+        "D10",
+        "D03"
+      ]
+    },
+    "future-checklist": {
+      "name": "Source-project checklist and task navigation",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React",
+        "Custom"
+      ],
+      "api": "Kbd, Table, Checkbox, Toggle, Progress, Pagination; actual local completion and filtering",
+      "animation": [],
+      "purpose": "Local review demonstration of selected original Later entries; no society service/content approval is implied.",
+      "customisation": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "file": "src/FutureStudy.tsx · src/future-model.ts · reference/future-provenance.json",
+      "docs": "https://ui.shadcn.com/docs/components/kbd",
+      "snippet": "// Kbd, Table, Checkbox, Toggle, Progress, Pagination; actual local completion and filtering\n// Actual consumer: src/FutureStudy.tsx. Source evidence: reference/future-provenance.json.",
+      "decisions": [
+        "D10",
+        "D15",
+        "D07",
+        "D08",
+        "D05",
+        "D17",
+        "D18",
+        "D03",
+        "D14",
+        "D01",
+        "D12"
+      ]
+    },
+    "future-reader": {
+      "name": "Bounded walkthrough reading position",
+      "sources": [
+        "Magic UI",
+        "Motion",
+        "Custom"
+      ],
+      "api": "Adapted ScrollProgress; useScroll, useSpring, useTransform, useMotionTemplate, useMotionValueEvent; native progress fallback",
+      "animation": [
+        "M14"
+      ],
+      "purpose": "Local review demonstration of selected original Later entries; no society service/content approval is implied.",
+      "customisation": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "file": "src/FutureStudy.tsx · src/future-model.ts · reference/future-provenance.json",
+      "docs": "https://magicui.design/docs/components/scroll-progress",
+      "snippet": "// Adapted ScrollProgress; useScroll, useSpring, useTransform, useMotionTemplate, useMotionValueEvent; native progress fallback\n// Actual consumer: src/FutureStudy.tsx. Source evidence: reference/future-provenance.json.",
+      "decisions": [
+        "D07",
+        "D10",
+        "D12",
+        "D15",
+        "D08",
+        "D14"
+      ]
+    },
+    "future-source": {
+      "name": "Actual source map and literal command instructions",
+      "sources": [
+        "Magic UI",
+        "shadcn/ui",
+        "Lucide React",
+        "Custom"
+      ],
+      "api": "Tree, Folder, File; Terminal with sequence=false and static children; Toggle line wrapping",
+      "animation": [],
+      "purpose": "Local review demonstration of selected original Later entries; no society service/content approval is implied.",
+      "customisation": "Expand the actual included source directories and select a file. Read the literal npm ci / npm test / npm run build instructions. Terminal uses static children, no typing/replay/command execution. Wrap lines is a genuine shadcn Toggle.",
+      "file": "src/FutureStudy.tsx · src/future-model.ts · reference/future-provenance.json",
+      "docs": "https://magicui.design/docs/components/file-tree",
+      "snippet": "// Tree, Folder, File; Terminal with sequence=false and static children; Toggle line wrapping\n// Actual consumer: src/FutureStudy.tsx. Source evidence: reference/future-provenance.json.",
+      "decisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    "future-diagram": {
+      "name": "Cancellable source-to-export explanation",
+      "sources": [
+        "Motion",
+        "Lucide React",
+        "Custom"
+      ],
+      "api": "useAnimate, m.path / SVG pathLength and m.circle / cx; useInView and usePageInView gating",
+      "animation": [
+        "M15"
+      ],
+      "purpose": "Local review demonstration of selected original Later entries; no society service/content approval is implied.",
+      "customisation": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "file": "src/FutureStudy.tsx · src/future-model.ts · reference/future-provenance.json",
+      "docs": "https://motion.dev/docs/react-use-animate",
+      "snippet": "// useAnimate, m.path / SVG pathLength and m.circle / cx; useInView and usePageInView gating\n// Actual consumer: src/FutureStudy.tsx. Source evidence: reference/future-provenance.json.",
+      "decisions": [
+        "D10",
+        "D12",
+        "D16",
+        "D14"
+      ]
+    },
+    "shell": {
+      "name": "Shared site shell & typography",
+      "sources": [
+        "Custom"
+      ],
+      "api": "Semantic header, nav, main, footer + brand CSS",
+      "purpose": "Preserve the original layout and public task hierarchy.",
+      "customisation": "1200px container; Segoe UI/system stack; #004066, #00A1CC, white and #EAF5FA; original SVG assets.",
+      "animation": [
+        "M01"
+      ],
+      "file": "src/App.tsx · SiteHeader, SiteFooter",
+      "docs": "",
+      "snippet": "<SiteHeader />\n<main id=\"site-main\">{page}</main>\n<SiteFooter />",
+      "decisions": [
+        "D01",
+        "D15",
+        "D16"
+      ]
+    },
+    "navigation": {
+      "name": "Primary navigation",
+      "sources": [
+        "Custom",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "Native nav links; motion.span layoutId; ArrowUpRight",
+      "purpose": "Five public routes with a clear current-page indicator.",
+      "customisation": "Original header spacing; cyan underline; no portal or new primary route.",
+      "animation": [
+        "M04"
+      ],
+      "file": "src/App.tsx · SiteHeader",
+      "docs": "https://motion.dev/docs/react/layout-animations",
+      "snippet": "<a aria-current={active ? \"page\" : undefined}>\n  Events\n  {active && <motion.span layoutId=\"nav-indicator\" />}\n</a>",
+      "decisions": [
+        "D01"
+      ]
+    },
+    "button": {
+      "name": "Action button",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React",
+        "Motion"
+      ],
+      "api": "Button / asChild; ArrowRight, ArrowUpRight; motion wrapper",
+      "purpose": "Joining, attendance, navigation and review actions.",
+      "customisation": "Blue/white, minimum 44px target, quiet secondary style; icons are decorative when labelled.",
+      "animation": [
+        "M03"
+      ],
+      "file": "src/components/ui/button.tsx · src/App.tsx Action",
+      "docs": "https://ui.shadcn.com/docs/components/radix/button",
+      "snippet": "<Button className=\"brand-button\">\n  Event details <ArrowRight aria-hidden=\"true\" />\n</Button>",
+      "decisions": [
+        "D02",
+        "D03",
+        "D05"
+      ]
+    },
+    "hero": {
+      "name": "Community hero",
+      "sources": [
+        "Custom",
+        "Motion"
+      ],
+      "api": "motion.div + local editorial illustration",
+      "purpose": "Keep the agreed headline, split layout and paired next steps.",
+      "customisation": "Original blue band and supplied imagery; text remains HTML. No new text scramble, parallax or background animation.",
+      "animation": [
+        "M01"
+      ],
+      "file": "src/App.tsx · HomePage",
+      "docs": "https://motion.dev/docs/react/animation",
+      "snippet": "<motion.div initial={{opacity:0,y:8}}\n  animate={{opacity:1,y:0}} transition={{duration:0.28}}>\n  <h1>Find your people.<br />Build what’s next.</h1>\n</motion.div>",
+      "decisions": [
+        "D02",
+        "D16"
+      ]
+    },
+    "eventCard": {
+      "name": "Event card",
+      "sources": [
+        "shadcn/ui",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "Card, CardContent, Badge, Button; motion.div; CalendarDays, MapPin",
+      "purpose": "Show date, cost, venue and suitability before opening details.",
+      "customisation": "Original image and plain card variants, cyan category rule, explicit example data and pending-venue status.",
+      "animation": [
+        "M02",
+        "M03",
+        "M11"
+      ],
+      "file": "src/App.tsx · EventCard",
+      "docs": "https://ui.shadcn.com/docs/components/radix/card",
+      "snippet": "<motion.div layout whileHover={{y:-3}}>\n  <Card className=\"event-card\">\n    <CardContent>\n      <Badge>Beginner-friendly</Badge>\n      <Button onClick={openDetails}>Event details</Button>\n    </CardContent>\n  </Card>\n</motion.div>",
+      "decisions": [
+        "D03",
+        "D14"
+      ]
+    },
+    "card": {
+      "name": "Information card / support panel",
+      "sources": [
+        "shadcn/ui",
+        "Motion"
+      ],
+      "api": "Card, CardContent, CardTitle; motion.div",
+      "purpose": "Role, format, learning and membership content blocks.",
+      "customisation": "Flat border, restrained 8px radius, brand type/spacing. Context-specific copy remains custom.",
+      "animation": [
+        "M02",
+        "M03"
+      ],
+      "file": "src/App.tsx · Surface",
+      "docs": "https://ui.shadcn.com/docs/components/radix/card",
+      "snippet": "<Card className=\"info-card\">\n  <CardContent>{children}</CardContent>\n</Card>",
+      "decisions": [
+        "D06",
+        "D08",
+        "D10"
+      ]
+    },
+    "badge": {
+      "name": "Category & state labels",
+      "sources": [
+        "shadcn/ui"
+      ],
+      "api": "Badge",
+      "purpose": "State level, category, future scope and example status in text.",
+      "customisation": "Blue text on pale-blue tint; no small white-on-cyan labels.",
+      "animation": [],
+      "file": "src/components/ui/badge.tsx",
+      "docs": "https://ui.shadcn.com/docs/components/radix/badge",
+      "snippet": "<Badge variant=\"secondary\">Beginner-friendly</Badge>",
+      "decisions": [
+        "D03",
+        "D15"
+      ]
+    },
+    "icons": {
+      "name": "Interface iconography",
+      "sources": [
+        "Lucide React"
+      ],
+      "api": "Named imports: ArrowRight, CalendarDays, MapPin, Users, BookOpen, Menu, Check, Copy, Search, ExternalLink, X",
+      "purpose": "Consistent navigational and functional cues.",
+      "customisation": "16–20px, stroke 1.75–2, brand colour; labelled actions hide decorative icons from assistive technology.",
+      "animation": [
+        "M07"
+      ],
+      "file": "src/App.tsx · named lucide-react imports",
+      "docs": "https://lucide.dev/guide/react",
+      "snippet": "import { CalendarDays, ArrowRight } from \"lucide-react\";\n<CalendarDays size={18} aria-hidden=\"true\" />",
+      "decisions": [
+        "D01",
+        "D15"
+      ]
+    },
+    "mobileMenu": {
+      "name": "Mobile navigation sheet",
+      "sources": [
+        "shadcn/ui",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "Sheet, SheetContent, SheetTitle, SheetDescription; motion.div; Menu",
+      "purpose": "Accessible mobile navigation with focus containment, Escape and return focus.",
+      "customisation": "Right-hand white panel, original five routes, 44px links; inner menu contents slide 12px on entry.",
+      "animation": [
+        "M05"
+      ],
+      "file": "src/components/ui/sheet.tsx · src/App.tsx MobileMenu",
+      "docs": "https://ui.shadcn.com/docs/components/radix/sheet",
+      "snippet": "<Sheet open={menuOpen} onOpenChange={setMenuOpen}>\n  <SheetContent>\n    <SheetTitle>Explore HW CompSoc</SheetTitle>\n    <motion.div initial={{x:12,opacity:0}} animate={{x:0,opacity:1}}>\n      {navigation}\n    </motion.div>\n  </SheetContent>\n</Sheet>",
+      "decisions": [
+        "D01",
+        "D15"
+      ]
+    },
+    "dialog": {
+      "name": "Attendance / handoff dialog",
+      "sources": [
+        "shadcn/ui",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription; motion.div",
+      "purpose": "Demonstrate event details, calendar choices, resource detail and membership handoff safely.",
+      "customisation": "Blue/white, scrollable at small heights, explicit local demo messages; no external submission.",
+      "animation": [
+        "M06",
+        "M07"
+      ],
+      "file": "src/components/ui/dialog.tsx · src/App.tsx DemoDialog",
+      "docs": "https://ui.shadcn.com/docs/components/radix/dialog",
+      "snippet": "<Dialog open={open} onOpenChange={setOpen}>\n  <DialogContent>\n    <DialogHeader>\n      <DialogTitle>{title}</DialogTitle>\n      <DialogDescription>Local design demonstration.</DialogDescription>\n    </DialogHeader>\n    <motion.div animate={{opacity:1,scale:1}}>{content}</motion.div>\n  </DialogContent>\n</Dialog>",
+      "decisions": [
+        "D03",
+        "D05",
+        "D18"
+      ]
+    },
+    "tabs": {
+      "name": "Event / resource view controls",
+      "sources": [
+        "shadcn/ui",
+        "Motion"
+      ],
+      "api": "Tabs, TabsList, TabsTrigger; AnimatePresence; layout",
+      "purpose": "Switch upcoming/past and resource categories while retaining context.",
+      "customisation": "Quiet white/blue controls; results announce their count; cards reflow instead of a new page.",
+      "animation": [
+        "M11"
+      ],
+      "file": "src/components/ui/tabs.tsx · src/App.tsx EventsPage, ResourcesPage",
+      "docs": "https://ui.shadcn.com/docs/components/radix/tabs",
+      "snippet": "<Tabs value={filter} onValueChange={setFilter}>\n  <TabsList aria-label=\"Event view\">\n    <TabsTrigger value=\"upcoming\">Upcoming</TabsTrigger>\n    <TabsTrigger value=\"past\">Past events</TabsTrigger>\n  </TabsList>\n</Tabs>",
+      "decisions": [
+        "D03",
+        "D10",
+        "D17"
+      ]
+    },
+    "accordion": {
+      "name": "Membership FAQ / governance documents",
+      "sources": [
+        "shadcn/ui",
+        "Motion"
+      ],
+      "api": "Accordion, AccordionItem, AccordionTrigger, AccordionContent; motion.div height",
+      "purpose": "Reveal practical answers/documents without overwhelming the page.",
+      "customisation": "Blue typography, borders, readable copy. Content height animates only in Animated mode.",
+      "animation": [
+        "M08"
+      ],
+      "file": "src/components/ui/accordion.tsx · src/App.tsx Expandable",
+      "docs": "https://ui.shadcn.com/docs/components/radix/accordion",
+      "snippet": "<AccordionContent forceMount aria-hidden={!open}>\n  <motion.div initial={false}\n    animate={{height:open ? \"auto\" : 0,opacity:open ? 1 : 0}}\n    transition={{duration:animate ? 0.22 : 0}}>\n    {answer}\n  </motion.div>\n</AccordionContent>",
+      "decisions": [
+        "D05",
+        "D07",
+        "D11"
+      ]
+    },
+    "input": {
+      "name": "Search & enquiry inputs",
+      "sources": [
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "Input, Textarea, Label, Select; Search",
+      "purpose": "Filter resources and assemble a local sponsor enquiry draft.",
+      "customisation": "Persistent labels, inline validation, no placeholder-only instructions; no message leaves the device.",
+      "animation": [
+        "M07",
+        "M11"
+      ],
+      "file": "src/components/ui/input.tsx, textarea.tsx, label.tsx",
+      "docs": "https://ui.shadcn.com/docs/components/radix/input",
+      "snippet": "<Label htmlFor=\"organisation\">Organisation</Label>\n<Input id=\"organisation\" value={organisation}\n  onChange={e => setOrganisation(e.target.value)} required />",
+      "decisions": [
+        "D08",
+        "D10"
+      ]
+    },
+    "shine": {
+      "name": "Membership / partnership border highlight",
+      "sources": [
+        "shadcn/ui",
+        "Magic UI"
+      ],
+      "api": "Card + ShineBorder({borderWidth, duration, shineColor})",
+      "purpose": "A restrained optional accent on the next-step panel.",
+      "customisation": "Unchanged registry component; blue/cyan only, 1.5px border, one 6s pass per replay, no infinite loop.",
+      "animation": [
+        "M09"
+      ],
+      "file": "src/components/magicui/shine-border.tsx · src/App.tsx ShineSurface",
+      "docs": "https://magicui.design/docs/components/shine-border",
+      "snippet": "<Card className=\"relative overflow-hidden\">\n  {animate && <ShineBorder duration={6} borderWidth={1.5}\n    shineColor={[\"#004066\", \"#00A1CC\"]}\n    className=\"brand-shine\" />}\n  {children}\n</Card>",
+      "decisions": [
+        "D05",
+        "D08",
+        "D16"
+      ]
+    },
+    "spotlight": {
+      "name": "Resource-card pointer / focus spotlight",
+      "sources": [
+        "shadcn/ui",
+        "React Bits"
+      ],
+      "api": "SpotlightCard + Card; theme, spotlightColor, intensity, ambient, flare",
+      "purpose": "Let a resource respond subtly to deliberate pointer/focus exploration.",
+      "customisation": "Unchanged TS/CSS source, light theme, cyan light, no ambient animation/flare/grain; plain wrapper in Static/reduced mode.",
+      "animation": [
+        "M10"
+      ],
+      "file": "src/components/react-bits/SpotlightCard.tsx · src/App.tsx SpotlightSurface",
+      "docs": "https://reactbits.dev/components/spotlight-card",
+      "snippet": "<SpotlightCard theme=\"light\" spotlightColor=\"#00A1CC\"\n  intensity={0.35} ambient={false} flare={false} grain={0}>\n  <Card>{resource}</Card>\n</SpotlightCard>",
+      "decisions": [
+        "D10",
+        "D15",
+        "D16"
+      ]
+    },
+    "feedback": {
+      "name": "Local feedback & confirmation",
+      "sources": [
+        "Custom",
+        "Motion",
+        "Lucide React"
+      ],
+      "api": "AnimatePresence, motion.div; Check, LoaderCircle",
+      "purpose": "Demonstrate saved interest, clipboard state and valid enquiry feedback.",
+      "customisation": "Textual status remains visible; local-only feedback never claims a real booking or sent message.",
+      "animation": [
+        "M07"
+      ],
+      "file": "src/App.tsx · Feedback",
+      "docs": "https://motion.dev/docs/react/animate-presence",
+      "snippet": "<AnimatePresence mode=\"wait\">\n  <motion.div key={status} initial={{opacity:0,y:4}}\n    animate={{opacity:1,y:0}} exit={{opacity:0}}>\n    <Check aria-hidden=\"true\" /> {message}\n  </motion.div>\n</AnimatePresence>",
+      "decisions": [
+        "D17",
+        "D18"
+      ]
+    },
+    "inspection": {
+      "name": "Review toolbar & inspector",
+      "sources": [
+        "Custom",
+        "shadcn/ui",
+        "Lucide React"
+      ],
+      "api": "Custom metadata/selection + Select, Switch, Tabs, Sheet, Button",
+      "purpose": "Compare modes and expose component origin outside the normal page experience.",
+      "customisation": "Optional, separate review chrome. Layout/text are Custom; registry UI, animation and icons are attributed independently.",
+      "animation": [],
+      "file": "src/App.tsx · ReviewBar, ReferencePanel, Inspect",
+      "docs": "",
+      "snippet": "<Inspect id=\"eventCard\">\n  <EventCard event={event} />\n</Inspect>",
+      "decisions": [
+        "D15"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "title": "Homepage",
+      "description": "Community, the next activity, membership and a reason to return.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "hero",
+        "eventCard",
+        "badge",
+        "icons",
+        "mobileMenu",
+        "dialog",
+        "feedback",
+        "upgrade-media",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "title": "Events & attendance",
+      "description": "Public listings, attendance details, calendar and honest empty states.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "eventCard",
+        "badge",
+        "icons",
+        "tabs",
+        "card",
+        "mobileMenu",
+        "dialog",
+        "feedback",
+        "upgrade-media",
+        "upgrade-alert",
+        "upgrade-empty",
+        "upgrade-calendar",
+        "upgrade-icons",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    },
+    {
+      "id": "join",
+      "name": "Join",
+      "title": "Joining & membership",
+      "description": "Benefits, three clear steps and an official membership handoff.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "card",
+        "icons",
+        "shine",
+        "accordion",
+        "mobileMenu",
+        "dialog",
+        "feedback",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "title": "Committee & governance",
+      "description": "Current roles, clear responsibilities and year-labelled records.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "card",
+        "badge",
+        "icons",
+        "accordion",
+        "mobileMenu",
+        "dialog",
+        "feedback",
+        "upgrade-avatar",
+        "upgrade-avatar-circles",
+        "upgrade-item",
+        "upgrade-icons",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    },
+    {
+      "id": "resources",
+      "name": "Resources",
+      "title": "Resources & contribution",
+      "description": "Useful learning materials, trusted support and a gated project pilot.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "card",
+        "badge",
+        "icons",
+        "spotlight",
+        "input",
+        "tabs",
+        "mobileMenu",
+        "dialog",
+        "feedback",
+        "future-checklist",
+        "future-reader",
+        "future-source",
+        "future-diagram",
+        "upgrade-empty",
+        "upgrade-input-group",
+        "upgrade-bento",
+        "upgrade-pattern",
+        "upgrade-marker",
+        "upgrade-highlight",
+        "upgrade-scroll",
+        "upgrade-collapsible",
+        "upgrade-separator",
+        "upgrade-folder",
+        "upgrade-item",
+        "upgrade-motion-scope",
+        "upgrade-icons",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    },
+    {
+      "id": "partners",
+      "name": "Partners",
+      "title": "Partnerships",
+      "description": "Achievable collaboration, a clear enquiry and meaningful recognition.",
+      "components": [
+        "shell",
+        "navigation",
+        "button",
+        "card",
+        "icons",
+        "shine",
+        "input",
+        "mobileMenu",
+        "feedback",
+        "upgrade-field",
+        "upgrade-radio",
+        "upgrade-native",
+        "upgrade-icons",
+        "upgrade-lazy",
+        "upgrade-variants"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@radix-ui/react-accordion": "1.3.1",
+    "@radix-ui/react-aspect-ratio": "1.2.0",
+    "@radix-ui/react-avatar": "1.3.1",
+    "@radix-ui/react-checkbox": "1.4.1",
+    "@radix-ui/react-collapsible": "1.2.1",
+    "@radix-ui/react-dialog": "1.3.1",
+    "@radix-ui/react-dropdown-menu": "2.2.1",
+    "@radix-ui/react-label": "2.1.17",
+    "@radix-ui/react-popover": "1.3.1",
+    "@radix-ui/react-progress": "1.2.1",
+    "@radix-ui/react-radio-group": "1.5.1",
+    "@radix-ui/react-scroll-area": "1.4.0",
+    "@radix-ui/react-select": "2.4.1",
+    "@radix-ui/react-separator": "1.2.0",
+    "@radix-ui/react-slot": "1.5.0",
+    "@radix-ui/react-switch": "1.4.1",
+    "@radix-ui/react-tabs": "1.2.1",
+    "@radix-ui/react-toast": "1.3.1",
+    "@radix-ui/react-toggle": "1.2.1",
+    "@radix-ui/react-tooltip": "1.4.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "1.64.0",
+    "motion": "14.8.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "3.7.0"
+  },
+  "implementation": "shadcn/ui, Magic UI and React Bits use preserved source files; Radix packages are shadcn registry implementation dependencies, not an alternative app component library."
+}

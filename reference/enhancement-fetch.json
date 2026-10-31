@@ -1,0 +1,207 @@
+[
+  {
+    "name": "shadcn-alert.json",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "ui/alert.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-aspect-ratio.json",
+    "dependencies": [
+      "@radix-ui/react-aspect-ratio"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/aspect-ratio.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-avatar.json",
+    "dependencies": [
+      "@radix-ui/react-avatar"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/avatar.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-item.json",
+    "dependencies": [],
+    "registryDependencies": [
+      "separator"
+    ],
+    "files": [
+      "ui/item.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-empty.json",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "ui/empty.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-spinner.json",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/spinner.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-button-group.json",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "separator"
+    ],
+    "files": [
+      "ui/button-group.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-field.json",
+    "dependencies": [],
+    "registryDependencies": [
+      "label",
+      "separator"
+    ],
+    "files": [
+      "ui/field.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-input-group.json",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "input",
+      "textarea"
+    ],
+    "files": [
+      "ui/input-group.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-native-select.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "shadcn-radio-group.json",
+    "dependencies": [
+      "@radix-ui/react-radio-group"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/radio-group.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-scroll-area.json",
+    "dependencies": [
+      "@radix-ui/react-scroll-area"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/scroll-area.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-separator.json",
+    "dependencies": [
+      "@radix-ui/react-separator"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/separator.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-collapsible.json",
+    "dependencies": [
+      "@radix-ui/react-collapsible"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/collapsible.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-dropdown-menu.json",
+    "dependencies": [
+      "@radix-ui/react-dropdown-menu"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/dropdown-menu.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-popover.json",
+    "dependencies": [
+      "@radix-ui/react-popover"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/popover.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-tooltip.json",
+    "dependencies": [
+      "@radix-ui/react-tooltip"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/tooltip.tsx"
+    ]
+  },
+  {
+    "name": "shadcn-toast.json",
+    "dependencies": [
+      "@radix-ui/react-toast"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "ui/toast.tsx",
+      "hooks/use-toast.ts",
+      "ui/toaster.tsx"
+    ]
+  },
+  {
+    "name": "magicui-avatar-circles.json",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "name": "magicui-bento-grid.json",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "name": "magicui-dot-pattern.json",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "name": "magicui-grid-pattern.json",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "name": "magicui-highlighter.json",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "name": "reactbits-folder.json",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "Folder.css",
+      "Folder.tsx"
+    ]
+  }
+]

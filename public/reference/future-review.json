@@ -1,0 +1,1693 @@
+{
+  "updated": "2026-10-30",
+  "scope": "Every original Later entry reassessed. Implemented examples are local review demonstrations, not approved production features; original decisions remain traceable.",
+  "counts": {
+    "Still deferred": 69,
+    "Review demonstration": 28
+  },
+  "entries": [
+    {
+      "assessmentId": "SH-docs-components-base-attachment",
+      "name": "Attachment",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Attachment: Uploads, storage, moderation and a reviewer are explicitly approved. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Uploads, storage, moderation and a reviewer are explicitly approved.",
+      "docs": "https://ui.shadcn.com/docs/components/base/attachment",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D18"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-base-code-block",
+      "name": "Code Block",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Code Block remains deferred as an upstream adoption: the walkthrough uses literal semantic pre/code and existing prose styles, attributed Custom or the genuine static Magic Terminal shell. A maintained society teaching publication and an exact compatible source/dependency choice are still required.",
+      "productionCondition": "A named maintainer supplies tested snippets.",
+      "docs": "https://ui.shadcn.com/docs/components/base/code-block",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-dark-mode",
+      "name": "Dark Mode",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Dark Mode remains deferred: the retained blue/cyan assets and token set do not establish a separately designed and contrast-tested dark theme. Framework-specific setup is not an additional React/Vite showcase feature.",
+      "productionCondition": "A genuine user need and contrast-tested dark asset palette exist.",
+      "docs": "https://ui.shadcn.com/docs/dark-mode",
+      "designDecisions": [
+        "D15",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-dark-mode-astro",
+      "name": "Dark Mode - Astro",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Dark Mode - Astro remains deferred: the retained blue/cyan assets and token set do not establish a separately designed and contrast-tested dark theme. Framework-specific setup is not an additional React/Vite showcase feature.",
+      "productionCondition": "A genuine user need and contrast-tested dark asset palette exist.",
+      "docs": "https://ui.shadcn.com/docs/dark-mode/astro",
+      "designDecisions": [
+        "D15",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-dark-mode-next",
+      "name": "Dark Mode - Next.js",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Dark Mode - Next.js remains deferred: the retained blue/cyan assets and token set do not establish a separately designed and contrast-tested dark theme. Framework-specific setup is not an additional React/Vite showcase feature.",
+      "productionCondition": "A genuine user need and contrast-tested dark asset palette exist.",
+      "docs": "https://ui.shadcn.com/docs/dark-mode/next",
+      "designDecisions": [
+        "D15",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-dark-mode-remix",
+      "name": "Dark Mode - Remix",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Dark Mode - Remix remains deferred: the retained blue/cyan assets and token set do not establish a separately designed and contrast-tested dark theme. Framework-specific setup is not an additional React/Vite showcase feature.",
+      "productionCondition": "A genuine user need and contrast-tested dark asset palette exist.",
+      "docs": "https://ui.shadcn.com/docs/dark-mode/remix",
+      "designDecisions": [
+        "D15",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-dark-mode-vite",
+      "name": "Dark Mode - Vite",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Dark Mode - Vite remains deferred: the retained blue/cyan assets and token set do not establish a separately designed and contrast-tested dark theme. Framework-specific setup is not an additional React/Vite showcase feature.",
+      "productionCondition": "A genuine user need and contrast-tested dark asset palette exist.",
+      "docs": "https://ui.shadcn.com/docs/dark-mode/vite",
+      "designDecisions": [
+        "D15",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-chart",
+      "name": "Chart",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Chart: Real data, a data owner and approval of the upstream chart dependency are available. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Real data, a data owner and approval of the upstream chart dependency are available.",
+      "docs": "https://ui.shadcn.com/docs/components/chart",
+      "designDecisions": [
+        "D08",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-data-table",
+      "name": "Data Table",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Data Table: An owned archive requires comparison, sorting and pagination; review its table dependencies. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "An owned archive requires comparison, sorting and pagination; review its table dependencies.",
+      "docs": "https://ui.shadcn.com/docs/components/data-table",
+      "designDecisions": [
+        "D07",
+        "D10",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-kbd",
+      "name": "Kbd",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "A shortcut is implemented and tested.",
+      "docs": "https://ui.shadcn.com/docs/components/kbd",
+      "designDecisions": [
+        "D10",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-table",
+      "name": "Table",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "Approved content is genuinely tabular.",
+      "docs": "https://ui.shadcn.com/docs/components/table",
+      "designDecisions": [
+        "D07",
+        "D08"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-progress",
+      "name": "Progress",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "A real bounded operation is approved.",
+      "docs": "https://ui.shadcn.com/docs/components/progress",
+      "designDecisions": [
+        "D05",
+        "D17",
+        "D18"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-skeleton",
+      "name": "Skeleton",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Skeleton: The site is connected to an asynchronous content source. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "The site is connected to an asynchronous content source.",
+      "docs": "https://ui.shadcn.com/docs/components/skeleton",
+      "designDecisions": [
+        "D17"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-calendar",
+      "name": "Calendar",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Calendar: There are enough real events to justify date filtering. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "There are enough real events to justify date filtering.",
+      "docs": "https://ui.shadcn.com/docs/components/calendar",
+      "designDecisions": [
+        "D03",
+        "D04"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-checkbox",
+      "name": "Checkbox",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "Enough published items or an approved form requires independent choices.",
+      "docs": "https://ui.shadcn.com/docs/components/checkbox",
+      "designDecisions": [
+        "D03",
+        "D10",
+        "D18"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-combobox",
+      "name": "Combobox",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Combobox: The curated catalogue grows enough to create a demonstrated selection problem. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "The curated catalogue grows enough to create a demonstrated selection problem.",
+      "docs": "https://ui.shadcn.com/docs/components/combobox",
+      "designDecisions": [
+        "D03",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-date-picker",
+      "name": "Date Picker",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Date Picker: A real long archive makes a date range useful. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A real long archive makes a date range useful.",
+      "docs": "https://ui.shadcn.com/docs/components/date-picker",
+      "designDecisions": [
+        "D03",
+        "D04"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-breadcrumb",
+      "name": "Breadcrumb",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Breadcrumb: Persistent nested detail URLs are introduced. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Persistent nested detail URLs are introduced.",
+      "docs": "https://ui.shadcn.com/docs/components/breadcrumb",
+      "designDecisions": [
+        "D01",
+        "D07"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-navigation-menu",
+      "name": "Navigation Menu",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Navigation Menu: Real subpages require grouped navigation. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Real subpages require grouped navigation.",
+      "docs": "https://ui.shadcn.com/docs/components/navigation-menu",
+      "designDecisions": [
+        "D01"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-sidebar",
+      "name": "Sidebar",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Sidebar: A substantial maintained document hierarchy exists. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A substantial maintained document hierarchy exists.",
+      "docs": "https://ui.shadcn.com/docs/components/sidebar",
+      "designDecisions": [
+        "D01",
+        "D07",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-direction",
+      "name": "Direction",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Direction remains deferred: there is no maintained RTL translation or corresponding content review. Reversing the English preview would not demonstrate a valid localisation.",
+      "productionCondition": "A maintained RTL translation is commissioned.",
+      "docs": "https://ui.shadcn.com/docs/components/direction",
+      "designDecisions": [
+        "D11",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-pagination",
+      "name": "Pagination",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "The published archive grows beyond a manageable page.",
+      "docs": "https://ui.shadcn.com/docs/components/pagination",
+      "designDecisions": [
+        "D07",
+        "D10",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-toggle",
+      "name": "Toggle",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use the eight-task source-project checklist: mark tasks, filter unfinished items, change task page, reset completion and press / outside editable fields/dialogs to focus resource search. Progress is the real local checked fraction, not a simulated service operation.",
+      "productionCondition": "A real binary filter is introduced.",
+      "docs": "https://ui.shadcn.com/docs/components/toggle",
+      "designDecisions": [
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-toggle-group",
+      "name": "Toggle Group",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Toggle Group: Real content needs a different selection model. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Real content needs a different selection model.",
+      "docs": "https://ui.shadcn.com/docs/components/toggle-group",
+      "designDecisions": [
+        "D03",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-alert-dialog",
+      "name": "Alert Dialog",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Alert Dialog: A real destructive workflow with an owner is approved. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A real destructive workflow with an owner is approved.",
+      "docs": "https://ui.shadcn.com/docs/components/alert-dialog",
+      "designDecisions": [
+        "D18"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-components-command",
+      "name": "Command",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Command: A maintained searchable archive is large enough to justify it. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A maintained searchable archive is large enough to justify it.",
+      "docs": "https://ui.shadcn.com/docs/components/command",
+      "designDecisions": [
+        "D01",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-typeset",
+      "name": "Typeset",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Typeset remains deferred as an upstream adoption: the walkthrough uses literal semantic pre/code and existing prose styles, attributed Custom or the genuine static Magic Terminal shell. A maintained society teaching publication and an exact compatible source/dependency choice are still required.",
+      "productionCondition": "Owned long-form content is published.",
+      "docs": "https://ui.shadcn.com/docs/typeset",
+      "designDecisions": [
+        "D07",
+        "D10",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-rtl",
+      "name": "RTL",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "RTL remains deferred: there is no maintained RTL translation or corresponding content review. Reversing the English preview would not demonstrate a valid localisation.",
+      "productionCondition": "A maintained RTL translation is commissioned.",
+      "docs": "https://ui.shadcn.com/docs/rtl",
+      "designDecisions": [
+        "D11",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-rtl-next",
+      "name": "RTL - Next.js",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "RTL - Next.js remains deferred: there is no maintained RTL translation or corresponding content review. Reversing the English preview would not demonstrate a valid localisation.",
+      "productionCondition": "A maintained RTL translation is commissioned.",
+      "docs": "https://ui.shadcn.com/docs/rtl/next",
+      "designDecisions": [
+        "D11",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-rtl-start",
+      "name": "RTL - TanStack Start",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "RTL - TanStack Start remains deferred: there is no maintained RTL translation or corresponding content review. Reversing the English preview would not demonstrate a valid localisation.",
+      "productionCondition": "A maintained RTL translation is commissioned.",
+      "docs": "https://ui.shadcn.com/docs/rtl/start",
+      "designDecisions": [
+        "D11",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "SH-docs-rtl-vite",
+      "name": "RTL - Vite",
+      "library": "shadcn/ui",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "RTL - Vite remains deferred: there is no maintained RTL translation or corresponding content review. Reversing the English preview would not demonstrate a valid localisation.",
+      "productionCondition": "A maintained RTL translation is commissioned.",
+      "docs": "https://ui.shadcn.com/docs/rtl/vite",
+      "designDecisions": [
+        "D11",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-android",
+      "name": "Android",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Android: A maintained Android project and approved screenshots exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A maintained Android project and approved screenshots exist.",
+      "docs": "https://magicui.design/docs/components/android",
+      "designDecisions": [
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-animated-beam",
+      "name": "Animated Beam",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Animated Beam: A maintained project has a real architecture worth explaining. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A maintained project has a real architecture worth explaining.",
+      "docs": "https://magicui.design/docs/components/animated-beam",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-code-comparison",
+      "name": "Code Comparison",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Still deferred after exact source inspection: the current upstream component imports @shikijs/transformers and next-themes, with runtime syntax highlighting. The selected dependency boundary excludes that extra highlighting/theme stack; ordinary literal command instructions already serve the walkthrough.",
+      "productionCondition": "Tested teaching material and a reviewer exist.",
+      "docs": "https://magicui.design/docs/components/code-comparison",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-file-tree",
+      "name": "File Tree",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-source",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Expand the actual included source directories and select a file. Read the literal npm ci / npm test / npm run build instructions. Terminal uses static children, no typing/replay/command execution. Wrap lines is a genuine shadcn Toggle.",
+      "productionCondition": "A real repository guide needs a tree.",
+      "docs": "https://magicui.design/docs/components/file-tree",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-hero-video-dialog",
+      "name": "Hero Video Dialog",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Hero Video Dialog: A consented, maintained video and accessible alternatives exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A consented, maintained video and accessible alternatives exist.",
+      "docs": "https://magicui.design/docs/components/hero-video-dialog",
+      "designDecisions": [
+        "D02",
+        "D06",
+        "D11",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-iphone",
+      "name": "iPhone",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed iPhone: Approved screenshots and a maintained project exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Approved screenshots and a maintained project exist.",
+      "docs": "https://magicui.design/docs/components/iphone",
+      "designDecisions": [
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-lens",
+      "name": "Lens",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Lens: A real high-resolution technical image warrants it. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A real high-resolution technical image warrants it.",
+      "docs": "https://magicui.design/docs/components/lens",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-number-ticker",
+      "name": "Number Ticker",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Number Ticker: A dated figure with definition, source and owner exists; choose one counter implementation. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A dated figure with definition, source and owner exists; choose one counter implementation.",
+      "docs": "https://magicui.design/docs/components/number-ticker",
+      "designDecisions": [
+        "D08",
+        "D14",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-safari",
+      "name": "Safari",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Safari: The project and screenshot are real and maintained. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "The project and screenshot are real and maintained.",
+      "docs": "https://magicui.design/docs/components/safari",
+      "designDecisions": [
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-scroll-progress",
+      "name": "Scroll Progress",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A maintained long-form page exists.",
+      "docs": "https://magicui.design/docs/components/scroll-progress",
+      "designDecisions": [
+        "D07",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "MG-docs-components-terminal",
+      "name": "Terminal",
+      "library": "Magic UI",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-source",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Expand the actual included source directories and select a file. Read the literal npm ci / npm test / npm run build instructions. Terminal uses static children, no typing/replay/command execution. Wrap lines is a genuine shadcn Toggle.",
+      "productionCondition": "A maintainer supplies tested commands.",
+      "docs": "https://magicui.design/docs/components/terminal",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-motion-value-motion-values",
+      "name": "Motion values without React renders",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "An approved effect actually needs continuously changing values.",
+      "docs": "https://motion.dev/docs/react-motion-value",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-animate-presence-presence-hooks",
+      "name": "Presence lifecycle hooks",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Presence lifecycle hooks: A real custom exit cannot be expressed declaratively. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A real custom exit cannot be expressed declaratively.",
+      "docs": "https://motion.dev/docs/react-animate-presence",
+      "designDecisions": [
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-animate-imperative",
+      "name": "Scoped animation sequences",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "productionCondition": "A maintained educational demonstration needs sequential steps.",
+      "docs": "https://motion.dev/docs/react-use-animate",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-scroll-scroll-linked",
+      "name": "Scroll-linked progress",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A long guide/governance document is published.",
+      "docs": "https://motion.dev/docs/react-use-scroll",
+      "designDecisions": [
+        "D07",
+        "D10",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-svg-animation-svg-transforms",
+      "name": "SVG attributes and transforms",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "productionCondition": "A maintained lesson needs an animated diagram.",
+      "docs": "https://motion.dev/docs/react-svg-animation",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-svg-animation-svg-path",
+      "name": "SVG path drawing",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "productionCondition": "A maintained lesson needs an animated diagram.",
+      "docs": "https://motion.dev/docs/react-svg-animation",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-layout-animations",
+      "name": "Layout animations",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Layout animations remains deferred: the current route implementation has no replacement requirement, and the pinned Motion namespace does not provide AnimateView. No speculative version migration was made.",
+      "productionCondition": "A real compatibility or navigation issue justifies replacement.",
+      "docs": "https://motion.dev/docs/layout-animations",
+      "designDecisions": [
+        "D01",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-animate-view",
+      "name": "View animations",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "View animations remains deferred: the current route implementation has no replacement requirement, and the pinned Motion namespace does not provide AnimateView. No speculative version migration was made.",
+      "productionCondition": "A real compatibility or navigation issue justifies replacement.",
+      "docs": "https://motion.dev/docs/animate-view",
+      "designDecisions": [
+        "D01",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-animate-number",
+      "name": "AnimateNumber",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "AnimateNumber remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "Real content, a license and version/dependency compatibility are confirmed.",
+      "docs": "https://motion.dev/docs/react-animate-number",
+      "designDecisions": [
+        "D08",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-gallery",
+      "name": "Gallery",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Gallery remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "Real content, a license and version/dependency compatibility are confirmed.",
+      "docs": "https://motion.dev/docs/react-gallery",
+      "designDecisions": [
+        "D08",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-animate-view",
+      "name": "AnimateView",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "AnimateView remains deferred: the current route implementation has no replacement requirement, and the pinned Motion namespace does not provide AnimateView. No speculative version migration was made.",
+      "productionCondition": "A deliberate compatible React/Motion upgrade and browser-support review pass.",
+      "docs": "https://motion.dev/docs/react-animate-view",
+      "designDecisions": [
+        "D01",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-motion-value",
+      "name": "Motion values overview",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "An approved effect actually needs continuously changing values.",
+      "docs": "https://motion.dev/docs/react-motion-value",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-svg-animation",
+      "name": "SVG animation",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "productionCondition": "A maintained lesson needs an animated diagram.",
+      "docs": "https://motion.dev/docs/react-svg-animation",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-animate",
+      "name": "useAnimate",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Play the one-pass source → checks → export explanation. Genuine Motion useAnimate scopes SVG path-length and circle-position animation; Stop cancels work. Visibility, reduced-motion changes and unmount stop pending animation. A numbered text explanation and static SVG remain.",
+      "productionCondition": "A maintained educational demonstration needs sequential steps.",
+      "docs": "https://motion.dev/docs/react-use-animate",
+      "designDecisions": [
+        "D10",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-motion-template",
+      "name": "useMotionTemplate",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A real composite animated style is approved.",
+      "docs": "https://motion.dev/docs/react-use-motion-template",
+      "designDecisions": [
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-motion-value-event",
+      "name": "useMotionValueEvent",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A maintained demo has a real state reaction.",
+      "docs": "https://motion.dev/docs/react-use-motion-value-event",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-scroll",
+      "name": "useScroll",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A long guide/governance document is published.",
+      "docs": "https://motion.dev/docs/react-use-scroll",
+      "designDecisions": [
+        "D07",
+        "D10",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-spring",
+      "name": "useSpring",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "A dated, sourced figure and a need for animation exist.",
+      "docs": "https://motion.dev/docs/react-use-spring",
+      "designDecisions": [
+        "D08",
+        "D14",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "MO-docs-react-use-transform",
+      "name": "useTransform",
+      "library": "Motion",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-reader",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Scroll the bounded walkthrough. Animated mode mounts the adapted genuine Magic UI ScrollProgress using useScroll, a settling spring, transform, motion template and value-change subscription. Static/reduced motion uses native progress and an immediate text percentage. Reading position is not proof of learning.",
+      "productionCondition": "The long-form progress feature is approved.",
+      "docs": "https://motion.dev/docs/react-use-transform",
+      "designDecisions": [
+        "D07",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "RB-components-accordion-gallery",
+      "name": "Accordion Gallery",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Accordion Gallery: Approved project images and keyboard/touch testing exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Approved project images and keyboard/touch testing exist.",
+      "docs": "https://www.reactbits.dev/components/accordion-gallery",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "RB-components-counter",
+      "name": "Counter",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Counter: Real dated figures and a single selected counter implementation exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Real dated figures and a single selected counter implementation exist.",
+      "docs": "https://www.reactbits.dev/components/counter",
+      "designDecisions": [
+        "D08",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "RB-components-line-sidebar",
+      "name": "Line Sidebar",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Line Sidebar: A maintained long-form hierarchy exists and the exact source is vetted. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A maintained long-form hierarchy exists and the exact source is vetted.",
+      "docs": "https://www.reactbits.dev/components/line-sidebar",
+      "designDecisions": [
+        "D07",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "RB-components-masonry",
+      "name": "Masonry",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Masonry: Real consented images and a maintainer exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Real consented images and a maintainer exist.",
+      "docs": "https://www.reactbits.dev/components/masonry",
+      "designDecisions": [
+        "D06",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "RB-components-model-viewer",
+      "name": "Model Viewer",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Model Viewer: A real model, asset budget and explicit renderer/dependency approval exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "A real model, asset budget and explicit renderer/dependency approval exist.",
+      "docs": "https://www.reactbits.dev/components/model-viewer",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "RB-pro-docs-components-comparison-slider",
+      "name": "Comparison Slider",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Comparison Slider remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "Real images, a license, dependency review and accessibility testing exist.",
+      "docs": "https://pro.reactbits.dev/docs/components/comparison-slider",
+      "designDecisions": [
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "RB-pro-docs-components-contact-sheet",
+      "name": "Contact Sheet",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Contact Sheet remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "Consented real images, an owner, license and dependency review exist.",
+      "docs": "https://pro.reactbits.dev/docs/components/contact-sheet",
+      "designDecisions": [
+        "D06",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "RB-pro-docs-components-device",
+      "name": "Device",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Device remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "The project and screenshot are real and maintained.",
+      "docs": "https://pro.reactbits.dev/docs/components/device",
+      "designDecisions": [
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "assessmentId": "RB-pro-docs-components-loupe-image",
+      "name": "Loupe Image",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Loupe Image remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "A real high-resolution technical image warrants it.",
+      "docs": "https://pro.reactbits.dev/docs/components/loupe-image",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D15"
+      ]
+    },
+    {
+      "assessmentId": "RB-pro-docs-components-simple-graph",
+      "name": "Simple Graph",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Simple Graph remains deferred: the exact licensed source, compatible API and a real maintained content use have not been supplied. This pass does not purchase access or execute unseen variants.",
+      "productionCondition": "Real data, a data owner and approval of the upstream chart dependency are available.",
+      "docs": "https://pro.reactbits.dev/docs/components/simple-graph",
+      "designDecisions": [
+        "D08",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "RB-text-animations-count-up",
+      "name": "Count Up",
+      "library": "React Bits",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "Reassessed Count Up: Actual sourced data and selection of a single implementation exist. The project walkthrough does not establish this public-content/service requirement, so the feature is not installed or simulated solely for coverage.",
+      "productionCondition": "Actual sourced data and selection of a single implementation exist.",
+      "docs": "https://www.reactbits.dev/text-animations/count-up",
+      "designDecisions": [
+        "D08",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-arrow-left",
+      "name": "arrow-left",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Use Back to resources below the walkthrough. It scrolls to the existing resource list; no invented nested public route is introduced.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/arrow-left",
+      "designDecisions": [
+        "D01",
+        "D07",
+        "D10"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-cable",
+      "name": "cable",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "cable remains deferred: A real technical resource explicitly about cable. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/cable",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-braces",
+      "name": "braces",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "braces remains deferred: A real technical resource explicitly about braces. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/braces",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-brackets",
+      "name": "brackets",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "brackets remains deferred: A real technical resource explicitly about brackets. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/brackets",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-bug",
+      "name": "bug",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "bug remains deferred: A real technical resource explicitly about bug. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/bug",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-git-branch",
+      "name": "git-branch",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-source",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Read Source map and Commands to run locally. The directory structure and npm instructions belong to the included project; icons have visible labels.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/git-branch",
+      "designDecisions": [
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-git-commit-horizontal",
+      "name": "git-commit-horizontal",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "git-commit-horizontal remains deferred: A real technical resource explicitly about git commit horizontal. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/git-commit-horizontal",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-git-fork",
+      "name": "git-fork",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "git-fork remains deferred: A real technical resource explicitly about git fork. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/git-fork",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-git-merge",
+      "name": "git-merge",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "git-merge remains deferred: A real technical resource explicitly about git merge. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/git-merge",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-git-pull-request",
+      "name": "git-pull-request",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "git-pull-request remains deferred: A real first-contribution task. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/git-pull-request",
+      "designDecisions": [
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-network",
+      "name": "network",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "network remains deferred: A real technical resource explicitly about network. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/network",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-server",
+      "name": "server",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "server remains deferred: A real technical resource explicitly about server. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/server",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-terminal",
+      "name": "terminal",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-source",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Read Source map and Commands to run locally. The directory structure and npm instructions belong to the included project; icons have visible labels.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/terminal",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-workflow",
+      "name": "workflow",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-diagram",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Read the labelled build-workflow explanation; the icon does not imply a real build is running.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/workflow",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-cpu",
+      "name": "cpu",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "cpu remains deferred: A real technical resource explicitly about cpu. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/cpu",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-database",
+      "name": "database",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "database remains deferred: A real technical resource explicitly about database. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/database",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-microchip",
+      "name": "microchip",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "microchip remains deferred: A real technical resource explicitly about microchip. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/microchip",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-video",
+      "name": "video",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "video remains deferred: A real captioned video destination. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/video",
+      "designDecisions": [
+        "D02",
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-file-code",
+      "name": "file-code",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Read the labelled source-project checklist and Unfinished only filter. Icons reinforce the actual local task and never invent a live service.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/file-code",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-captions",
+      "name": "captions",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "captions remains deferred: An actual caption availability control. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/captions",
+      "designDecisions": [
+        "D11"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-image",
+      "name": "image",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "image remains deferred: An approved photo/image attachment type. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/image",
+      "designDecisions": [
+        "D06",
+        "D12"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-flask-conical",
+      "name": "flask-conical",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "flask-conical remains deferred: A real technical resource explicitly about flask conical. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/flask-conical",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-test-tube",
+      "name": "test-tube",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "test-tube remains deferred: A real technical resource explicitly about test tube. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/test-tube",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-binary",
+      "name": "binary",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Still deferred",
+      "inspectId": "",
+      "page": "",
+      "target": "",
+      "reason": "binary remains deferred: A real technical resource explicitly about binary. The new source-project walkthrough has no distinct content or action needing this additional symbol; it is not imported merely to fill the catalogue.",
+      "productionCondition": "A reviewed resource genuinely needs this exact technical distinction; choose one icon per meaning.",
+      "docs": "https://lucide.dev/icons/binary",
+      "designDecisions": [
+        "D10",
+        "D12",
+        "D14"
+      ]
+    },
+    {
+      "assessmentId": "LU-icons-list-filter",
+      "name": "list-filter",
+      "library": "Lucide React",
+      "originalDecision": "Later",
+      "outcome": "Review demonstration",
+      "inspectId": "future-checklist",
+      "page": "resources",
+      "target": "future-workshop",
+      "reason": "Read the labelled source-project checklist and Unfinished only filter. Icons reinforce the actual local task and never invent a live service.",
+      "productionCondition": "The specified real content/workflow and maintainer must exist first; the icon alone does not create it.",
+      "docs": "https://lucide.dev/icons/list-filter",
+      "designDecisions": [
+        "D03",
+        "D10"
+      ]
+    }
+  ]
+}

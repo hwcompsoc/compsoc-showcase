@@ -1,0 +1,125 @@
+{
+  "retrieved": "2026-10-30",
+  "components": [
+    {
+      "name": "button",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/button.json",
+      "sha256": "4d8f39c3bd25e630b5962667722e8707e7b18122ad6842a5c22acf8a3ff9f93a",
+      "path": "src/components/ui/button.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "card",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/card.json",
+      "sha256": "e6b5055ff2e674007d65df1b1e13f7e18eaba86efda60641c02ee6abaec337ce",
+      "path": "src/components/ui/card.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "dialog",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/dialog.json",
+      "sha256": "e240f8eaa9e9e626dffa1a340469c6bace9c631e78b7b10e7d0f178a32a1c71c",
+      "path": "src/components/ui/dialog.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "sheet",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/sheet.json",
+      "sha256": "f9d5c635be7785736a4d716975fc3d34eecaf09552dd4805569fd989e56fda8a",
+      "path": "src/components/ui/sheet.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "tabs",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/tabs.json",
+      "sha256": "b608b427c8d640165083e54369c25e738d72d8cf7a80984ffc8fc0c2ff134a2f",
+      "path": "src/components/ui/tabs.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "switch",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/switch.json",
+      "sha256": "90aa753ab629ab1c7cc5dcd7ed8404b761eb99c90f3531aa66bbbb4ea9716a26",
+      "path": "src/components/ui/switch.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "select",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/select.json",
+      "sha256": "574c730b6dc8b37e5cfa8e19159e4a1d2ee54c17b927bd4003ff26c8b7a6edfb",
+      "path": "src/components/ui/select.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "accordion",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/accordion.json",
+      "sha256": "af2a6c966d4077ae002eb95b6b4513e86c53bfd02cabb7b3a5700ed0d7191bc1",
+      "path": "src/components/ui/accordion.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "input",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/input.json",
+      "sha256": "4d1a3b126cc62485b225e3da32d4a56df851c95c5a24035af1f1c80f33726cfa",
+      "path": "src/components/ui/input.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "textarea",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/textarea.json",
+      "sha256": "95a734124c9184947f6ec7c5f03a59f5dd246e305d54d91f46fefc339da2f105",
+      "path": "src/components/ui/textarea.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "badge",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/badge.json",
+      "sha256": "ce3f01e6d6785477a7fee003bd7144d7d11e7c5e8e31b3373de15138349361e6",
+      "path": "src/components/ui/badge.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "label",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/label.json",
+      "sha256": "ea924e70d496cbd6986591ad75f2cbfeb9649f1ce2750cd6dbfb522833e4bcdb",
+      "path": "src/components/ui/label.tsx",
+      "changes": "No source changes at import. Brand styling is applied by consumer classes and CSS. Radix packages are the registry implementation dependencies."
+    },
+    {
+      "name": "ShineBorder",
+      "library": "Magic UI",
+      "source": "https://magicui.design/r/shine-border.json",
+      "sha256": "56329b539c8b1ddcf54566315674ceba1bfb06e8f5994cf9b6af0fd529e00ce6",
+      "path": "src/components/magicui/shine-border.tsx",
+      "changes": "Source unchanged. CSS keyframes from the registry are supplied in app.css. Consumer adds brand colours, 6s duration, one iteration and conditional mounting for Static/reduced-motion modes."
+    },
+    {
+      "name": "SpotlightCard.tsx",
+      "library": "React Bits",
+      "source": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/ts-default/Components/SpotlightCard/SpotlightCard.tsx",
+      "sha256": "581d8859b8b780a61f3710b5d39b9e37a365742626cf30858a5fdbfbfb4d8807",
+      "path": "src/components/react-bits/SpotlightCard.tsx",
+      "changes": "Source unchanged. Consumer chooses light theme, cyan spotlight, no ambient motion/flare/grain, and unmounts effects in Static/reduced-motion modes."
+    },
+    {
+      "name": "SpotlightCard.css",
+      "library": "React Bits",
+      "source": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/ts-default/Components/SpotlightCard/SpotlightCard.css",
+      "sha256": "b646b7da4bb46f0a4d819d0af275804c49a845a5c2dc848700aaf9282db13a92",
+      "path": "src/components/react-bits/SpotlightCard.css",
+      "changes": "Source unchanged. Consumer chooses light theme, cyan spotlight, no ambient motion/flare/grain, and unmounts effects in Static/reduced-motion modes."
+    }
+  ]
+}

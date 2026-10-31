@@ -1,0 +1,86 @@
+{
+  "retrieved": "2026-10-30",
+  "components": [
+    {
+      "name": "kbd",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/kbd.json",
+      "upstream": "reference/upstream/future-shadcn-kbd.json",
+      "path": "src/components/ui/kbd.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles.",
+      "sha256": "dd4b76a2c84f23bb410a1361c8355332ad8d0e99bc348cec8fd626c26c50540c"
+    },
+    {
+      "name": "table",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/table.json",
+      "upstream": "reference/upstream/future-shadcn-table.json",
+      "path": "src/components/ui/table.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles.",
+      "sha256": "865e3fca4936c02b58beab4509abcb468449fd2ee2ebdc3aebdd23ee3bfd982b"
+    },
+    {
+      "name": "checkbox",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/checkbox.json",
+      "upstream": "reference/upstream/future-shadcn-checkbox.json",
+      "path": "src/components/ui/checkbox.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles.",
+      "sha256": "3744ac86385797466e0af0a14db129f9887ef8a47de5541b0620ec0dc287498f"
+    },
+    {
+      "name": "toggle",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/toggle.json",
+      "upstream": "reference/upstream/future-shadcn-toggle.json",
+      "path": "src/components/ui/toggle.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles.",
+      "sha256": "414335d55fd3f663f37b30eebde5892527da4f60662c77ef666cb81685e85180"
+    },
+    {
+      "name": "pagination",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/pagination.json",
+      "upstream": "reference/upstream/future-shadcn-pagination.json",
+      "path": "src/components/ui/pagination.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles.",
+      "sha256": "e3cc6dfb9d84cf94a00b1c61e188ff19ab9cc5558ef046944d90bd6e2de55d31"
+    },
+    {
+      "name": "progress",
+      "library": "shadcn/ui",
+      "source": "https://ui.shadcn.com/r/styles/new-york/progress.json",
+      "upstream": "reference/upstream/future-shadcn-progress.json",
+      "path": "src/components/ui/progress.tsx",
+      "adaptations": "Project import aliases normalized; consumer supplies brand styles. Forward the actual value to Radix Root for determinate progress semantics.",
+      "sha256": "eea9777975b1f84b591b4555ba1a31e1b852ef816738af41c48b03e010c3a1ae"
+    },
+    {
+      "name": "file-tree",
+      "library": "Magic UI",
+      "source": "https://raw.githubusercontent.com/magicuidesign/magicui/main/apps/www/registry/magicui/file-tree.tsx",
+      "upstream": "reference/upstream/future-magicui-file-tree.tsx",
+      "path": "src/components/magicui/file-tree.tsx",
+      "adaptations": "Lightweight m namespace; blue/cyan terminal chrome. ScrollProgress scoped to reader container with bounded spring, derived percentage, template width and value-change subscription; no fixed page overlay. Consumer does not mount animated spans/typing; static reader uses Custom native progress.",
+      "sha256": "ad2f8138f794b7199cf901143fe306e3b39e048eb54068cb2ecc06fe1ac3fcef"
+    },
+    {
+      "name": "terminal",
+      "library": "Magic UI",
+      "source": "https://raw.githubusercontent.com/magicuidesign/magicui/main/apps/www/registry/magicui/terminal.tsx",
+      "upstream": "reference/upstream/future-magicui-terminal.tsx",
+      "path": "src/components/magicui/terminal.tsx",
+      "adaptations": "Lightweight m namespace; blue/cyan terminal chrome. ScrollProgress scoped to reader container with bounded spring, derived percentage, template width and value-change subscription; no fixed page overlay. Consumer does not mount animated spans/typing; static reader uses Custom native progress.",
+      "sha256": "b5d324a164c9b805250ae3a1c58ef83bc958d79fdce9eabb0e8afe964222d61e"
+    },
+    {
+      "name": "scroll-progress",
+      "library": "Magic UI",
+      "source": "https://raw.githubusercontent.com/magicuidesign/magicui/main/apps/www/registry/magicui/scroll-progress.tsx",
+      "upstream": "reference/upstream/future-magicui-scroll-progress.tsx",
+      "path": "src/components/magicui/scroll-progress.tsx",
+      "adaptations": "Lightweight m namespace; blue/cyan terminal chrome. ScrollProgress scoped to reader container with bounded spring, derived percentage, template width and value-change subscription; no fixed page overlay. Consumer does not mount animated spans/typing; static reader uses Custom native progress.",
+      "sha256": "c23b2f2acc1dbdb4ca61988863a03c9147b22e554a0f04c8e95e0f217ab31346"
+    }
+  ]
+}
