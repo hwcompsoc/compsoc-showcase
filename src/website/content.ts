@@ -1,7 +1,9 @@
 export const links={discord:'https://discord.gg/VwXhpb7mZW',instagram:'https://www.instagram.com/hwcompsoc',membership:'https://www.hwunion.com/societies/compsci/',email:'compsci.society@hw.ac.uk'};
 export const pages=[{id:'home',name:'Home'},{id:'join',name:'Join'},{id:'events',name:'Events'},{id:'resources',name:'Resources'},{id:'about',name:'About'},{id:'partners',name:'Partners'}] as const;
 export type Page=typeof pages[number]['id'];
-export function route(hash:string):Page{const id=hash.slice(1);return pages.some(p=>p.id===id)?id as Page:'home'}
+// `#resources/support` is the Resources page with a filter: the first segment picks the page, the second is for that page to read.
+export function route(hash:string):Page{const id=hash.slice(1).split('/')[0];return pages.some(p=>p.id===id)?id as Page:'home'}
+export const routeParam=(hash:string)=>hash.slice(1).split('/')[1]??'';
 export type Event={id:string;title:string;category:'Workshop'|'Community'|'Industry';day:string;month:string;date:string;time:string;venue:string;description:string;level:string;start:string;end:string;past?:boolean};
 export const events:Event[]=[
  {id:'web',title:'Your first web app',category:'Workshop',day:'12',month:'NOV',date:'Thursday 12 November 2026',time:'17:30–19:00 GMT',venue:'Campus venue · placeholder',description:'Bring a laptop and a little curiosity. Explore the building blocks of a simple web page, together.',level:'Beginner friendly',start:'20261112T173000Z',end:'20261112T190000Z'},

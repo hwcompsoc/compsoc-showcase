@@ -75,11 +75,22 @@ h1,h2,h3{text-wrap:balance}
 /* Page intro as a window (MOTION-PLAN §11.1). Replaces the pale band and eyebrow. */
 .page-intro{background:none;border-bottom:0;padding:48px 0 8px}
 .intro-window{border:1px solid var(--border);background:#fff;box-shadow:12px 12px 0 #eaf5fa}
-.intro-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:32px;padding:0 14px 0 44px;border-bottom:1px solid var(--border);color:#52788a;font-family:var(--font-pixel);font-size:var(--pixel-sm);white-space:nowrap;background:linear-gradient(#a9c3d1,#a9c3d1) 14px 50%/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 22px 50%/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 30px 50%/4px 4px no-repeat}
-.intro-path{min-width:0;overflow:hidden;color:#004066}
-.intro-status{display:inline-flex;align-items:center;gap:8px}
+.window-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:32px;padding:0 14px 0 44px;border-bottom:1px solid var(--border);color:#52788a;font-family:var(--font-pixel);font-size:var(--pixel-sm);font-weight:400;white-space:nowrap;background:linear-gradient(#a9c3d1,#a9c3d1) 14px 50%/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 22px 50%/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 30px 50%/4px 4px no-repeat}
+.window-name{min-width:0;overflow:hidden;color:#004066}
+.window-meta{display:inline-flex;align-items:center;gap:8px}
 .intro-online{width:6px;height:6px;background:var(--select)}
 .intro-body{padding:40px 40px 44px}
 .page-intro h1{margin:0 0 20px}
 @media(max-width:800px){.intro-body{padding:32px 28px 36px}}
-@media(max-width:540px){.page-intro{padding-top:24px}.intro-window{box-shadow:6px 6px 0 #eaf5fa}.intro-bar{padding-right:10px}.intro-body{padding:24px 20px 28px}}
+@media(max-width:540px){.page-intro{padding-top:24px}.intro-window{box-shadow:6px 6px 0 #eaf5fa}.window-bar{padding-right:10px}.intro-body{padding:24px 20px 28px}}
+/* Resource cards and the Home resource stack as windows (MOTION-PLAN §11.2). Replaces the icon tile, pill tag and tinted first card. */
+.resource-card{min-height:0}
+.resource-card>div{padding:0;background:#fff}
+.resource-card .window-body{flex:1;display:flex;flex-direction:column;padding:28px}
+.resource-card .resource-bottom>.resource-type{font-family:var(--font-pixel);font-size:var(--pixel-sm);color:#52788a}
+.resource-stack>a{display:block;padding:0;font-weight:600}
+.resource-stack>a::before{content:none}
+.resource-stack>a:nth-child(2){margin-left:0;background:#fff}
+.stack-body{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;font-size:15px}
+.stack-body>svg{width:17px}
+@media(max-width:540px){.resource-card .window-body{padding:24px 20px}.stack-body{padding:18px 20px}}
