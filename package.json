@@ -9,6 +9,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test scripts/*.test.mjs",
     "build:website": "tsc -b && vite build --mode website && node scripts/export-website.mjs",
+    "build:vercel": "tsc -b && vite build --mode website --outDir dist/website && node scripts/export-website.mjs dist/website",
     "logo": "node scripts/generate-logo.mjs"
   },
   "dependencies": {

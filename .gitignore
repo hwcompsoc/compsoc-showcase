@@ -3,7 +3,8 @@ dist
 node_modules
 qa
 #reference
-scripts
+scripts/*
+!scripts/export-website.mjs
 COPY-DRAFT.md
 MOTION-PLAN.md
 WEBSITE.md

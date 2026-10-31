@@ -1,5 +1,15 @@
 # HW CompSoc functional React design review
 
+## Vercel deployment
+
+Import this repository with the repository root as the Root Directory. The tracked
+`vercel.json` selects Vite, runs `npm run build:vercel`, and serves `dist/website`.
+This deploys the visitor website. The required `scripts/export-website.mjs` is
+included in Git; the other local review/export scripts remain ignored.
+
+Run `npm run build:vercel` locally to check the deployment build. The separate
+`npm run build:website` command still exports to `../compsoc-website` for local review.
+
 ## New: visitor-facing local website
 
 Open **../compsoc-website/index.html** for the six-page proof of concept. It prioritizes Discord/social joining, then events and resources, with a clear sponsor route. Exact supplied links and official SVG branding are used; placeholders and local draft behavior are labelled. The earlier review app stays separate. See **WEBSITE.md** for source, build instructions and research traceability, and **qa/website-validation.md** for checks.
