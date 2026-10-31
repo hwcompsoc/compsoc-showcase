@@ -43,9 +43,9 @@ h1,h2,h3{text-wrap:balance}
 
 /* Footer: the page's last screen (closing action → contact → quiet logo/links row → legal), on the page's own grid */
 .site-footer{padding-top:72px}
-.footer-cta{display:flex;align-items:end;justify-content:space-between;gap:24px 48px;flex-wrap:wrap;padding-bottom:40px}
-.footer-cta h2{margin:0 0 12px;color:#fff;font-size:clamp(34px,4.2vw,56px);line-height:1.05;letter-spacing:-1.5px}
-.footer-cta p{margin:0;font-size:17px;color:#bdd4df}
+.footer-hello{display:flex;align-items:end;justify-content:space-between;gap:24px 48px;flex-wrap:wrap;padding-bottom:40px}
+.footer-hello h2{margin:0 0 12px;color:#fff;font-size:clamp(34px,4.2vw,56px);line-height:1.05;letter-spacing:-1.5px}
+.footer-hello p{margin:0;font-size:17px;color:#bdd4df}
 .footer-actions{display:flex;flex-wrap:wrap;gap:12px}
 .footer-actions .site-button{background:#fff;border-color:#fff;color:#004066}
 .footer-actions .site-button:hover{background:#eaf5fa;color:#004066}
@@ -67,8 +67,8 @@ h1,h2,h3{text-wrap:balance}
 .footer-nav{display:flex;flex-wrap:wrap;gap:4px 24px;margin-left:auto}
 .footer-nav>a{display:flex;align-items:center;min-height:44px;font-size:15px}
 .footer-bottom>span{font-family:var(--font-pixel);font-size:var(--pixel-sm);letter-spacing:.04em;text-transform:uppercase}
-@media(max-width:800px){.site-footer{padding-top:52px}.footer-cta{flex-direction:column;align-items:start}.footer-partners{margin-left:0;flex-basis:100%}.footer-nav{margin-left:0;flex-basis:100%}}
+@media(max-width:800px){.site-footer{padding-top:52px}.footer-hello{flex-direction:column;align-items:start}.footer-partners{margin-left:0;flex-basis:100%}.footer-nav{margin-left:0;flex-basis:100%}}
 @media(max-width:540px){.footer-actions{width:100%}.footer-actions .site-button{flex:1 1 100%}.footer-nav{gap:0 20px}}
 /* Phones: tighter bands so the footer stays compact around its two full-width buttons; the legal line breaks at its separator
    (the pixel font stays at 11px, the only size besides 22px where it is crisp) */
-@media(max-width:540px){.site-footer{padding-top:40px}.footer-cta{gap:20px;padding-bottom:28px}.footer-cta h2{margin-bottom:8px}.footer-cta p{font-size:16px}.footer-contact{padding-block:14px}.footer-partners{font-size:14px}.footer-meta{gap:8px 24px;padding-block:16px}.footer-bottom{gap:4px;padding-block:14px}.footer-legal>span{display:block}.footer-legal>.footer-sep{display:none}}
+@media(max-width:540px){.site-footer{padding-top:40px}.footer-hello{gap:20px;padding-bottom:28px}.footer-hello h2{margin-bottom:8px}.footer-hello p{font-size:16px}.footer-contact{padding-block:14px}.footer-partners{font-size:14px}.footer-meta{gap:8px 24px;padding-block:16px}.footer-bottom{gap:4px;padding-block:14px}.footer-legal>span{display:block}.footer-legal>.footer-sep{display:none}}
