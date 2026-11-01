@@ -19,7 +19,7 @@ export function EventBoard({events,onOpen,replay}:{events:Event[];onOpen:(event:
 
 function EventRow({event:e,entering,replay,onOpen}:{event:Event;entering:boolean;replay?:unknown;onOpen:(event:Event,origin:DOMRect)=>void}){
  const [built]=useState(!entering);const date=useRef<HTMLSpanElement>(null);const start=e.time.split('–')[0];
- return <PixelBuild className="board-row" cover="#fff" cols={12} rows={1} duration={.3} trigger="mount" skip={built}>
+ return <PixelBuild className="board-row" cover="var(--surface)" cols={12} rows={1} duration={.3} trigger="mount" skip={built}>
   <span className="board-date" ref={date}><FlipText value={e.day} replay={replay}/> <FlipText value={e.month} replay={replay}/></span>
   <span className="board-time"><FlipText value={start} replay={replay}/></span>
   <span className="board-cat">{e.category}</span>

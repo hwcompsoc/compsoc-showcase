@@ -5,7 +5,7 @@ import {useMotionLevel,useTrigger,type Trigger} from './level';
 
 // Pixel build (MOTION-PLAN §4.4): the content is covered by cells in the surface colour that clear in a
 // stepped order, so it appears to assemble on a grid. Content is always rendered underneath.
-export function PixelBuild({children,cols=8,rows=6,order='diagonal',seed,duration=.4,cover='#fff',trigger='inView',play=false,delay=0,skip=false,className='',style}:{children:ReactNode;skip?:boolean;cols?:number;rows?:number;order?:CellOrder;seed?:number;duration?:number;cover?:string;trigger?:Trigger;play?:boolean;delay?:number;className?:string;style?:CSSProperties}){
+export function PixelBuild({children,cols=8,rows=6,order='diagonal',seed,duration=.4,cover='var(--surface)',trigger='inView',play=false,delay=0,skip=false,className='',style}:{children:ReactNode;skip?:boolean;cols?:number;rows?:number;order?:CellOrder;seed?:number;duration?:number;cover?:string;trigger?:Trigger;play?:boolean;delay?:number;className?:string;style?:CSSProperties}){
  const level=useMotionLevel();const {ref,active}=useTrigger<HTMLDivElement>(trigger,play);
  const delays=useMemo(()=>cellDelays(cols,rows,order,seed),[cols,rows,order,seed]);
  // Once the build has had time to finish, the cover is removed rather than left as cleared cells: mobile WebKit can
