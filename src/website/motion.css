@@ -64,7 +64,7 @@
 .sheet-build{position:absolute;inset:0;z-index:60;pointer-events:none}
 
 /* Filters and small controls (MOTION-PLAN §8.4) */
-.filter-indicator{position:absolute;inset:0;border-radius:4px;background:#fff;box-shadow:0 1px 4px #00406615}
+.filter-indicator{position:absolute;inset:0;border-radius:4px;background:#fff;box-shadow:0 0 0 1px var(--control-line)}
 .filter-label{position:relative}
 .checkbox-label [role=checkbox][data-state=checked] svg{animation:tick .18s linear both}
 @keyframes tick{0%,33.2%{clip-path:inset(0 100% 0 0)}33.3%,66.5%{clip-path:inset(0 66.6667% 0 0)}66.6%,99.9%{clip-path:inset(0 33.3333% 0 0)}100%{clip-path:inset(0)}}
@@ -97,8 +97,8 @@
 @media(max-width:800px){.board-row{grid-template-columns:auto auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time cat arrow" "main main main main" "level level level level";gap:8px 14px;padding:18px 4px}.board-date{grid-area:date}.board-time{grid-area:time}.board-cat{grid-area:cat}.board-main{grid-area:main}.board-level{grid-area:level;text-align:left}.board-arrow{grid-area:arrow}.board-sample{display:inline;margin:0 0 0 8px}}
 .dialog-date-ghost{position:fixed;z-index:60;margin:0;pointer-events:none}
 .dialog-date{display:inline-flex;align-self:flex-start;flex-direction:column;align-items:center;min-width:56px;padding:8px;margin-bottom:12px;background:#eaf5fa;border:1px solid #dce9ef;border-radius:4px;transform-origin:0 0}
-.dialog-date b{font-size:24px;line-height:1.1}
-.dialog-date span{font-size:10px;font-weight:700;letter-spacing:1.2px}
+.dialog-date b{line-height:1.1}
+.dialog-date span{font-weight:700;letter-spacing:1.2px}
 /* The event body is wrapped for its pixel build; keep the dialog's own spacing and paragraph style inside the wrapper. */
 .dialog-build{display:grid;gap:20px}
 .dialog-build>p{font-size:13px;margin:0}
@@ -124,8 +124,8 @@
 .journey-strip>a:is(:hover,:focus-visible)>svg{transform:translateX(4px)}
 
 /* Home resource rows as small windows: title bar with three pixels; lift with a hard shadow */
-.resource-stack>a{position:relative;padding-top:34px;transition:transform var(--dur-hover) var(--ease-enter),box-shadow var(--dur-hover) var(--ease-enter)}
-.resource-stack>a::before{content:'';position:absolute;left:0;right:0;top:0;height:14px;border-bottom:1px solid #d1e1e9;background:linear-gradient(#a9c3d1,#a9c3d1) 10px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 18px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 26px 5px/4px 4px no-repeat}
+.resource-stack>a{position:relative;padding-top:34px;transition:transform var(--dur-hover) var(--ease-enter),box-shadow var(--dur-hover) var(--ease-enter);padding:0}
+.resource-stack>a::before{position:absolute;left:0;right:0;top:0;height:14px;border-bottom:1px solid #d1e1e9;background:linear-gradient(#a9c3d1,#a9c3d1) 10px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 18px 5px/4px 4px no-repeat,linear-gradient(#a9c3d1,#a9c3d1) 26px 5px/4px 4px no-repeat;content:none}
 .resource-stack>a:is(:hover,:focus-visible){transform:translate(-2px,-2px);box-shadow:var(--shadow-hard)}
 
 /* Join FAQ: the open question is highlighted; answers open and close smoothly (Radix sets the content height variable) */
@@ -169,3 +169,24 @@
 .logo-link:active .logo-cursor{transform:translate(20px,20px) scale(.9)}
 body[data-motion=off] .logo-cursor{transform:none!important}
 @media(prefers-reduced-motion:reduce){.logo-cursor{transform:none!important}}
+/* Pixel accents: labels, numbers and captions */
+.eyebrow,.art-caption,.art-bottom,.journey-strip>a>span,.step-number,.example-tag,.board-cat,.board-sample{font-family:var(--font-pixel);font-size:var(--pixel-sm);font-weight:400;letter-spacing:.04em}
+.board-date,.board-time{font-size:var(--pixel-lg);font-weight:400;letter-spacing:0}
+@media(min-width:801px){
+.board-row{grid-template-columns:6.5rem 5rem 7.5rem minmax(0,1fr) auto 1.25rem}}
+.dialog-date b{font-size:var(--pixel-lg);font-weight:400}
+.dialog-date span{font-size:var(--pixel-sm);font-weight:400}
+.header-inner{height:72px}
+@media(max-width:800px){
+.header-inner{height:64px}}
+.resource-card .resource-bottom>.resource-type{font-family:var(--font-pixel);font-size:var(--pixel-sm)}
+.resource-stack>a:nth-child(2){background:#fff}
+.resource-card .suggest-title{font-size:29px;letter-spacing:-.8px}
+@media(max-width:540px){
+.resource-card .suggest-title{font-size:28px}}
+@media(forced-colors:active){
+.select-fill,.nav-select,.scroll-progress,.format-dot,.caret{background:Highlight;color:HighlightText}
+.header-inner nav>a[aria-current=page]{color:HighlightText}
+.header-inner nav>a:not([aria-current])::after{background:LinkText}}
+@media(max-width:400px){
+.board-row{grid-template-columns:auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time arrow" "cat cat cat" "main main main" "level level level"}}

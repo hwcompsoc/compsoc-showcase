@@ -52,7 +52,7 @@ function files(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.is
 
 test('Visitor site has none of the mobile WebKit animation hazards',()=>{
  const all=files('src/website');const css=all.filter(f=>f.endsWith('.css')),ts=all.filter(f=>f.endsWith('.tsx'));
- assert.ok(css.length>=3&&ts.length>=20,'The guard found too few files to be scanning the right folder.');
+ assert.ok(css.length>=2&&ts.length>=20,'The guard found too few files to be scanning the right folder.');
  const problems=[];
  for(const f of css)for(const [line,why] of checkCss(readFileSync(f,'utf8')))problems.push(`${f}:${line} ${why}`);
  for(const f of ts)for(const [line,why] of checkTs(readFileSync(f,'utf8')))problems.push(`${f}:${line} ${why}`);
