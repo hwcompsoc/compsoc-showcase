@@ -133,3 +133,17 @@ h1,h2,h3{text-wrap:balance}
 .suggest-open{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:13px;font-weight:600;color:#004066}
 .suggest-card:hover .suggest-open{text-decoration:underline;text-underline-offset:5px}
 @media(max-width:540px){.resource-card .suggest-title{font-size:28px}}
+
+/* Windows High Contrast / forced colors (§11.4). The system palette strips backgrounds, so every "selected" state that was only a
+   fill gets a system colour back, inline SVG and the custom cursors follow the theme, and the decorative hero cursor (an image the
+   palette can't recolour) is hidden. */
+@media(forced-colors:active){
+ *{cursor:revert!important}
+ .site-logo path,.footer-logo path{fill:CanvasText}
+ .hero-cursor{display:none}
+ .select-fill,.nav-select,.scroll-progress,.format-dot,.caret{forced-color-adjust:none;background:Highlight;color:HighlightText}
+ .header-inner nav>a[aria-current=page]{forced-color-adjust:none;color:HighlightText}
+ .header-inner nav>a:not([aria-current])::after{background:LinkText}
+ .filter-indicator{outline:2px solid Highlight;outline-offset:-2px}
+ .headshot-initials{border:1px solid CanvasText}
+}
