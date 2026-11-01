@@ -28,7 +28,7 @@
 .pixel-wipe[data-phase=cover]>span{animation:pixel-on var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
 .pixel-wipe[data-phase=uncover]>span{animation:pixel-off var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
 .pixel-build{position:relative}
-.pixel-build-cover{position:absolute;inset:0;z-index:1;display:grid;pointer-events:none}
+.pixel-build-cover{position:absolute;inset:0;z-index:1;display:grid;overflow:hidden;pointer-events:none}
 .pixel-build-cover[data-active]>span{animation:pixel-off var(--flip) linear calc(var(--cell-delay) + var(--cell-dur) - var(--flip)) both}
 /* Opacity, not visibility, so the flips run on the compositor. Builds remove their cover when done, so cells left unpainted by WebKit cannot linger. */
 @keyframes pixel-on{from{opacity:0}to{opacity:1}}

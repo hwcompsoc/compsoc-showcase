@@ -149,7 +149,7 @@ h1,h2,h3{text-wrap:balance}
 }
 /* Reflow at 400% zoom (WCAG 1.4.10, MOTION-PLAN 11.4): nothing may need sideways scrolling at 320px. */
 .window-bar{height:auto;min-height:32px;flex-wrap:wrap;column-gap:16px;row-gap:0;padding-block:4px}
-.website-sheet{overflow-y:auto}
+.website-sheet{overflow:hidden auto}
 @media(max-width:400px){.board-row{grid-template-columns:auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time arrow" "cat cat cat" "main main main" "level level level"}}
 @media(max-width:400px){.hero-copy h1{font-size:10.9vw}}
 /* Contrast (WCAG 1.4.11, MOTION-PLAN 11.4): control edges and focus rings need 3:1 against what surrounds them. */
@@ -159,6 +159,8 @@ h1,h2,h3{text-wrap:balance}
 /* Resources filter (MOTION-PLAN 8.5): leaving cards are positioned against the grid while they fade; the build wrapper keeps the card's column layout. */
 .website-bento{position:relative}
 .resource-build{flex:1;display:flex;flex-direction:column;min-height:0}
-/* Same gap as between cards, because the empty message follows the grid. */
-.resources-empty{margin-top:24px}
-@media(max-width:540px){.resources-empty{margin-top:20px}}
+/* Same gap as between cards, because the grid follows the empty message. */
+.resources-empty{margin-bottom:24px}
+@media(max-width:540px){.resources-empty{margin-bottom:20px}}
+/* The shared close buttons draw a ring on any focus, even from a mouse. The site ring below still shows for keyboard users. */
+.website-sheet>button:focus,.website-dialog>button:focus{box-shadow:none}
