@@ -10,6 +10,6 @@ export function Reveal({lines,as:As='div',trigger='inView',play=false,delay=0,st
  const Root=As as 'div';
  if(level==='off')return <Root ref={ref as React.Ref<HTMLDivElement>} className={className} id={id}>{lines.map((line,i)=><span key={i} className="reveal-line">{line}</span>)}</Root>;
  return <Root ref={ref as React.Ref<HTMLDivElement>} className={className} id={id}>{lines.map((line,i)=><span key={i} className="reveal-line"><m.span className="reveal-inner"
-  initial={level==='full'?{y:'110%'}:{opacity:0}} animate={active?(level==='full'?{y:'0%'}:{opacity:1}):undefined}
+  initial={level==='full'?{transform:'translateY(110%)'}:{opacity:0}} animate={active?(level==='full'?{transform:'translateY(0%)'}:{opacity:1}):undefined}
   transition={level==='full'?{duration:dur.reveal,ease:ease.enter,delay:delay+i*stagger}:{duration:dur.instant,delay}}>{line}</m.span></span>)}</Root>;
 }

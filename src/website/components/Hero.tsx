@@ -64,7 +64,7 @@ function selection(path:Path,progress:number,tipX:number){
 
 // Each panel word rises out of its own mask on the headline easing, one every WORD_GAP (an instant on/off pop read as blocky).
 function RiseWord({children,order,play,skip,className=''}:{children:string;order:number;play:boolean;skip:boolean;className?:string}){
- return <span className={`art-mask ${className}`}><m.span className="art-rise" initial={skip?false:{y:'110%'}} animate={{y:play?'0%':'110%'}} transition={{duration:dur.reveal,ease:ease.enter,delay:skip?0:order*WORD_GAP}}>{children}</m.span></span>;
+ return <span className={`art-mask ${className}`}><m.span className="art-rise" initial={skip?false:{transform:'translateY(110%)'}} animate={{transform:play?'translateY(0%)':'translateY(110%)'}} transition={{duration:dur.reveal,ease:ease.enter,delay:skip?0:order*WORD_GAP}}>{children}</m.span></span>;
 }
 
 export function Hero(){

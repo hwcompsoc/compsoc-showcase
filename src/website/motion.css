@@ -9,9 +9,10 @@
 .typed-visual{position:relative;display:inline-block;max-width:100%}
 .typed-ghost{visibility:hidden}
 .typed-live{position:absolute;inset:0}
-.caret{display:inline-block;width:.55em;height:1em;margin-left:.08em;vertical-align:-.12em;background:currentColor;animation:caret-blink 1s steps(1) infinite}
+.caret{display:inline-block;width:.55em;height:1em;margin-left:.08em;vertical-align:-.12em;background:currentColor;animation:caret-blink 1s linear infinite}
 .caret[data-typing]{animation:none}
-@keyframes caret-blink{50%{opacity:0}}
+/* Stepped looks use hold keyframes with linear timing: Safari won't run steps() on the GPU (MOTION-PLAN 13.1). */
+@keyframes caret-blink{0%,49.9%{opacity:1}50%,100%{opacity:0}}
 
 /* Reveal: each line rises out of its own mask; small padding keeps descenders unclipped */
 .reveal-line{display:block;overflow:hidden;padding-bottom:.1em;margin-bottom:-.1em}
@@ -36,8 +37,8 @@
 /* Click burst: square pixels thrown out from the pointer in three frames */
 .burst-layer{position:fixed;inset:0;z-index:95;pointer-events:none}
 .burst{position:absolute;width:0;height:0}
-.burst>span{position:absolute;left:-2px;top:-2px;width:4px;height:4px;animation:burst .22s steps(3) both}
-@keyframes burst{from{transform:translate(0,0);opacity:1}to{transform:translate(var(--dx),var(--dy));opacity:0}}
+.burst>span{position:absolute;left:-2px;top:-2px;width:4px;height:4px;animation:burst .22s linear both}
+@keyframes burst{0%,33.2%{transform:translate(0,0);opacity:1}33.3%,66.5%{transform:translate(calc(var(--dx)/3),calc(var(--dy)/3));opacity:.6667}66.6%,99.9%{transform:translate(calc(var(--dx)*2/3),calc(var(--dy)*2/3));opacity:.3333}100%{transform:translate(var(--dx),var(--dy));opacity:0}}
 .burst-press{transition:transform var(--dur-hover) var(--ease-enter)}
 .burst-press:active{transform:scale(.97)}
 
@@ -65,11 +66,11 @@
 /* Filters and small controls (MOTION-PLAN §8.4) */
 .filter-indicator{position:absolute;inset:0;border-radius:4px;background:#fff;box-shadow:0 1px 4px #00406615}
 .filter-label{position:relative}
-.checkbox-label [role=checkbox][data-state=checked] svg{animation:tick .18s steps(3) both}
-@keyframes tick{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
+.checkbox-label [role=checkbox][data-state=checked] svg{animation:tick .18s linear both}
+@keyframes tick{0%,33.2%{clip-path:inset(0 100% 0 0)}33.3%,66.5%{clip-path:inset(0 66.6667% 0 0)}66.6%,99.9%{clip-path:inset(0 33.3333% 0 0)}100%{clip-path:inset(0)}}
 .search-control input{caret-shape:block}
-.download-pulse{animation:download-drop .3s steps(3) both}
-@keyframes download-drop{0%{transform:translateY(-3px)}66%{transform:translateY(2px)}100%{transform:translateY(0)}}
+.download-pulse{animation:download-drop .3s linear both}
+@keyframes download-drop{0%,21.9%{transform:translateY(-3px)}22%,43.9%{transform:translateY(-1.3333px)}44%,65.9%{transform:translateY(.3333px)}66%,77.2%{transform:translateY(2px)}77.3%,88.5%{transform:translateY(1.3333px)}88.6%,99.9%{transform:translateY(.6667px)}100%{transform:translateY(0)}}
 
 /* Departures board (MOTION-PLAN §8.4). The whole row is the title button's hit area; hover and keyboard focus share the sweep. */
 .event-board{list-style:none;margin:0;padding:0;border-top:2px solid #004066}
