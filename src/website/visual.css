@@ -156,3 +156,6 @@ h1,h2,h3{text-wrap:balance}
 .search-control input:not([aria-invalid=true]),.enquiry-form-shell :is(input,textarea):not([aria-invalid=true]),.checkbox-label [role=checkbox]{border-color:var(--control-line)}
 .site-footer{--focus-ring:#00a1cc}
 .board-row{--focus-ring:#fff}
+/* Resources filter (MOTION-PLAN 8.5): leaving cards are positioned against the grid while they fade; the build wrapper keeps the card's column layout. */
+.website-bento{position:relative}
+.resource-build{flex:1;display:flex;flex-direction:column;min-height:0}
