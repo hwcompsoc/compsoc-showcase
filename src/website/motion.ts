@@ -11,6 +11,12 @@ export const spring={
 export const stagger=.06,grid=8,selectColor='#00a1cc';
 export const typing={char:.028,pause:.12};
 export const flip={frame:.04,frames:3};// departures-board character cycling
+const flipPools={digit:'0123456789',letter:'ABCDEFGHIJKLMNOPQRSTUVWXYZ'};
+const flipPick=(pool:string,random:()=>number)=>pool[Math.floor(random()*pool.length)];
+// One frame of the flip: characters settle left to right, and until then digits show digits and letters show letters. Anything else stays put.
+export function flipFrame(value:string,tick:number,random:()=>number=Math.random){
+ return [...value].map((ch,i)=>tick>=flip.frames+i?ch:/\d/.test(ch)?flipPick(flipPools.digit,random):/[a-z]/i.test(ch)?flipPick(flipPools.letter,random):ch).join('');
+}
 export const selectStrong='#007e9f';// highlight behind small text: white on it is ≈4.7:1 (on selectColor only ≈3:1)
 
 export type MotionLevel='full'|'reduced'|'off';
