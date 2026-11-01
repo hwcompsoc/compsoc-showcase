@@ -15,7 +15,7 @@ function ResourceCard({resource,onOpen}:{resource:Resource;onOpen:(resource:Reso
  return <div className="resource-card" onPointerEnter={()=>setOver(true)} onPointerLeave={()=>setOver(false)} onFocus={()=>setOver(true)} onBlur={()=>setOver(false)}><div className="resource-plain" ref={card}>
   <WindowBar name={`${resource.id}.md`} meta={`${resource.category.toLowerCase()} · ${resource.minutes.toLowerCase()}`} selected={over}/>
   <div className="window-body"><h2>{resource.title}</h2><p>{resource.description}</p>
-  <div className="resource-bottom"><span className="resource-type">{resource.type}</span><Button variant="link" className="resource-open" onClick={()=>onOpen(resource,card.current!.getBoundingClientRect())}>Explore guide<ArrowRight size={17} aria-hidden="true"/></Button></div></div>
+  <div className="resource-bottom"><span className="resource-type">{resource.type}</span><Button variant="link" className="resource-open" onClick={()=>onOpen(resource,card.current!.getBoundingClientRect())}>Explore guide<span className="sr-only">: {resource.title}</span><ArrowRight size={17} aria-hidden="true"/></Button></div></div>
  </div></div>}
 
 // The page's closing call to action (R5): the next file in the grid, not yet written. Same window as a guide card, with a dashed frame,

@@ -1,4 +1,4 @@
-import {type ReactNode} from 'react';
+import {type ReactNode,useLayoutEffect,useRef} from 'react';
 import {ArrowRight,ArrowUpRight} from 'lucide-react';
 import {Button} from '../../components/ui/button';
 import {type Page} from '../content';
@@ -22,3 +22,8 @@ export function RevealHeading({children,id,as='h2'}:{children:string;id?:string;
 export function RouteLink({page,children,className=''}:{page:Page;children:ReactNode;className?:string}){return <a href={`#${page}`} className={`text-link ${className}`}>{children}<ArrowRight size={17} aria-hidden="true"/></a>}
 // Sample-content marker (R5): a mono tag inline with the note, not a banner.
 export function SampleNote({children}:{children:ReactNode}){return <p className="sample-note"><span className="sample-tag">Sample</span>{children}</p>}
+// Our dialogs and the mobile menu are opened from code, not Radix triggers, and Radix doesn't hand focus back on its own here:
+// remember what had focus when one opened (a row, card or button) and return to it on close, so keyboard users carry on from there.
+// Skipped when something else already took focus (picking a page in the menu moves focus to the new page's main).
+export function useReturnFocus(open:boolean){const opener=useRef<HTMLElement|null>(null);
+ useLayoutEffect(()=>{if(open){opener.current=document.activeElement as HTMLElement|null;return}const el=opener.current;opener.current=null;requestAnimationFrame(()=>{if(el?.isConnected&&(!document.activeElement||document.activeElement===document.body))el.focus({preventScroll:true})})},[open])}

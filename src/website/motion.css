@@ -59,7 +59,7 @@
 .header-inner nav>a:not([aria-current]):is(:hover,:focus-visible)::after{transform:scaleX(1)}
 .scroll-progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--select);transform-origin:left;pointer-events:none}
 .header-join svg{transition:transform var(--dur-hover) var(--ease-enter)}
-.header-join:hover svg{transform:translate(2px,-2px)}
+.header-join:is(:hover,:focus-visible) svg{transform:translate(2px,-2px)}
 .sheet-build{position:absolute;inset:0;z-index:60;pointer-events:none}
 
 /* Filters and small controls (MOTION-PLAN §8.4) */
