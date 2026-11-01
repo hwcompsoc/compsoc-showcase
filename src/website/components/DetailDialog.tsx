@@ -1,5 +1,4 @@
 import {useEffect,useLayoutEffect,useRef,useState} from 'react';
-import {animate} from 'motion/react';
 import {ArrowUpRight,CalendarDays,Clock,MapPin,HeartHandshake,Check,Download,Info} from 'lucide-react';
 import {Button} from '../../components/ui/button';
 import {Badge} from '../../components/ui/badge';
@@ -8,19 +7,19 @@ import {Alert,AlertTitle,AlertDescription} from '../../components/ui/alert';
 import {links,calendar,type Event,type Resource} from '../content';
 import {LinkButton,useReturnFocus} from './shared';
 import {GuideContent} from './GuideContent';
-import {ease} from '../motion';
 import {useMotionLevel} from '../motion/level';
 import {PixelBuild} from '../motion/PixelBuild';
 import {Typed} from '../motion/Typed';
 
 export type Modal={kind:'event';event:Event;origin?:DOMRect}|{kind:'resource';resource:Resource;origin?:DOMRect}|{kind:'document';title:string}|null;
 // The clicked row's date block grows into the dialog's (MOTION-PLAN §8.4): a measured FLIP from the row, run as the
-// dialog content mounts (Radix renders the portal a render later, so this lives inside it).
+// dialog content mounts (Radix renders the portal a render later, so this lives inside it). A copy makes the trip above
+// the dialog, because the dialog's scroll area and the body's pixel build would otherwise hide most of the journey.
 function MorphDate({event:e,origin}:{event:Event;origin?:DOMRect}){const level=useMotionLevel();const ref=useRef<HTMLDivElement>(null);
- // Clear any transform left by an interrupted run (e.g. StrictMode re-running effects) before measuring.
- useLayoutEffect(()=>{const el=ref.current;if(!el||!origin||level!=='full')return;el.style.transform='';const to=el.getBoundingClientRect();
+ useLayoutEffect(()=>{const el=ref.current;if(!el||!origin||level!=='full')return;const to=el.getBoundingClientRect();const ghost=el.cloneNode(true) as HTMLElement;ghost.classList.add('dialog-date-ghost');Object.assign(ghost.style,{left:`${to.left}px`,top:`${to.top}px`,width:`${to.width}px`,height:`${to.height}px`});document.body.append(ghost);el.style.opacity='0';
   // Uniform scale (the row's one-line date and the dialog's stacked block differ in shape), smooth in-out over the long trip.
-  const run=animate(el,{x:[origin.left-to.left,0],y:[origin.top-to.top,0],scale:[origin.height/to.height,1]},{duration:.45,ease:ease.move});return()=>run.stop()},[]);
+  const run=ghost.animate([{transform:`translate(${origin.left-to.left}px,${origin.top-to.top}px) scale(${origin.height/to.height})`},{transform:'none'}],{duration:450,easing:'cubic-bezier(.65,0,.35,1)'});
+  const land=()=>{ghost.remove();el.style.opacity=''};run.onfinish=land;return()=>{run.cancel();land()}},[]);
  return <div className="dialog-date" ref={ref} aria-hidden="true"><b>{e.day}</b><span>{e.month}</span></div>}
 
 // The guide grows out of the resource card it was opened from (MOTION-PLAN §8.5). The dialog is centred with the CSS

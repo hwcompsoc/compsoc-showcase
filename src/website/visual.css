@@ -159,3 +159,6 @@ h1,h2,h3{text-wrap:balance}
 /* Resources filter (MOTION-PLAN 8.5): leaving cards are positioned against the grid while they fade; the build wrapper keeps the card's column layout. */
 .website-bento{position:relative}
 .resource-build{flex:1;display:flex;flex-direction:column;min-height:0}
+/* Same gap as between cards, because the empty message follows the grid. */
+.resources-empty{margin-top:24px}
+@media(max-width:540px){.resources-empty{margin-top:20px}}

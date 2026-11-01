@@ -95,6 +95,7 @@
 /* Restates the transform transition, which the white-text rule above would otherwise replace. */
 .board-row:is(:hover,:has(.board-open:focus-visible)) .board-arrow{transform:translateX(4px);transition:transform var(--dur-hover) var(--ease-enter),color var(--dur-hover) ease .08s}
 @media(max-width:800px){.board-row{grid-template-columns:auto auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time cat arrow" "main main main main" "level level level level";gap:8px 14px;padding:18px 4px}.board-date{grid-area:date}.board-time{grid-area:time}.board-cat{grid-area:cat}.board-main{grid-area:main}.board-level{grid-area:level;text-align:left}.board-arrow{grid-area:arrow}.board-sample{display:inline;margin:0 0 0 8px}}
+.dialog-date-ghost{position:fixed;z-index:60;margin:0;pointer-events:none}
 .dialog-date{display:inline-flex;align-self:flex-start;flex-direction:column;align-items:center;min-width:56px;padding:8px;margin-bottom:12px;background:#eaf5fa;border:1px solid #dce9ef;border-radius:4px;transform-origin:0 0}
 .dialog-date b{font-size:24px;line-height:1.1}
 .dialog-date span{font-size:10px;font-weight:700;letter-spacing:1.2px}

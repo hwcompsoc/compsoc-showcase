@@ -42,6 +42,7 @@ export function checkTs(source){
   if(/(^|[{,?:(\s])(?:x|y|z|scale|scaleX|scaleY|rotate|rotateX|rotateY|skew|skewX|skewY)\s*:/.test(value))found.push([lineOf(code,m.index),'Motion x/y/scale prop: animate a full transform']);
   if(/\bvisibility\s*:/.test(value))found.push([lineOf(code,m.index),'visibility in a Motion prop: animate opacity']);
  }
+ for(const m of code.matchAll(/(?<![.\w])animate\(\s*[^,()]+,\s*\{/g))if(/(^|[{,\s])(?:x|y|z|scale|scaleX|scaleY|rotate)\s*:/.test(block(code,m.index+m[0].length-1)))found.push([lineOf(code,m.index),'Motion x/y/scale in animate(): use a full transform']);
  for(const m of code.matchAll(/\.animate\(\s*\[/g))if(/\bvisibility\s*:/.test(code.slice(m.index,m.index+600).split('{duration')[0]))found.push([lineOf(code,m.index),'visibility in element.animate: animate opacity']);
  for(const m of code.matchAll(/backdrop-(?:blur|filter)/g))found.push([lineOf(code,m.index),'backdrop blur class: use a (hover:hover) block in CSS']);
  return found;
@@ -78,6 +79,9 @@ test('The guard catches each hazard and allows the safe forms',()=>{
  assert.equal(ts('<m.a style={{x,y}} transition={{x:{duration:1}}}/>'),0,'driven values are allowed');
  assert.equal(ts("el.animate([{translate:'0'}],{duration:90,easing:'steps(3)'})"),1);
  assert.equal(ts("el.animate([{visibility:'hidden'}],{duration:90})"),1);
+ assert.equal(ts('const run=animate(el,{x:[10,0],scale:[.5,1]},{duration:.4})'),1);
+ assert.equal(ts("animate(el,{opacity:1,transform:'none'},{duration:.4})"),0);
+ assert.equal(ts("el.animate([{transform:'none'}],{duration:90})"),0,'element.animate with transform is the safe form');
  assert.equal(ts('// a steps(3) comment'),0);
  assert.equal(ts("<div className=\"backdrop-blur-sm\"/>"),1);
 });
