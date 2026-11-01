@@ -8,7 +8,7 @@
 .eyebrow,.art-caption,.art-bottom,.journey-strip>a>span,.step-number,.example-tag,.board-cat,.board-sample{font-family:var(--font-pixel);font-size:var(--pixel-sm);font-weight:400;letter-spacing:.04em}
 .board-date,.board-time{font-size:var(--pixel-lg);font-weight:400;letter-spacing:0}
 .board-time{color:#42667b}
-.board-row{grid-template-columns:6.5rem 5rem 7.5rem minmax(0,1fr) auto 1.25rem}
+@media(min-width:801px){.board-row{grid-template-columns:6.5rem 5rem 7.5rem minmax(0,1fr) auto 1.25rem}}
 .dialog-date b{font-size:var(--pixel-lg);font-weight:400}
 .dialog-date span{font-size:var(--pixel-sm);font-weight:400}
 
@@ -147,3 +147,8 @@ h1,h2,h3{text-wrap:balance}
  .filter-indicator{outline:2px solid Highlight;outline-offset:-2px}
  .headshot-initials{border:1px solid CanvasText}
 }
+/* Reflow at 400% zoom (WCAG 1.4.10, MOTION-PLAN 11.4): nothing may need sideways scrolling at 320px. */
+.window-bar{height:auto;min-height:32px;flex-wrap:wrap;column-gap:16px;row-gap:0;padding-block:4px}
+.website-sheet{overflow-y:auto}
+@media(max-width:400px){.board-row{grid-template-columns:auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time arrow" "cat cat cat" "main main main" "level level level"}}
+@media(max-width:400px){.hero-copy h1{font-size:10.9vw}}
