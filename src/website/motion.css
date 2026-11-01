@@ -1,5 +1,5 @@
 /* Motion component styles (MOTION-PLAN §6.4). Tokens mirror src/website/motion.ts. */
-:root{--dur-hover:.16s;--dur-ui:.28s;--dur-reveal:.6s;--ease-enter:cubic-bezier(.22,1,.36,1);--ease-move:cubic-bezier(.65,0,.35,1);--select:#00a1cc;--select-strong:#007e9f;--grid:8px}
+:root{--dur-hover:.16s;--dur-ui:.28s;--dur-reveal:.6s;--ease-enter:cubic-bezier(.22,1,.36,1);--ease-move:cubic-bezier(.65,0,.35,1);--select:#00a1cc;--select-strong:#007e9f;--focus-ring:#007e9f;--control-line:#6b8fa2;--grid:8px}
 
 /* Select: white-on-cyan copy clipped over the real text */
 .select{position:relative;display:inline-block;max-width:100%}

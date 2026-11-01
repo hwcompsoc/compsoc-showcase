@@ -34,7 +34,7 @@ html{scroll-padding-top:88px}
 
 /* Crisp, pixel-style depth instead of soft blur */
 .website-dialog,.website-popover{box-shadow:var(--shadow-hard)}
-.filter-indicator{box-shadow:0 0 0 1px #c3d9e4}
+.filter-indicator{box-shadow:0 0 0 1px var(--control-line)}
 
 /* The section divider below already closes the list */
 .value-list>li:last-child{border-bottom:0}
@@ -126,7 +126,7 @@ h1,h2,h3{text-wrap:balance}
 .suggest-card .window-bar{border-bottom-style:dashed}
 .suggest-card:is(:hover,:has(:focus-visible))>div{border-style:solid;border-color:#00a1cc;background:#fff}
 .suggest-draft{margin-bottom:24px}
-.resource-card .suggest-title{max-width:none;margin:0 0 20px;font-size:29px;letter-spacing:-.8px;line-height:1.18;color:#a9c3d1}
+.resource-card .suggest-title{max-width:none;margin:0 0 20px;font-size:29px;letter-spacing:-.8px;line-height:1.18;color:var(--control-line)}
 .suggest-title .caret{color:#00a1cc}
 .suggest-line{display:block;height:10px;width:78%;margin-bottom:12px;border-radius:2px;background:#e3eef3}
 .suggest-line.short{width:52%}
@@ -152,3 +152,7 @@ h1,h2,h3{text-wrap:balance}
 .website-sheet{overflow-y:auto}
 @media(max-width:400px){.board-row{grid-template-columns:auto minmax(0,1fr) 1.25rem;grid-template-areas:"date time arrow" "cat cat cat" "main main main" "level level level"}}
 @media(max-width:400px){.hero-copy h1{font-size:10.9vw}}
+/* Contrast (WCAG 1.4.11, MOTION-PLAN 11.4): control edges and focus rings need 3:1 against what surrounds them. */
+.search-control input:not([aria-invalid=true]),.enquiry-form-shell :is(input,textarea):not([aria-invalid=true]),.checkbox-label [role=checkbox]{border-color:var(--control-line)}
+.site-footer{--focus-ring:#00a1cc}
+.board-row{--focus-ring:#fff}
