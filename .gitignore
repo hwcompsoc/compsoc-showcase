@@ -4,8 +4,3 @@ node_modules
 qa
 #reference
 scripts/*
-!scripts/export-website.mjs
-!scripts/webkit-guard.test.mjs
-COPY-DRAFT.md
-MOTION-PLAN.md
-WEBSITE.md
