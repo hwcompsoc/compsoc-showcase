@@ -120,3 +120,16 @@ h1,h2,h3{text-wrap:balance}
 @media(max-width:800px){.roles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.role-card.team{grid-column:1/-1}}
 @media(max-width:540px){.roles-grid{grid-template-columns:1fr;gap:12px}.role-card{display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:16px;align-content:start;padding:16px}.role-card>.role-people{grid-row:1/4}.headshot-build,.headshot{width:72px;height:72px}.headshot-initials{font-size:var(--pixel-sm)}.role-label{margin-top:0}.role-card h3{font-size:18px;margin:2px 0 6px}.role-card p{font-size:14px;line-height:1.6}
 .role-card.team{display:flex}.role-card.team>.role-people{gap:12px;flex-wrap:nowrap}.role-card.team .role-person{width:auto;flex:1;min-width:0}.role-card.team .headshot-build,.role-card.team .headshot{width:100%;height:auto;aspect-ratio:1}.role-person-name{font-size:12px}.role-card.team h3{margin-top:16px}}
+
+/* Resources: closing suggestion as a blank, unwritten file (R5). Dashed until hovered, then it firms up like the other cards. */
+.suggest-card>div{border-style:dashed;border-color:#9fc3d4;background:transparent}
+.suggest-card .window-bar{border-bottom-style:dashed}
+.suggest-card:is(:hover,:has(:focus-visible))>div{border-style:solid;border-color:#00a1cc;background:#fff}
+.suggest-draft{margin-bottom:24px}
+.resource-card .suggest-title{max-width:none;margin:0 0 20px;font-size:29px;letter-spacing:-.8px;line-height:1.18;color:#a9c3d1}
+.suggest-title .caret{color:#00a1cc}
+.suggest-line{display:block;height:10px;width:78%;margin-bottom:12px;border-radius:2px;background:#e3eef3}
+.suggest-line.short{width:52%}
+.suggest-open{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:13px;font-weight:600;color:#004066}
+.suggest-card:hover .suggest-open{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:540px){.resource-card .suggest-title{font-size:28px}}
