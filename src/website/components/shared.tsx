@@ -1,5 +1,5 @@
 import {type ReactNode} from 'react';
-import {ArrowRight,ArrowUpRight,Info} from 'lucide-react';
+import {ArrowRight,ArrowUpRight} from 'lucide-react';
 import {Button} from '../../components/ui/button';
 import {type Page} from '../content';
 import {Reveal} from '../motion/Reveal';
@@ -20,4 +20,5 @@ export function SectionHeading({label,title,action}:{label?:string;title:string;
 // A heading that rises out of its mask as it scrolls in (MOTION-PLAN §4.6).
 export function RevealHeading({children,id,as='h2'}:{children:string;id?:string;as?:'h2'|'h3'}){return <Reveal as={as} id={id} lines={[children]}/>}
 export function RouteLink({page,children,className=''}:{page:Page;children:ReactNode;className?:string}){return <a href={`#${page}`} className={`text-link ${className}`}>{children}<ArrowRight size={17} aria-hidden="true"/></a>}
-export function SampleNote({children}:{children:ReactNode}){return <p className="sample-note"><Info size={14} aria-hidden="true"/>{children}</p>}
+// Sample-content marker (R5): a mono tag inline with the note, not a banner.
+export function SampleNote({children}:{children:ReactNode}){return <p className="sample-note"><span className="sample-tag">Sample</span>{children}</p>}
